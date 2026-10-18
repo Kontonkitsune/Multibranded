@@ -1,0 +1,257 @@
+{
+    "BrandName": "Knight",
+    "BrandType": "Combat",
+    "Complexity": "2",
+    "ComplexityText": "Reactions and Energy management is relatively simple for new players. While it’s interesting from a roleplay standpoint, the brand’s abilities are simple. Players should be cognizant of their own weaknesses when tanking.",
+    "Description": "The Knight focuses on party-wide defense, excelling in performing ||Reactions||. They can interrupt the enemy and defend the party against a variety of attacks. They use ||Retribution Points||, which are gained when taking damage, and can be used to substitute for ||Energy|| when taking ||Reactions||.",
+    "CharacterDescription": "Those possessing the Knight’s brand are often committed to ideals in some manner, whether by upholding tradition, or striving for certain lofty goals. Character backstory excerpts:",
+    "CharacterTraits": [
+        "When others refuse to uphold order, I will. By any means necessary!",
+        "I was betrayed by a person or place I held dear to me, and I made it my mission to claim my own justice.",
+        "I must redeem myself in the eyes of the gods."
+    ],
+    "SpecialSkill": "WIP",
+    "SpecialSkillText": "WIP",
+    "InnateSkills": [
+        "WIP"
+    ],
+    "ProgenitorName": "Argenta, the Last Knight",
+    "ProgenitorLore": "Argenta was a knight of a long lost order, committed to the protection of ideals. When a calamity tested their order, all but one defected. Argenta, the last knight, journeyed long and far to restore justice to the traitors by way of the blade. Once they had finally tracked down and slain all of the others, there was but one traitor who remained. In the culmination of their retributive justice, they took their own life, and ascended.",
+    "MainStat": "Fortitude",
+    "Substat1": "Intuition",
+    "Substat2": "Ego",
+    "LeftBranch": "Counter",
+    "MiddleBranch": "Tanking",
+    "RightBranch": "Aggro",
+    "Definitions": [
+        {
+            "Name": "Retribution",
+            "Text": [
+                "Your maximum number of Retribution Points is 4.",
+                "Whenever you take damage, gain Retribution Points equal to the amount of damage taken.",
+                "Whenever you are hit by an attack (regardless of whether it deals damage), or whenever an ally takes damage.",
+                "Retribution Points may be consumed in place of Energy."
+            ],
+            "Aliases": [
+                "Retribution Points,Retribution Point"
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "Talents": [
+        {
+            "Name": "Intercept",
+            "Keywords": [
+                "Reaction",
+                "Tanking"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Jump in front of an ally to take an attack for them.",
+            "Text": [
+                "||Trigger||: An ally within your Movement Range is attacked.",
+                "You jump between the ally and the enemy, and are immediately moved to be in between them. If no space exists, the enemy is pushed back to make room. You are moved directly in front of that ally."
+            ],
+            "Lore": [
+                "To those who would upset my Order, your opponent is me!"
+            ]
+        },
+        {
+            "Name": "Riposte",
+            "Keywords": [
+                "Strike",
+                "Reaction",
+                "Counter"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Counter after being attacked.",
+            "Text": [
+                "After an enemy within your ||Reach|| attacks you, you may immediately launch a ||Counter attack&&Counter|| against the attacking enemy.",
+                "Damage: 1x ||Strike Power||"
+            ],
+            "Lore": [
+                "You dare to raise a hand against my ideals?"
+            ]
+        },
+        {
+            "Name": "Reactive Stance",
+            "Keywords": [
+                "Stance",
+                "Defense"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Reduce the cost of Reactions, but end your turn.",
+            "Text": [
+                "Immediately end your turn, and until your next turn, the following effect is applied:",
+                "The Energy cost of Reactions is reduced by 2 for your first Reaction made to a given action. This cannot reduce the cost below zero.",
+                "You cannot move while a stance is active. If you move or otherwise are moved, the stance is immediately cancelled.",
+                "Upkeep (2 Energy): Extends the duration of the stance, and immediately ends your turn."
+            ],
+            "Lore": [
+                "A basis of preparation is necessary in any form of Reaction. Those who would seek retribution must first find something to retribute. "
+            ]
+        },
+        {
+            "Name": "Challenge",
+            "Keywords": [
+                "Word",
+                "Ailment"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Aggro all enemies within 32 feet.",
+            "Text": [
+                "Target: Any number of units of your choice within 32 feet or Melee Reach (whichever is higher).",
+                "Save: target Mystique >= your Ego",
+                "Units of your choice within range must make a save. On failure, they become Aggravated for 2 turns.",
+                "Aggravated: When choosing to make an attack, the primary target of the attack must be the one who applied the status, so long as they are within the attack’s range."
+            ],
+            "Lore": [
+                "Let the traitors come to me! I shall personally show them my justice!"
+            ]
+        },
+        {
+            "Name": "Stance-Breaking Kick",
+            "Keywords": [
+                "Reaction",
+                "Strike",
+                "Counter"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Interrupt an enemy’s attack towards you and knock them back.",
+            "Text": [
+                "Trigger: You are attacked.",
+                "Aspect: Pummeling.",
+                "Save: Target Fortitude >= user Strength",
+                "You deliver a kick to an opponent through a gap in their stance. The target is immediately knocked back by 8 feet. If the target fails their Save, their current action is immediately cancelled."
+            ],
+            "Lore": [
+                "Your ‘Order’ is of no consequence to me. We fight on my terms."
+            ]
+        },
+        {
+            "Name": "Bastion",
+            "Keywords": [
+                "Reaction",
+                "Defense",
+                "Word"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Protect nearby allies against an AoE attack.",
+            "Text": [
+                "Trigger: An AoE attack includes you and another ally within its radius.",
+                "Target: All allies within 8 feet Range.",
+                "You create a spiritual expansion to your shield, raising it up and creating a barrier around you and your allies. ",
+                "Allies affected by this ability are not affected by the AoE effect this is a reaction to."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Wide Guard",
+            "Keywords": [
+                "Reaction",
+                "Tanking"
+            ],
+            "Cost": "2 Energy",
+            "SimplifiedDescription": "Block an attack for a nearby ally within your reach.",
+            "Text": [
+                "Trigger: An enemy makes an attack against an ally within your Reach.",
+                "You reach out and block the attack against your ally. For this attack, you become the primary target.",
+                "This cannot be used if the ability has an area of effect."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Shield Bash / Pommel Strike",
+            "Keywords": [
+                "Attack",
+                "Strike"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Deal damage and aggro a single enemy",
+            "Text": [
+                "Target: Single target in Melee Reach. ",
+                "Damage: 1x Strike Defense, Inherit Weapon Type.",
+                "Save: target Mystique >= 2x your Ego",
+                "Deal Equivalent damage to one enemy. The target hit by this attack must make a saving throw. On failure, they become Provoked for 3 turns.",
+                "Provoked: They must spend all of their actions attempting to attack you."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Line in the Sand",
+            "Keywords": [
+                "Special",
+                "Counter"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Declare a line, and when an enemy attempts to cross it you can attack and halt their movement.",
+            "Text": [
+                "Mentally create a straight line which has a start and endpoint within a 40 foot range. ",
+                "When an enemy attempts to move over this line, you may immediately launch a Weapon Attack against the crossing enemy, so long as they are within range.",
+                "If the attack hits, the enemy stays in the position from where they were intercepted, considered as just outside your Melee Reach, and they cannot move until the beginning of their next turn."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Parry",
+            "Keywords": [
+                "Reaction",
+                "Defense"
+            ],
+            "Cost": "2 Energy",
+            "SimplifiedDescription": "Defend using your Strike Power.",
+            "Text": [
+                "Trigger: An enemy attacks you.",
+                "Your Defense against this attack is increased by its respective Power. (e.g. Strike Defense is increased by Strike Power). ",
+                "If multiple forms of damage are taken at once, this applies for all forms, respectively."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Dominating Aura",
+            "Keywords": [
+                "Ailment"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "When making contact with an enemy they become aggroed onto you.",
+            "Text": [
+                "Save: target Mystique >= your Ego",
+                "If you are hit by an attack from a unit, or if you successfully land an attack on a unit, that unit must make a saving throw, or else they become Aggravated until the start of their next turn.",
+                "Aggravated: When choosing to make an attack, the primary target of the attack must be the one who applied the status, so long as they are within the attack’s range."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Last Knight’s Aegis",
+            "Keywords": [
+                "Stance",
+                "Defense"
+            ],
+            "Cost": "24 Energy, 12 Vitality",
+            "SimplifiedDescription": "Drastically reduce damage taken by allies within 40 feet, and increase your own defenses.",
+            "Text": [
+                "Immediately end your turn, and until your next turn, the following effect is applied:",
+                "Allies within 40 feet take half damage, rounded down, including you. This occurs after Defense.",
+                "Your Strike Defense, Magic Defense, and Word Defense increase by 1x Fortitude.",
+                "You cannot move while a stance is active.",
+                "Upkeep (18 Energy, 12 Vitality): Extends the duration of the stance, and immediately ends your turn."
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ]
+}

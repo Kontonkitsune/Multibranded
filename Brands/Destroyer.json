@@ -1,0 +1,271 @@
+{
+    "BrandName": "Destroyer",
+    "BrandType": "Combat",
+    "Complexity": "1",
+    "ComplexityText": "The Destroyer’s abilities are simple, but its mastery over various elements means that almost all of its spells can be used creatively to accomplish greater effects. Players are HIGHLY recommended to look at the list of aspects for inspiration as to how to use the elements to their advantage, especially if you are coming from D&D.",
+    "Description": "The Destroyer is a battle mage who focuses on channeling elemental magic. They can utilize a variety of spells which can be customized to suit their needs. Most of their magic has a Dynamic Aspect, meaning that it can be cast with a variety of different Aspects, even ones their spells wouldn’t normally be able to.",
+    "CharacterDescription": "People who take up the Destroyer’s Brand are often methodical in some way, with a particular interest in efficiency. Most have been scorned in some manner or another at some point in their life, and look to redeem themselves, or for revenge.",
+    "CharacterTraits": [
+        "In my efforts to achieve power, I was cast out of the place I called home.",
+        "I have always had a fascination for the magic of monsters.",
+        "I seek to redeem myself for a calamity which I caused."
+    ],
+    "SpecialSkill": "Magic Study",
+    "SpecialSkillText": "Destroyers are capable of analyzing magic even as it is cast. They can determine the caster of the magic, as well as the type of spell, the aspects of the spell, and what underlying forces it is using to accomplish its goal.",
+    "InnateSkills": [
+        "War magic & Attack magic",
+        "Arcane lore (knowledge about various things relating to the practice of magic)",
+        "Aspect lore (knowledge about all aspects and their sources)"
+    ],
+    "ProgenitorName": "Kevin, Wingless Angel of War",
+    "ProgenitorLore": "Kevin was a Valkyrian witch specializing in elemental magic. After her people suspected her of treason, her wings were cut off and she was thrown deep into the labyrinths. Trapped down there for many years, she copied and modified the techniques of the monsters around her, utilizing her elemental prowess to its fullest. Her raw power eventually became unmatched, and as she made her way steadily back to the surface, she was regarded as a goddess of war.",
+    "MainStat": "Will",
+    "Substat1": "Control",
+    "Substat2": "Strength",
+    "LeftBranch": "Miscellany",
+    "MiddleBranch": "Empowerment",
+    "RightBranch": "Power Spells",
+    "Definitions": [],
+    "Talents": [
+        {
+            "Name": "Chroma Bolt",
+            "Keywords": [
+                "Spell",
+                "Ranged",
+                "Attack"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "A single bolt of elemental magic which can be used with almost any aspect for an additional cost.",
+            "Text": [
+                "You hurl a bolt of purified magical energy at a target, which catalyzes upon physical contact, exploding in a magical splendor.",
+                "Range: 40 feet (10 tiles)",
+                "Damage: (Magic) 1x Spell Power ",
+                "Aspect: Choose one from (Force, Fire, Lightning, Ice), Dynamic Aspect (Spell)",
+                "Type Extension (Variable): You can additionally select different Aspects for Chroma Bolt, so long as you have another spell which has that aspect. The different aspects have additional costs, as listed below:",
+                "(8 Mana): (Acid, Poison, Decay, Air, Earth)",
+                "(8 Vitality): (Piercing, Slashing, Chopping, Pummeling, Smashing)",
+                "(8 Resolve): (Sonic, Radiant, Psychic, Despair, Fear, Rage)"
+            ],
+            "Lore": [
+                "Sometimes, the simplest solution is also the most efficient. Why spend so much energy on some grandiose display, when you can just hit them with a bolt and be done with it? "
+            ]
+        },
+        {
+            "Name": "Condense Elements",
+            "Keywords": [
+                "Spell",
+                "Create Consumable"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Create a small orb of elemental energy which can later explode.",
+            "Text": [
+                "You create a small orb which contains a rich amount of elemental energy. This orb can then be thrown or otherwise detonated to cause a small explosion.",
+                "AoE: 8 feet (2 tiles) radius from where the item explodes.",
+                "Damage: (Magic) 1x Spell Power",
+                "Aspect: Choose one from (Explosion, Fire, Ice, Acid, Lightning), Dynamic Aspect (Spell)",
+                "Type Extension (4 Mana): You can additionally select Aspects from (Poison, Decay, Air, Fire, Radiant)"
+            ],
+            "Lore": [
+                "When it comes to winning battles, you don’t always want to get yourself into everything. Sometimes it’s better to hold off, save your power, and bide your time until you can find an opening. And then? They go boom."
+            ]
+        },
+        {
+            "Name": "Elemental Breath",
+            "Keywords": [
+                "Spell",
+                "AoE",
+                "Ranged",
+                "Attack"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Expel elements in an AoE cone towards foes, dealing massive damage.",
+            "Text": [
+                "AoE: 20 foot cone (90 degrees) from self",
+                "Damage: (Magic) 1x Spell Power ",
+                "Aspect: Choose one from (Fire, Ice, Acid, Poison), Dynamic Aspect (Spell)"
+            ],
+            "Lore": [
+                "Utilizing the mouth as a magical funnel, it becomes possible to expel magical energy directly from your body. This tactic can be particularly useful when you want to deal with something close to you, though because of its mostly undirected nature, it tends to taper quickly.",
+                ""
+            ]
+        },
+        {
+            "Name": "Elemental Spike",
+            "Keywords": [
+                "Spell",
+                "Melee",
+                "Strike",
+                "AoE"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Coalesce an element around your arm or weapon to launch a Melee strike with it. Can be used consecutively.",
+            "Text": [
+                "Damage: (Magic) 1x Spell Power + 1x Strike Power",
+                "Aspect: Choose one from (Ice, Earth, Radiant) + choose one from (Slashing, Piercing, Smashing, Pummeling, Chopping)",
+                "You condense a massive amount of mana around your arm into a massive spike (or similar gauntlet) and bring it down to hit an enemy for equivalent damage.",
+                "Until the end of your turn, this spike is considered as an equipped weapon, which can be used for 4 Energy to deal the same amount of damage to the same or a different foe."
+            ],
+            "Lore": [
+                "Why should magic be limited to just the ranged options? I often tend to think that mages of all types tend to cower in response to getting in on the action. I am not like them. If I can supplement my magic with my strength, I can drastically increase my efficiency."
+            ]
+        },
+        {
+            "Name": "Elemental Imbuement",
+            "Keywords": [
+                "Spell",
+                "Effect"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Imbue an item with the elements, gaining differing effects depending on the type of item.",
+            "Text": [
+                "Touch an item. For three turns, the touched item becomes infused with the given element. This has varying effects depending on what type of item this is:",
+                "Armor: The wearer of that armor gains one level of resistance to the imbued aspect. ",
+                "Weapon: When using this weapon, your attacks or other actions additionally gain the imbued aspect.",
+                "Food or other consumable: When this item is consumed, the person who consumes this item will immediately take massive (3x Spell Power) Magical damage of the imbued aspect.",
+                "Aspect: Choose one from (Fire, Ice, Lightning), Dynamic Aspect (Spell)"
+            ],
+            "Lore": [
+                "By imbuing elements directly into an item, so many possibilities arise. Though this is often reserved for transmutation studies, the power of imbuement can serve as an amazing catalyst for raw power. After all, if you can hit your opponent’s weaknesses directly with your average strike, or force them to down a big cluster of the elements, it doesn’t matter what they try to do. They’re already dead, after all."
+            ]
+        },
+        {
+            "Name": "Power Shift",
+            "Keywords": [
+                "Special"
+            ],
+            "Cost": "Variable Cost",
+            "SimplifiedDescription": "You can weaken or strengthen spells to suit your power needs.",
+            "Text": [
+                "The principles of power have become yours to command, and so you may now freely weaken or strengthen the power of your spells. When casting a spell, you may choose one of the following modifiers: ",
+                "Weaken: Halve the cost of the spell. The Spell Power and AoE of this spell are also halved. This may not be used on spells which do not have Spell Power or AoE.",
+                "Strengthen: Double the cost of a Spell. The Spell Power of the spell is increased by half of its original value, and the AoE increases by half of its original radius. If this spell doesn’t already have an AoE, it becomes an AoE, dealing the original single target damage with a 4 foot (1 tile) radius.",
+                "Overload: Quadruple the cost of the Spell. The Spell Power and AoE of the spell is doubled. If this spell doesn’t already have an AoE, it becomes an AoE, dealing the original single target damage with an 8 foot (2 tile) radius."
+            ],
+            "Lore": [
+                "Moderation is key to victory. But spells are malleable things. Novices cast spells without understanding them, but with that understanding, it becomes possible to weaken and strengthen them to your needs. Why waste extra firepower when less will suffice? And sometimes, the opposite occurs, and you find yourself in a tough situation. Sometimes, you just… need more power."
+            ]
+        },
+        {
+            "Name": "Heat Shift",
+            "Keywords": [
+                "Spell",
+                "Attack",
+                "Melee"
+            ],
+            "Cost": "6 Energy",
+            "SimplifiedDescription": "A massive coalescing of specific elements which can cause negative effects for enemies.",
+            "Text": [
+                "You force the elements to affect the environment itself against a single target, resulting in tangible effects on the surroundings capable of ignoring magical defenses.",
+                "Range: 40 feet (10 tiles)",
+                "Damage: (Physical) 1x Spell Power ",
+                "Aspect: Choose one from (Force, Ice, Fire, Lightning)",
+                "Depending on the aspect chosen, the ",
+                "(Force) Gravity: The target is crushed, and they become slowed.",
+                "(Ice) Snap Freeze: The target temperature plummets and they are frozen.",
+                "(Fire) Incinerate: The target’s temperature skyrockets and they are set on fire.",
+                "(Lightning) Static Shock: The target is filled with static energy, and they are electrocuted.",
+                "Empower (4 Energy) x2: Damage increases by 1x your Spell Power."
+            ],
+            "Lore": [
+                "Magic interacts with the physical plane strangely. While it doesn’t have tangible effects, it does have tangible aftereffects. A fireball might not physically be hot, but it can still heat up the things around it. So what if the aftereffect was the spell itself? What if, rather than using magic for magic’s sake, you simply leverage that aftereffect?"
+            ]
+        },
+        {
+            "Name": "Forward Blast",
+            "Keywords": [
+                "Spell",
+                "Range",
+                "Melee",
+                "Attack"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "A strong blast of elemental mana which knocks back foes and deals huge damage.",
+            "Text": [
+                "You make contact with a target with your fist and directly push a massive amount of elemental mana into them. The target takes equivalent damage, and is knocked back by 12 feet.",
+                "Damage: (Magic) 2x Spell Power ",
+                "Aspect: Explosion + one from (Force, Fire, Lightning, Ice, Wind, Air, Earth, Acid, Radiant), Dynamic Aspect (Spell)"
+            ],
+            "Lore": [
+                "When engaging in close-quarters magic, you tend to find yourself surrounded. It can be necessary then to put some distance between you and your opponents. By channeling mana directly into your palm and releasing it in place, you can make an immense blast which pushes you and your opponent apart. In addition to giving you some breathing room, it also packs a hefty punch!"
+            ]
+        },
+        {
+            "Name": "Anti",
+            "Keywords": [
+                "Spell",
+                "Range",
+                "Break",
+                "AoE"
+            ],
+            "Cost": "16 Energy",
+            "SimplifiedDescription": "Deals massive AoE damage and Hazard Damage while destroying terrain.",
+            "Text": [
+                "Choose a point within range. Expanding outward from that point is a mass of pure energy which attempts to annihilate everything within its radius, dealing equivalent damage. After it expands, it then implodes, dealing Hazard damage to everything caught inside. All terrain caught within the explosion is destroyed.",
+                "Range: 40 feet (10 tiles)",
+                "AoE: 16 feet (4 tiles) radius. (36 feet diameter).",
+                "Damage: (Magic) 2x Spell Power + (Magic) 1x Hazard Damage"
+            ],
+            "Lore": [
+                "By condensing typeless forces all into one small space, you can create an artificial mana vortex. Small in comparison to a real mana vortex, but effective all the same. Their effects on the environment are just as destructive, but they can be controlled, mitigated. And with pure mana, the risk of them going awry is simply neutralized, because they can’t sustain themselves."
+            ]
+        },
+        {
+            "Name": "Shrapnel Rain",
+            "Keywords": [
+                "Spell",
+                "AoE",
+                "Ranged"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Shards of elemental magic fall from the sky and deal damage over time to enemies in or crossing the AoE.",
+            "Text": [
+                "Choose a point within range. Phantasmal weapons and sharp shards begin to fall out of the sky, lasting until the beginning of your next turn. When enemies begin their turn, or walk through the area wherein the shrapnel rain is occurring, they take (Magic) damage equal to 1x Spell Power. ",
+                "Damage: (Magic) 1x Spell Power ",
+                "AoE: 15ft radius of a point within 40 feet Range",
+                "Aspect: Choose one from (Piercing, Slashing, Pummeling)",
+                "Empower (2 Energy): Choose one additional Aspect for this attack from (Piercing, Slashing, Pummeling, Fire, Ice, Earth, Water, Poison), Dynamic Aspect (Spell)",
+                "Upkeep (4 Energy): The duration of this effect extends until the beginning of your next turn."
+            ],
+            "Lore": [
+                "Though many cast to achieve crystallization, they don’t realize that there are far better uses once you compound it with another spell. Case in point, if you detonate a spell in the center of a chunk of magical crystal, it shatters in every direction. And when those elemental shards lodge into something, they release their mana in an explosive fashion."
+            ]
+        },
+        {
+            "Name": "Death’s Scythe",
+            "Keywords": [
+                "Spell",
+                "Attack",
+                "AoE"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "A planar AoE attack which deals massive damage and cleaves things it hits.",
+            "Text": [
+                "You collapse two sources of mana against each other, letting out a burst of mana in a perfect circle along a plane of your choice, centered on yourself. This burst of mana is so sharp that it can cleave through a variety of different materials. Including people.",
+                "AoE: Circle with a 20 feet radius, centered on self. Hits targets on the same elevation as you. Can be tilted to hit targets at different elevations, but still acts as a plane.",
+                "Damage: (Magic) 2x Spell Power ",
+                "Aspect: Slashing and Choice from (Decay, Poison, Acid, Fear, Despair, Rage)"
+            ],
+            "Lore": [
+                "This spell is one of my favorites. By colliding two intangible sources of mana together, and pushing them until they break, they shatter in a uniform fashion, releasing their stored mana along the plane they broke upon. This creates a “wave” of magical energy, sharp enough to cut directly through ethereal bodies along a single plane, ideal for hitting only the things you want to."
+            ]
+        },
+        {
+            "Name": "Calamity",
+            "Keywords": [
+                "Spell",
+                "AoE"
+            ],
+            "Cost": "32 Energy, 32 Mana",
+            "SimplifiedDescription": "A mass exodus of mana which causes serious effects to the entire room based on the element it’s cast with.",
+            "Text": [
+                "You unleash the raw power of the elements in order to crush everything on the battlefield simultaneously, dealing damage to you, your allies, and your enemies alike. The specific nature of the calamity in question is dependent upon the aspect. (A Fire calamity would be that the entire room is lit on fire, an Earth calamity that the room itself collapses in a cave-in. A Rage calamity implies that everyone goes crazy and starts attacking their allies. Et cetera)",
+                "AoE: Entire room, or 160 feet (40 tiles). Centered upon you.",
+                "Damage: (Magic) 4x Spell Power",
+                "Aspect: Choose one from (Fire, Ice, Lightning, Force, Piercing, Smashing, Radiant, Sonic, Rage, Water, Air), Dynamic Aspect (Spell)"
+            ],
+            "Lore": [
+                "The epitome of destruction magic, and the simplest of any magic spell: Build and release. You collapse an innumerable amount of raw, unfiltered, elemental mana into your body, and then you detonate it. Elemental mana has a variety of properties, and so depending on the aspect used, it will do different things. Suffice to say, though, that it should NOT be used like this. Exercise extreme caution, because more often than not, this very tactic will hurt the user far more than it will hurt others."
+            ]
+        }
+    ]
+}

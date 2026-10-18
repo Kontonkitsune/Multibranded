@@ -1,0 +1,316 @@
+{
+    "ModuleName": "Base Multibranded",
+    "Definitions": [
+        {
+            "Name":"Dynamic Aspect",
+            "Aliases": ["Dynamic Aspect (Spell)", "Dynamic Aspect (Strike)", "Dynamic Aspect (Word)", "Dynamic Spell","Dynamic Strike","Dynamic Word"],
+            "Text": [
+                "You can use any aspects that are accessible from the base Aspects of any of your talents.",
+                "For example, if you have a Spell talent which by base (Not from any special conditions, such as Type Extension) can use Fire, then you can use Fire for a Dynamic Spell ability."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Strength",
+            "Aliases": ["STR","Physical Attack Stat"],
+            "Text": [
+                "Physical Attack Stat",
+                "Strength represents your physical strength, particularly when it comes to short bursts.",
+                "Those high in strength are often capable of feats such as lifting large objects or slaying large beasts.",
+                "Effects:",
+                "Strike Power increase (Physical Attack).",
+                "Reduced Burden (Accuracy increase*) for Physical Weapons."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Fortitude",
+            "Aliases": ["Fort","Physical Defense Stat"],
+            "Text": [
+                "Physical Defense Stat",
+                "Fortitude represents your endurance and your ability to weather through physical hardships.",
+                "Those with higher fortitude find themselves getting sick far less than usual.",
+                "Effects:",
+                "Strike Defense increase (Physical Defense).",
+                "Carry weight increase."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Will",
+            "Aliases": ["Will","Magical Attack Stat"],
+            "Text": [
+                "Magical Attack Stat",
+                "Will represents the strength of your focus, and your proficiency in wielding magic.",
+                "Those with high will have excellent and often subconscious control of the metaphysical, making it synonymous with someone’s luck.",
+                "Effects:",
+                "Spell Power increase (Magical Attack)",
+                "Reduced Burden (Accuracy increase*) for Magical Weapons."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Intuition",
+            "Aliases": ["Int","Intu","Magical Defense Stat"],
+            "Text": [
+                "Magical Defense Stat",
+                "Intuition represents the ability to deduce truth, and a resistance to magical hardships.",
+                "Those with a high intuition are often knowledgeable about magical and mystical affairs.",
+                "Effects:",
+                "Spell Defense increase (Magical Defense)"
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Ego",
+            "Aliases": ["Ego","Mental Attack Stat"],
+            "Text": [
+                "Mental Attack Stat",
+                "Ego represents self-confidence and assertiveness.",
+                "It relates to your ability to hold a strong presence in a room and persuade others, as well as your ability to lie.",
+                "Effects:",
+                "Word Power increase (Mental Attack)",
+                "Reduced Burden (Accuracy Increase*) for Mental Weapons"
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Mystique",
+            "Aliases": ["Myst","Mental Defense Stat"],
+            "Text": [
+                "Mental Defense Stat",
+                "Mystique represents a level of knowledge which makes one resistant to mental manipulation.",
+                "Those with a high mystique have a certain uniqueness and aura about them, and they often have an advanced knowledge of politics and worldly affairs.",
+                "Effects:",
+                "Word Defense increase (Mental Defense)"
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Control",
+            "Aliases": ["Cont","Con","Accuracy Stat"],
+            "Text": [
+                "Base Accuracy Stat",
+                "Control represents precision and accuracy in your actions, as well as your muscle memory.",
+                "Those with high control often have good handwriting, and are capable of describing things down to even the most granular detail.",
+                "Effects:",
+                "Base Accuracy increase"
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Tempo",
+            "Aliases": ["Temp","Tem","Dodge Stat"],
+            "Text": [
+                "Base Dodge Stat",
+                "Tempo represents reflexes and the ability to react and adapt quickly.",
+                "Those with a high tempo can think and perceive the world at a faster speed. They are able to follow much faster situations, such as seeing in clear detail fast-moving objects.",
+                "Effects:",
+                "Dodge increase (easier to evade attacks)",
+                "Speed increase (Base Movement per turn)"
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Vitality",
+            "Aliases": ["Vit","Physical HP"],
+            "Text": [
+                "Physical HP",
+                "Max Vitality is equal to 2x Strength + 2x Fortitude",
+                "Vitality represents how much your body can take before it collapses.",
+                "It is reduced when you take Physical Damage.",
+                "When your Vitality reaches or is at zero:",
+                "Any further Physical damage taken overflows to your Resolve.",
+                "You cannot perform Physical actions (Strike abilities)",
+                "If your movement form is Physical, you cannot move.",
+                "If all three of Vitality, Mana, and Resolve are at zero, you enter Death throes."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Mana",
+            "Aliases": ["Mana","Magical HP"],
+            "Text": [
+                "Magical HP",
+                "Max Mana is equal to 2x Will + 2x Intuition",
+                "Mana represents how much your soul can take before it extinguishes.",
+                "It is reduced when you take Magical Damage.",
+                "When your Mana reaches or is at zero:",
+                "Any further Magical damage taken overflows to your Vitality.",
+                "You cannot perform Magical actions (Spell abilities)",
+                "If your movement form is Magical, you cannot move.",
+                "If all three of Vitality, Mana, and Resolve are at zero, you enter Death throes."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Resolve",
+            "Aliases": ["Res","Mental HP"],
+            "Text": [
+                "Mental HP",
+                "Max Resolve is equal to 2x ||Ego|| + 2x ||Mystique||",
+                "Resolve represents how much your mind can take before it breaks.",
+                "It is reduced when you take Mental Damage.",
+                "When your Resolve reaches or is at zero:",
+                "Any further Mental damage taken overflows to your ||Mana||.",
+                "You cannot perform Mental actions (Word abilities)",
+                "If your movement form is Mental, you cannot move.",
+                "If all three of Vitality, Mana, and Resolve are at zero, you enter Death throes."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Energy",
+            "Aliases": ["En","Action Points"],
+            "Text": [
+                "Action Points",
+                "Max Energy is equal to 2x ||Control|| + 2x ||Tempo||",
+                "Energy represents how much you can do before overextending yourself.",
+                "You expend Energy in order to perform actions",
+                "Unless otherwise specified, you recover 8 Energy at the beginning of your turn, and you can use up to 16 Energy per turn (known as Turn Energy).",
+                "When your Energy reaches or is at zero:",
+                "You cannot move or perform actions, and you will collapse if you were doing something.",
+                "Regardless of Movement Type, if your Energy falls to zero, you collapse.",
+                "If all three of Vitality, Mana, and Resolve are at zero, you enter Death throes."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Speed",
+            "Aliases": ["Movement","Base Movement", "Max Movement"],
+            "Text": [
+                "How many feet you can move per turn. You can move all at once, or in multiple separate bursts.",
+                "Base Speed is equal to 24 + 1x Tempo, though it can be increased in a variety of ways.",
+                "Maximum Movement is *usually* equal to your Speed. Things which would increase or lower Max Movement do NOT affect Speed.",
+                "If the Dynamic of your Movement Form is at zero, you cannot move."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Strike",
+            "Aliases": [],
+            "Text": [
+                "A Physical attack or action.",
+                "If either your Vitality or Energy are at zero, you cannot use Strike abilities."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Spell",
+            "Aliases": [],
+            "Text": [
+                "A Magical attack or action.",
+                "If either your Mana or Energy are at zero, you cannot use Spell abilities."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Word",
+            "Aliases": [],
+            "Text": [
+                "A Physical attack or action.",
+                "If either your Resolve or Energy are at zero, you cannot use Word abilities."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Action",
+            "Aliases": [],
+            "Text": [
+                "An action taken, usually during your turn, by expending Energy and Turn Energy"
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Reaction",
+            "Aliases": ["Trigger"],
+            "Text": [
+                "An action taken outside of your turn, by expending Energy. They can be used whenever their Trigger event occurs.",
+                "Unless otherwise stated, Reactions do not expend Turn Energy, only your Energy."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Melee Actions",
+            "Aliases": ["Reach","Melee"],
+            "Text": [
+                "An attack or action which utilizes your Reach (Melee range).",
+                "Base Reach for melee weapons is 8 feet (2 tiles).",
+                "Using Weapons with higher Reach values allows you to hit further.",
+                "Generally, this requires you to get up-close and personal.",
+                "Melee attacks are easier to guarantee a hit with, as in order to dodge a Melee attack, you have to leave the entirety of the attacker's Reach."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Ranged Actions",
+            "Aliases": ["Range","Ranged"],
+            "Text": [
+                "A projectile attack or action which hits from farther away, based on your weapon's Range (projectile range).",
+                "Ranged Weapons have varying Ranges.",
+                "Using Weapons with higher Range values allows you to hit further.",
+                "Generally, this lets you get away with staying away from combat, though projectiles are easier to get out of the way of than Melee or AoE attacks."
+            ],
+            "Lore": [
+
+            ]
+        },
+        {
+            "Name":"Area of Effect Actions",
+            "Aliases": ["AoE","Area","Area of Effect","Radial","Conical","Linear"],
+            "Text": [
+                "An attack or action which hits several targets within a designated area.",
+                "AoE actions have varying AoEs. Unless otherwise specified, the AoE is centered around the caster.",
+                "AoE actions can only be avoided by fully moving out of their area of effect. This makes large AoEs very effective against targets with a high Tempo.",
+                "Common AoE keywords:",
+                "Cone/Conical: A radial cone extending from point of origin a number of feet equal to its radius, with a width between 45 and 90 degrees unles otherwise specified.",
+                "Line/Linear: A line extending a number of feet equal to its radius, hitting all targets within that line regardless of whether one of them would block it.",
+                "Circle/Radial: Hits everything within the radius of the origin."
+            ],
+            "Lore": [
+
+            ]
+        }
+    ]
+}
+

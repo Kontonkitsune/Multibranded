@@ -1,0 +1,291 @@
+{
+    "BrandName": "ExampleBrand",
+    "BrandType": "Combat",
+    "Complexity": "2",
+    "ComplexityText": "Requires the player to be cognizant of enemy positioning, but is overall very simple to use.",
+    "Description": "The Dragoon focuses on having very high mobility, and uses ||Momentum|| gained from their movement to launch powerful single target and multi-target attacks. Momentum can be used to offset energy costs for Dragoon abilities, as well as to instantly travel ||Banana&&Dynamic Aspect|| also ||Dynamic Aspect||.",
+    "CharacterDescription": "Those with the Dragoon’s brand are often extremely determined and resolute to a fault. They have one particular goal which they wish to accomplish, and are not willing to let anything get in the way of it, to a fault.",
+    "CharacterTraits": [
+        "My entire life is honed to a razor point. I will succeed because I must.",
+        "Hopes and prayers are wasted on me. I need nothing more than my own skill.",
+        "When a time came where I was needed, I failed. I will never fail again."
+    ],
+    "SpecialSkill": "Lightspeed Reaction",
+    "SpecialSkillText": "Your reaction time for various things is nearly instantaneous.",
+    "InnateSkills": [
+        "Time-telling (Knowing how much time has passed, to a very fine grain)",
+        "Speed Perception (Perceiving things in detail, even when they move fast)",
+        "Scouting (going ahead to find information without being spotted)"
+    ],
+    "ProgenitorName": "Fey the Wolf-Dragon",
+    "ProgenitorLore": "Fey was a half-wolf beastkin renowned for her speed. To protect those she cared about, she fought solo, a cavalry by only her own might. When her sister was kidnapped by another country, she charged through their nation just to reach her. The winds ingrained in her very soul, she moved at a mile per minute, a storm following in her wake. And those who stood in her way? They saw her not as a wolf, but as a descending dragon, and thus the Wolf-Dragon was born. On that day, reunited with her sister once more, she ascended to become a deity, her instincts coalescing into a Brand.",
+    "MainStat": "Tempo",
+    "Substat1": "Strength",
+    "Substat2": "Will",
+    "LeftBranch": "Momentum Strikes",
+    "MiddleBranch": "Movement Enhancement",
+    "RightBranch": "Movement Spells",
+    "Definitions": [
+        {
+            "Name": "Momentum",
+            "Text": [
+                "Gain one Momentum for every 4 feet you travel in a turn, excluding movement provided by expending Momentum, and movement gained through the use of abilities (unless otherwise stated).",
+                "Momentum is conserved, even if you make sudden movements. At any point during your turn, you may convert any of your remaining movement for the turn into Momentum at the normal rate (4 feet of movement -> 1 Momentum) in case you need the extra momentum but not the movement.",
+                "Your Max Momentum is equal to your Speed (Base movement).",
+                "At the beginning of your turn, Momentum is reset to zero.",
+                "At any time, you may consume Momentum, and immediately move 1 foot for each Momentum consumed."
+            ]
+        }
+    ],
+    "Talents": [
+        {
+            "Name": "Lightspeed Strike",
+            "Keywords": [
+                "Strike",
+                "Momentum",
+                "AoE"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Dash through many enemies, dealing damage to all targets hit.",
+            "Text": [
+                "Holding out your weapon as though it was a lance, you rush through many enemies at once, attacking them all with your weapon of choice. You deal damage equal to 1x your Strike Power to all enemies in your path, and emerge at its end.",
+                "You do not gain Momentum for distance traveled using this ability.",
+                "AoE: 12 foot line. You may shorten this length if needed. You are moved to the end of this line. You may expend Momentum when using this ability. For every 4 Momentum expended, travel for an additional 4 feet.",
+                "Damage: 1x Effective Power",
+                "Accuracy: 1x Tempo",
+                "Form: Inherited from Weapon attack.",
+                "Aspects: Sharp (Piercing, Slashing, Chopping), Dynamic Aspect (Strike)"
+            ],
+            "Lore": [
+                "The fundamental Lyconic Art. Pierce the hearts of your foes, and never give them the chance to stop you. With enough momentum built up, it could take down an enemy line in one fell swoop."
+            ]
+        },
+        {
+            "Name": "Sudden Stop Sunder",
+            "Keywords": [
+                "Melee",
+                "Momentum",
+                "Alt. Reaction"
+            ],
+            "Cost": "All Momentum and Movement (Min: 4 Momentum)",
+            "SimplifiedDescription": "Expend momentum or knockback to launch a strike.",
+            "Text": [
+                "In order to use this ability against a target, you must be moving towards them.",
+                "Channel all of your Momentum into a single Melee attack. If you are otherwise moving (or falling), you immediately come to a complete stop.",
+                "Damage: (Variable) 1x Effective Power",
+                "Accuracy: 1x Tempo",
+                "Form & Aspect: Inherited from Weapon attack.",
+                "Any remaining Movement for the turn is immediately converted into Momentum at the normal rate (4 Movement -> 1 Momentum), with leftover Movement being lost. This may allow you to consume more Momentum than you have the capacity for.",
+                "Depending on the aspect used for this attack, you gain additional effects based on the amount of Momentum expended.",
+                "Sharp, Entropic, or Emotional: For every 8 Momentum expended, your Effective Power for this attack increases by 1x Tempo.",
+                "Blunt or Kinetic: For every 4 Momentum expended, this attack gains 4 feet of Knockback. This works on objects as well, and launched objects may deal Hazard damage instead.",
+                "Energetic, Cosmic, or Terrestrial: This attack becomes an AoE line of 8 feet length. For every 4 Momentum expended, the AoE increases by 4 feet.",
+                "Alt. Reaction: This ability may be used as a normal action, or it may be used as a reaction when you are knocked back by 8 feet, or fall from a distance greater than 16 feet. When used as a Reaction, you immediately cease taking any further knockback, and your fall height resets."
+            ],
+            "Lore": [
+                "The second Lyconic Art. Once you know how to control your Momentum, you can concentrate everything into a single, devastating strike. Depending on your weapon, that Momentum does different things."
+            ]
+        },
+        {
+            "Name": "Hermes’ Gift",
+            "Keywords": [
+                "Enhance",
+                "Momentum"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Gain a massive boost to your movement speed and the ability to wall run.",
+            "Text": [
+                "Until the beginning of the next turn, gain the following non-stacking effects:",
+                "Mercurial Speed: Each turn (including this one), gain additional movement equal to your Speed (Base Movement).",
+                "In most cases, this will result in double speed. When used with the basic Dash action, this will result in triple speed.",
+                "Wall Run: If your Momentum is greater than 8, you may run on walls. All walls with less than or equal to a 90 degree incline are considered as floor. If your Momentum drops to 7 or less while you are running on a wall, you will immediately fall to the ground.",
+                "Ceiling Run: If your Momentum is greater than 16, you may also run on ceilings. All walls with a greater than 90 degree incline (meaning they face downward) are considered as floor. If your Momentum drops to 15 or less while you are running on a ceiling, you will immediately fall to the ground.",
+                "Upkeep (4 Energy): At the beginning of your turn, you may expend the Upkeep cost to extend the duration of this effect until the beginning of your next turn."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Blink",
+            "Keywords": [
+                "Spell",
+                "Movement",
+                "Dodge",
+                "Alt. Reaction"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Instantly teleport across a distance by expending Momentum. Can be used to dodge attacks and extend movement range of reactions.",
+            "Text": [
+                "You may instantly teleport up to 12 feet to any location within your line of sight. There must exist a path by which you could technically reach the area which you are teleporting to, regardless of whether it is reasonable or timely for you to do so.",
+                "When using this ability, you may expend Momentum. You can teleport an additional 4 feet for every 4 Momentum expended.",
+                "This movement is considered as teleportation. You are not affected by any terrain, obstacles, enemies, or otherwise in between your current location and your destination.",
+                "Alt. Reaction: This ability may also be used as a Reaction when out of turn in order to extend your Movement Range for abilities, including for the basic Dodge action.",
+                "Effectively, if you can reach something by using your Movement Range and Blink in combination, it is considered to be within your Movement Range, though you must expend the energy cost in order to do so."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Flurry of Blows",
+            "Keywords": [
+                "Strike",
+                "Reaction",
+                "Follow"
+            ],
+            "Cost": "up / Momentum",
+            "SimplifiedDescription": "A follow-up to an attack made by you or an ally, with stacking damage.",
+            "Text": [
+                "Trigger: When an ally (or you) hits an enemy within your Movement Range with a Strike attack.",
+                "Damage: 1x Strike Power",
+                "Accuracy: Guaranteed",
+                "Aspect: Inherited from Weapon Strike.",
+                "You may immediately move to anywhere that is within your Movement Range and within reach of the enemy, and then make a Strike against the enemy. Any damage dealt by this attack is added to the total damage of the previous attack.",
+                "The enemy cannot react to this attack.",
+                "You may use this ability to react to this ability consecutively. Doing so counts against your Turn Energy."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Storm Wake",
+            "Keywords": [
+                "Spell",
+                "Momentum"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Leave a magical trail, dealing damage and creating hazards.",
+            "Text": [
+                "You channel the essence of a speedster, readying yourself to run. As you run forward, an elemental gale whips up behind you, bringing ruin to nearby targets and leaving a wake of aspected energy which damages any who step on it.",
+                "Damage: (Physical) 1x Tempo",
+                "Accuracy: 1x Tempo",
+                "Aspect: Sonic, Wind, Fire, Lightning, Dynamic Aspect (Spell)",
+                "Until the beginning of your next turn, or until cancelled, gain the following effects:",
+                "When you pass within 4 feet of a target, that target takes equivalent damage. This may only occur once per enemy, per turn.",
+                "You leave a trail of aspected energy upon any areas you run. When enemies step into this area, they will take 1x Hazard damage of the chosen aspect.",
+                "Distance traveled by teleportation does not leave a trail.",
+                "Upkeep (4 Energy): The duration of this spell is extended until the beginning of your next turn."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Superposition",
+            "Keywords": [
+                "Passive",
+                "Momentum",
+                "Dodge"
+            ],
+            "Cost": "N/A",
+            "SimplifiedDescription": "Dodge enhancement. Momentum can be used to Dodge.",
+            "Text": [
+                "When using the Basic Dodge reaction, you may pay its cost with 4 Momentum instead of 2 Energy.",
+                "If an attack would have more accuracy than your Dodge, you may pay an additional 4 Momentum to use the Basic Dodge reaction regardless. This cannot be done against attacks for which you cannot react."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Dragon Ascent",
+            "Keywords": [
+                "Movement",
+                "Momentum",
+                "Spell"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Gain wings and fly, with massive Momentum bonuses.",
+            "Text": [
+                "You temporarily gain wing-like spectres. If you already have wings, the spectral wings are significantly larger, to the point that they would obscure your normal wings.",
+                "Until the beginning of your next turn, your movement type becomes Flying:",
+                "If your movement type is not already Flying, it temporarily becomes Flying until this ability ends.",
+                "When dodging, you may choose to Dodge upwards or downwards as you please, instead of grounded dodging.",
+                "You may ignore any grounded terrain effects, and pass through obstacles with ease.",
+                "Additionally, while this ability is active, you have near complete control over the force of your Momentum and speed:",
+                "Momentum is not lost when expended to extend the range of Dragoon abilities.",
+                "Any Knockback received is instead converted directly to Momentum. Every 1 foot of Knockback is converted to 1 Momentum.",
+                "Sudden Stop Sunder may be used in any direction. If used as a Reaction to taking knockback, it may be used against the source of that knockback.",
+                "Upkeep (8 Energy): The duration of this spell is extended until the beginning of your next turn."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Cyclone Rush",
+            "Keywords": [
+                "Strike",
+                "AoE"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Encircle enemies to create a magical vortex, dealing massive damage.",
+            "Text": [
+                "In order to activate this ability, you must encircle any enemies you want to attack.",
+                "This ability targets any enemies who have been encircled this turn.",
+                "Aspects: Wind, Force, Explosion",
+                "Damage: (Magical) 2x Hazard"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Perpetual Motion Machine",
+            "Keywords": [
+                "Passive"
+            ],
+            "Cost": "N/A",
+            "SimplifiedDescription": "Retain Momentum between turns, and gain more Momentum.",
+            "Text": [
+                "You no longer lose Momentum at the beginning of your turn.",
+                "If at the beginning of your turn, your Momentum is less than half your Tempo, increase it to that amount instead.",
+                "For every 4 Momentum you expend at once to instantly move (or during Dragoon abilities), regain 1 Momentum."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "False Imposition",
+            "Keywords": [
+                "Spell",
+                "Movement",
+                "Alt. Reaction"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Instantly return to where you were at a recent point. Can be used to dodge attacks and extend movement range of reactions.",
+            "Text": [
+                "You instantly teleport back to a spot you were previously in at some point since the beginning of your last turn, or in the last ten seconds.",
+                "Alt. Reaction: This ability may also be used as a Reaction when out of turn in order to extend your Movement Range for abilities, including for the basic Dodge action.",
+                "If you could reach something by using False Imposition and your Movement Range, it is considered to be within your Movement Range, though you must expend the energy cost in order to do so. Only one of Blink or False Imposition may be used at the same time."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "One Moment",
+            "Keywords": [
+                "Special",
+                "Extra Turn"
+            ],
+            "Cost": "32 Energy",
+            "SimplifiedDescription": "Channel all your Momentum to create a temporary time stop in which you perform all actions based on Momentum instead of Energy.",
+            "Text": [
+                "This ability may be used at any time, though it may not interrupt an ongoing turn.",
+                "You accelerate to impossible speeds, causing the world around you to appear as though it has stopped almost entirely.",
+                "Immediately begin a special Extra Turn. This extra turn will only end when you voluntarily end it, or when you run out of Momentum. During the Moment:",
+                "You cannot gain Momentum by any means, even if explicitly granted by brand abilities.",
+                "All Energy costs are substituted for Momentum in equal margins.",
+                "You may only move by consuming Momentum. The ratio for movement is increased: Each Momentum consumed lets you instantly move by 4 feet, instead of only one.",
+                "Objects, including creatures, do not fall or move. They cannot react to any attacks or actions made against them."
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ]
+}

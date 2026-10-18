@@ -1,0 +1,222 @@
+{
+    "BrandName": "Gunslinger",
+    "BrandType": "Combat",
+    "Complexity": "1",
+    "ComplexityText": "The main complexity is due to the class specializing in Loading weapons. The main difficulty is knowing when to reload and how much to do so, since you will likely alternate turns between shooting and reloading.",
+    "Description": "The Gunslinger specializes in using Loading weapons, by getting numerous opportunities to reload for free. They can use all Ranged weapons as though they are Loading weapons. Their shots can Ricochet, which allows single shots to bounce between multiple targets in quick succession. Gunslingers have access to Valor Medals, which are gained whenever you land a ranged hit on an enemy. They can be used to substitute for the Energy cost of Follow-up abilities.",
+    "CharacterDescription": "Those with the Gunslinger brand are often adventurous, boastful, and substantially reckless in their endeavors. They have a desire to show off to others, but not necessarily to be superior to others. Many gunslingers have a sense of humility, even if they do not show it.",
+    "CharacterTraits": [
+        "People will recognize my skill, even if they may consider me an eccentric.",
+        "I’m gonna be the very best, like no one ever was!",
+        "If people want to get in my way, then let them! I’ll show them!",
+        ""
+    ],
+    "SpecialSkill": "WIP",
+    "SpecialSkillText": "",
+    "InnateSkills": [
+        ""
+    ],
+    "ProgenitorName": "Armahs the Bowslinger",
+    "ProgenitorLore": "Armahs was an elf that history will remember through exaggerated stories of which little is known to their accuracy - the exact legacy they would have wanted. A pariah to even the urban elves who accepted other cultures with open arms, Armahs bent traditional elven archery to replicate the bizarre culture of otherworlder ‘Westerns’. This is their legacy, accepting to all who believe that even solemn bloody combat should bow before the rule of cool.",
+    "MainStat": "Control",
+    "Substat1": "Fortitude",
+    "Substat2": "Ego",
+    "LeftBranch": "Grit",
+    "MiddleBranch": "Multi-attack",
+    "RightBranch": "Cinema",
+    "Definitions": [
+        {
+            "Name": "Duel",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "Immediately, both you and your enemy immediately draw your weapons and attempt to make an attack (any) against each other simultaneously.",
+                "The attack with a higher accuracy value “wins” the Duel, and the other attack is cancelled. If both accuracies are equal, the target enemy is considered to have won. The winning attack may not be avoided."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Valor Medal",
+            "Aliases": [
+                "Valor"
+            ],
+            "Text": [
+                "The user can hold a number of Valor Medals equal the highest among their Control, Fortitude, or Ego. ",
+                "Every time you land an attack against a target creature, you gain one Valor Medal. This is counted separately for each hit of Ricochet abilities.",
+                "The Energy cost for Follow-Up abilities may be paid using Valor Medals."
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "Talents": [
+        {
+            "Name": "Sunset Showdown",
+            "Keywords": [
+                "Special",
+                "Duel"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Enter a Duel with an enemy. Whoever is faster wins and gets bonuses for the winning attack.",
+            "Text": [
+                "Designate a target enemy who is capable of making an attack against you (even if they would have to use their base movement to do so) and enter a Duel. ",
+                "The loser takes additional Mental Hazard damage equal to the winner’s Ego.",
+                "Participating in this duel counts as taking an action. When an enemy creature participates in a duel, all resources (Energy, Actions, Movement, etc.) used count against what they can use for their next turn.",
+                "",
+                ""
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Rules of Engagement",
+            "Keywords": [
+                "Reaction",
+                "Counter",
+                "Strike",
+                "Melee",
+                "Defense"
+            ],
+            "Cost": "4 Valor Medals",
+            "SimplifiedDescription": "Counter and cancel Melee attacks made against you.",
+            "Text": [
+                "Trigger: When an enemy within 8 feet would attempt to make a Melee attack against you.",
+                "Immediately launch a Melee attack against the enemy using a Ranged weapon, dealing (Physical) Pummeling damage equal to 1x your Strike Power.",
+                "If this attack hits the enemy, the attack they were attempting to make against you is cancelled.",
+                "\tFollow the rules, pard’ner.",
+                "",
+                ""
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Deadeye Gambit",
+            "Keywords": [
+                "Mod:(Ranged)",
+                "Ricochet"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Fire a shot which can consecutively Ricochet to nearby targets.",
+            "Text": [
+                "When you attack with a ranged weapon, the projectile ricochets between a chain of enemy targets. ",
+                "Select between 2 and 5 valid targets. You cannot select the same target twice. This attack will Ricochet to nearby targets. (The accuracy for each successive Ricochet decreases by 4. When one chain of the Ricochet misses, all further ricochets are cancelled). Each enemy hit takes damage equal to 1x your Effective Power.",
+                "Maximum Range (of all targets): Inherited from weapon range.",
+                "Form / Aspect: Inherited from weapon.",
+                "Damage: 1x Effective Power",
+                "By paying 2 Valor Medals when the attack would be cancelled due to a miss, you can continue the chain. Use this no more than once per Deadeye Gambit.",
+                "",
+                ""
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "",
+            "Keywords": [
+                ""
+            ],
+            "Text": [],
+            "Lore": ""
+        },
+        {
+            "Name": "Bite the Bullet",
+            "Keywords": [
+                "Reaction",
+                "Tanking",
+                "Defense"
+            ],
+            "Cost": "4 Valor Medals",
+            "SimplifiedDescription": "Intercept a projectile and nullify it if it’s weak enough.",
+            "Text": [
+                "Trigger: You are targeted by a projectile attack, or there is a projectile attack which passes within 12 feet of you.",
+                "You grab a fired shot directly out of the air. Intercept and catch the bullet. All damage and effects that the projectile would have had are nullified.",
+                "You may use this projectile and any effects it may have as ammunition for an attack of your own.",
+                ""
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "",
+            "Keywords": [
+                ""
+            ],
+            "Text": [],
+            "Lore": ""
+        },
+        {
+            "Name": "",
+            "Keywords": [
+                ""
+            ],
+            "Text": [],
+            "Lore": ""
+        },
+        {
+            "Name": "",
+            "Keywords": [
+                ""
+            ],
+            "SimplifiedDescription": "",
+            "Text": [],
+            "Lore": ""
+        },
+        {
+            "Name": "All’s Fair",
+            "Keywords": [
+                "Reaction",
+                "Duel",
+                "Defense"
+            ],
+            "Cost": "6 Valor Medals",
+            "SimplifiedDescription": "",
+            "Text": [
+                "Trigger: You are targeted by a projectile attack.",
+                "Instead of resolving the attack, immediately enter into a Duel - you must ready an attack of your own.",
+                "Save:",
+                "",
+                "",
+                ""
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "",
+            "Keywords": [
+                ""
+            ],
+            "Text": [],
+            "Lore": ""
+        },
+        {
+            "Name": "",
+            "Keywords": [
+                ""
+            ],
+            "Text": [],
+            "Lore": ""
+        },
+        {
+            "Name": "Bursting Magazines",
+            "Keywords": [
+                "Special"
+            ],
+            "Cost": "16 Valor Medals",
+            "SimplifiedDescription": "Unlimited ammo for one turn.",
+            "Text": [
+                "This ability must be used at the beginning of your turn.",
+                "Until the end of your turn,",
+                "You cannot gain Valor Medals by any means.",
+                "Loading weapons are considered to have a reload cost of 0.",
+                "Ranged weapons’ Energy cost is reduced to 1/4th, with a minimum cost of 1 Energy. Fractional energy cost is rounded up.",
+                "Loading or Ranged weapons may alternatively be fired for the cost of 1 Valor Medal.",
+                "At the end of your turn, all Loading weapons are fully reloaded for free.",
+                ""
+            ],
+            "Lore": ""
+        }
+    ]
+}

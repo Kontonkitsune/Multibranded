@@ -1,0 +1,303 @@
+{
+    "BrandName": "Breaker",
+    "BrandType": "Combat",
+    "Complexity": "3",
+    "ComplexityText": "Requires the player to adapt to and control the terrain around them. ",
+    "Description": "The Breaker is capable of greater terrain manipulation and destruction. They can rapidly change the battlefield to their own advantage, and inflict ||Hazard Damage|| on enemy targets. Hazard Damage deals fixed damage based on the Tier of your weapons or the current area.",
+    "CharacterDescription": "Those with the Breaker’s Brand are often curious and industrious. They have a tendency to get themselves into dangerous situations, particularly when they spot things which interest them.",
+    "CharacterTraits": [
+        "Though I grew up with very little, I learned to utilize what I had.",
+        "An interest in the caverns once landed me in a tough situation I had to dig myself out of. Literally.",
+        "I have always had an obsession with shiny objects. I live my life in search of the unique, that you cannot find simply by sitting around."
+    ],
+    "SpecialSkill": "WIP",
+    "SpecialSkillText": "",
+    "InnateSkills": [
+        ""
+    ],
+    "ProgenitorName": "Bynn the Breaker",
+    "ProgenitorLore": "Bynn was a prospector, through and through. They often found their curiosity getting the better of them, landing them in increasingly tense situations. With their fondness for materials, particularly ores and gemstones, they found creative ways to use and abuse the very caverns around them. Though they were solitary, their hauls back to the surface brought them fame over time, only growing as they went deeper and deeper. One day, they left on an expedition and never came back. Though it still remains unknown whether they lived underground, or simply died, the cities, now reliant upon their sole contributions to their economies, ultimately collapsed. It was this that earned them their title, ‘Bynn, Breaker of Banks’.",
+    "MainStat": "Strength",
+    "Substat1": "Will",
+    "Substat2": "Fortitude",
+    "LeftBranch": "Terrain Control",
+    "MiddleBranch": "Break",
+    "RightBranch": "Defense Piercing",
+    "Definitions": [
+        {
+            "Name": "Hazard Damage",
+            "Text": [
+                "Hazard damage is a fixed damage type, based on the current Area you’re in.",
+                "If Hazard damage is dealt by a player or creature, using a weapon of a higher tier than the current area, then the equipment tier is used instead.",
+                "1x Hazard Damage = Area * 4"
+            ],
+            "Aliases": [
+                "Hazard"
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "Talents": [
+        {
+            "Name": "Shatter",
+            "Keywords": [
+                "Break",
+                "AoE",
+                "Melee",
+                "Strike"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Break terrain in an AoE of your choice, and deal Hazard Damage.",
+            "Text": [
+                "You bring your weapon down at a surface or other object. All targets nearby to destroyed terrain immediately take Hazard Damage.",
+                "Any breakable terrain within the AoE is immediately destroyed.",
+                "Form / Aspect: Inherited from Weapon attack",
+                "AoE: Varies*",
+                "Depending on the attack’s Aspects, the AoE of the attack changes:",
+                "(Smashing, Impact) Crater: AoE becomes a sphere with an 8 foot radius from the impact.",
+                "(Chopping, Slashing) Searing Gash: AoE becomes a 24 foot length slash in the terrain, with a width of 2-8 feet, originating on one side from the impact. ",
+                "(Pummeling, Piercing) Tunnel: AoE becomes a 32 foot length hole in the terrain, with a width of 2-8 feet, originating forward from the impact. ",
+                "Empower (2 Energy) x2: The AoE increases by 4 ft.",
+                "",
+                ""
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Raising Strike",
+            "Keywords": [
+                "Break",
+                "Melee",
+                "AoE",
+                "Strike"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Create a block of terrain in order to deal Hazard Damage and gain tactical advantages.",
+            "Text": [
+                "You bring your weapon down at the ground, forcing the terrain to follow your command, and causing it to rise.",
+                "Form / Aspect: Inherited from Weapon attack",
+                "Raise Ground: The terrain within an 8 foot radius of the impact suddenly rises, forming a shape up to 8 feet tall. Dependent on the selected Aspect, additional effects occur:",
+                "(Piercing, Ice, Slashing, Chopping, Rage) Great Spike: Any creatures in the area are shoved out to any side, and additionally take Hazard Damage.",
+                "(Earth, Pummeling, Radiant, Fear) Pillar of Stone: Any creatures in the area are deposited at the top, and sent flying upwards.",
+                "(Smashing, Fire, Explosion, Despair) Crater’s Bulwark: The area forms in a hemisphere instead, entrapping nearby creatures within.",
+                "",
+                ""
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Infuse Terrain",
+            "Keywords": [
+                "Break",
+                "Melee",
+                "AoE",
+                "Strike"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Change the terrain around you into different types of terrain.",
+            "Text": [
+                "You strike the ground, with the intent to infuse the very terrain with your will.",
+                "Within a 20 foot radius, or within Melee Reach, the ground becomes infused with the element, and the elements emerge from beneath the terrain. The terrain becomes Infused Terrain, which deals Hazard Damage to any target currently on it, and to any target who steps on it until the end of the turn, excluding yourself.",
+                "Form / Aspect: Inherited from Weapon attack",
+                "AoE: 20 feet (5 tiles) or Melee Reach, whichever is higher.",
+                "Infused Terrain: Depending on the Aspect of the action, the effect on the terrain differs. Here are some examples of the different types of terrain that can be created via this ability:",
+                "(Fire, Lightning, Explosion, Radiance) Scorched Earth: Soil within the AoE becomes Stone. Sand or Quicksand within the AoE becomes glass Crystal. All Wood is incinerated. The terrain suddenly shines brightly, forcing targets to cover their eyes.",
+                "(Acid, Rage, Ice, Smashing, Force) Brittle Terrain: Terrain immediately weathers by an insane amount. It is considered as difficult terrain to cross. If the ground is sufficiently thin, it will collapse. ",
+                "(Sonic, Wind, Piercing, Earth) Dust Dune: The terrain shatters. All Stone, Soil, and Crystal within the area become sand.",
+                "(Psychic, Decay, Fear) Warped Terrain: The terrain becomes a bog or mire, and indicates bad omens.",
+                "(Despair, Water, Pummeling) Muddy Terrain: the created terrain is muddy and hard to move through. Water begins to flood from the created terrain.",
+                "",
+                ""
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Crystalline Spikes",
+            "Keywords": [
+                "Break",
+                "Melee",
+                "Strike"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Grow crystalline spikes on an enemy and freeze them. Shattering the spikes deals extra damage.",
+            "Text": [
+                "You land a hit on an enemy with a strike imbued with aspected power. ",
+                "Crystals spontaneously grow from the place you strike, sharp enough to grow directly through both terrain and creatures alike. ",
+                "Save: Target Fortitude >= User Strength",
+                "On a failed save, the targeted enemy immediately takes 1x Hazard Damage and becomes Crystalized for two of their turns.",
+                "Damage: (Physical) 1x Strike Power + 1x Hazard Damage",
+                "Aspect: Choose from (Earth, Ice, Piercing, Radiant)",
+                "Crystalize:",
+                "Crystalized enemies are unable to move until the crystals formed around them are broken. The crystals growing around them are considered as terrain, and can be broken normally.",
+                "If the crystals are broken before the Crystalized effect ends, the target immediately takes 2x Hazard Damage of the same form.",
+                "The type of crystal that this attack grows is dependent upon the aspect. Some examples: Earth forms a type of rock, Piercing makes Iron crystals, Ice makes ice, and Radiant makes quartz.",
+                "",
+                ""
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Level",
+            "Keywords": [
+                "Break",
+                "Melee",
+                "AoE",
+                "Strike"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Completely flatten an area and nullify terrain effects.",
+            "Text": [
+                "You perform a strike with your weapon on the terrain itself, and break everything in a large radius. The area around you immediately becomes flat in a perfect circle. All terrain within the radius is changed to Normal terrain.",
+                "All targets (excluding you) within the area immediately take half Hazard Damage.",
+                "AoE: 32 ft radius from self, or Melee Reach. Whichever is higher. 8 foot height. Can be rotated.",
+                "",
+                ""
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Earthen Hammer",
+            "Keywords": [
+                "Create",
+                "Break"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Reinforce your weapon with terrain to make it Gargantuan for a turn.",
+            "Text": [
+                "You bring down your weapon into the terrain, and pull it back out in a way that digs up the terrain around the weapon. The terrain will roughly take the shape of the weapon that it was pulled around.",
+                "For this turn and the next 3 turns:",
+                "The weapon’s Size temporarily increases to Gargantuan, but the caster may continue to wield it regardless of their size as a two-handed weapon.",
+                "All attacks made using this weapon gain the Smashing aspect.",
+                "The weapon’s Reach is increased to double its base Reach or 32 feet, whichever is larger.",
+                "Your Strike Power when using this weapon is temporarily changed to be equal to the Hazard Damage of the current Area.",
+                "",
+                ""
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Quake",
+            "Keywords": [
+                "Break",
+                "AoE",
+                "Strike"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Knock back creatures in an AoE and deal Hazard Damage.",
+            "Text": [
+                "You bring down your weapon into the ground, resonating with the terrain itself. A shockwave bursts out from the impact site, forcing creatures within to brace themselves, or else they are sent flying outwards.",
+                "Save: Target Tempo >= User Strength",
+                "On a failed save, targets immediately take equivalent (1x Hazard) damage. Then, they are knocked back 16 feet, outwards from the center of the impact. Any creatures which would be launched into an object, terrain, or other creature, immediately take (Physical) Impact damage equal to 1x Hazard Damage.",
+                "All objects with a size less than or equal to your weapon’s Size are knocked back 16 feet. Any objects which would hit a creature by this knockback deal (Physical) Impact damage equal to 1x Hazard Damage.",
+                "Damage: (Physical) 1x Hazard Damage",
+                "Aspect: Choose from (Earth, Radiant, Sonic)",
+                "Area of Effect: 20 foot radius, centered on the point of impact. You may also choose to have this as a 90 degree cone, with the same radius (for focused attacks).",
+                "",
+                ""
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Breaking Point",
+            "Keywords": [
+                "Destroy",
+                "Melee",
+                "Break"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Destroy enemy equipment or other objects.",
+            "Text": [
+                "Launch a Weapon Attack against a target item or equipment, including those belonging to or equipped by enemies. If this is against an enemy’s equipment, you have to ensure you hit it.",
+                "If your attacking Weapon’s Tier is greater than the target item’s, the target item shatters, and is destroyed. If the target item is magically enchanted, your weapon must be at least two tiers greater than the item.",
+                "This may also be used to destroy small items, or to precisely destroy small devices.",
+                "",
+                ""
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Home Run Crashdown",
+            "Keywords": [
+                "Melee",
+                "Ranged",
+                "Break"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Hit an object or creature with your weapon to send them flying back.",
+            "Text": [
+                "You use the weight and heft of your weapon to send enemies and other objects flying. ",
+                "The size of your Weapon must be equal to or greater than the size of the object or creature you would like to launch.",
+                "If the weapon size is Gargantuan, you may launch pieces of terrain.",
+                "Depending on the difference between the size of your weapon and the object you want to launch, the effect changes:",
+                "Smaller: If the object you are launching is two or more sizes smaller than your weapon, immediately deals (Physical) Impact damage equal to 2x Hazard Damage, and knocks back the target by 32 feet.",
+                "Similar: If the size difference between your weapon and the object you would like to launch is no more than one class, immediately deals damage equal to 1x Strike Power + 1x Hazard Damage, and knocks back the target by 16 feet.",
+                "Larger: If the object you are attempting to launch is two or more sizes larger than your weapon, immediately deals damage equal to 2x Strike Power, and the target is knocked back by 8 feet",
+                "",
+                ""
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Terrathurgy",
+            "Keywords": [
+                "Create",
+                "Break"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Instantly carve a massive block of terrain to suit your whims.",
+            "Text": [
+                "Through the channeled power of your brand, you place your hand upon a piece of Stone, Crystal, or Soil, instantly bending its shape completely to your will.",
+                "Within the AoE, you may freely shape the listed materials to your will, instantly, creating any shape or design.",
+                "The creations made with this ability must be simple enough that you can mentally picture it, and would be able to carve it by hand, provided more time.",
+                "AoE: 8 feet radius from point of origin. Alternatively, you may transform a cube of up to 12 feet in all directions.",
+                "Ritual: Can be used as a ritual to create far more complex designs, or larger constructions.",
+                "",
+                ""
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Guillotine",
+            "Keywords": [
+                "Strike"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Falling from great heights grants bonuses to Physical attacks and Shatter.",
+            "Text": [
+                "When falling from a great height, gain bonuses to Strike Power based on your falling height. For every 32 feet you have fallen consecutively, your Strike Power is increased by 1x Hazard Damage. The maximum amount taken into effect is 128 feet.",
+                "When falling from a great height, gain bonuses to Break abilities based on your falling height. For every 16 feet you have fallen consecutively, the Energy cost for all Break abilities decreases by 1, and their AoE increases by 4 feet. This may reduce the cost of Break abilities to zero. The maximum amount taken into effect is 128 feet.",
+                "When utilizing this passive, the height of your fall is reset.",
+                "",
+                ""
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Dust to Dust",
+            "Keywords": [
+                "Special",
+                "Create"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Spontaneously create a crystal, which can be used for a variety of secondary effects.",
+            "Text": [
+                "Create a massive artificial gemstone of your choice, in a shape of your choice, with a maximum dimension of no more than 4 feet. This gemstone lacks any magical or mystical capabilities, but may be made to be up to the same tier as your highest tiered equipment currently equipped.",
+                "This crystal may be infused with various Aspects via the infusion of spells or words, adding the given Aspect to all attacks made, listed below.",
+                "This gemstone may be used in a variety of separate subsequent actions:",
+                "Crystal Shards: When the crystal is hit with your weapon of choice, the crystal immediately shatters, and sends its shards flying in a 90 degree cone, with a radius of 32 feet. Creatures within the AoE immediately take (Physical) Piercing damage equal to 1x Hazard Damage. ",
+                "Seed Duster: When the crystal is shattered upon a plane (such as by striking downwards), it immediately expels infused crystalline dust in a circular plane of 32 feet radius. All creatures within this range who fail the save (Target Fortitude >= User Strength) immediately become Crystalized for 2 turns. Additionally, crystals begin to grow upon all surfaces touched by the blast.",
+                "Silicosis: When the crystal is broken (such as by Shatter), it shatters into a thousand dust particles, creating a cloud of Sharp Air in a radius of 32 feet for 3 turns. Creatures beginning their turn in Sharp Air immediately take (Physical) Poison damage equal to 1x Hazard Damage.",
+                "Crystal Boulder: If the crystal is launched (as by Home Run Crashdown) and hits a creature, it deals (Physical) Impact damage equal to 2x Hazard Damage in addition to other damage dealt.",
+                "Cosmic Crater: If the crystal is launched (as by Home Run Crashdown) and hits terrain, it immediately breaks all terrain in a 16 foot radius from the site of impact. All creatures in the radius of this immediately take (Physical) Radiant damage equal to 1x Hazard Damage.",
+                ""
+            ],
+            "Lore": ""
+        }
+    ]
+}

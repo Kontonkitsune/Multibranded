@@ -1,0 +1,80 @@
+
+        * {
+            margin: 0;
+            overflow: hidden;
+        }
+        h1 {
+            margin-top: 24px;
+        }
+        h2 {
+            margin-top: 12px;
+        }
+        h3 {
+            margin-top: 12px;
+        }
+        h3.talent {
+            display: inline;
+            margin-top:12px;
+            text-align:left;
+        }
+        div {
+            display:inline;
+        }
+        td {
+            margin: 24px;
+        }
+        html, body{
+            overflow:auto;
+            word-wrap:normal;
+            width:max-content;
+            height:max-content;
+            background-color: rgb(168, 171, 180);
+        }
+        table.inline {
+            display: inline-block;
+            text-align: left;
+            vertical-align: top;
+            border-collapse: collapse;
+        }
+        p.indented {
+            text-indent:36px;
+        }
+        table.statmenu {
+            text-align: left;
+            vertical-align: top;
+            border-collapse: collapse;
+            background-color: #c0c0c0;
+        }
+        definition-tooltip {
+            font-weight: bold;
+            color:#003789;
+        }
+        table {
+            text-align: left;
+            vertical-align: top;
+            border-collapse: collapse;
+        }
+        th {
+            font-weight:bold;
+            
+        }
+
+        *.centeraligned {
+            vertical-align: center;
+            text-align: center;
+
+        }
+
+        tr {
+            vertical-align: top;
+        }
+
+        caption {
+            text-align: left;
+            font-size:20px;
+            font-weight:bold;
+        }
+
+        *.outlined {
+            border: 1px solid black
+        }
