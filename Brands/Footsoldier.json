@@ -1,0 +1,281 @@
+{
+    "BrandName": "Footsoldier",
+    "BrandType": "Combat",
+    "Complexity": "4",
+    "ComplexityText": "The Footsoldier relies on coordination with your party in order to get the most out of its abilities. Its abilities can require you to make asks of your party in exchange for benefit, and so can be difficult to coordinate.",
+    "Description": "The Footsoldier utilizes tactics with nearby allies in order to perform team attacks and distribute damage amongst themselves. They give bonuses to allies, and the effects of their abilities increase when many allies are nearby. ",
+    "CharacterDescription": "People who have the Footsoldier’s Brand come from backgrounds of persecution and do not wish to perpetuate it. The branded have a fixation with justice for the little man and often an inbuilt distrust or contempt for unearned or dynastic authority. They often sport great camaraderie with an in-group, yet may have otherwise asocial behaviors or hold fast to countercultural ideas.",
+    "CharacterTraits": [
+        "Through toil and tribulation, I have become the unwitting hero of my local community despite no formal guidance.",
+        "I’ve seen conflict as a conscript and have no lust for war; nevertheless, my vision of justice is noble enough to spill blood for, if tested.",
+        "Stumbling across an ancient text, I resolved a crisis through means I myself don’t fully understand.",
+        "An ideal world is worth giving up the status quo for."
+    ],
+    "SpecialSkill": "WIP",
+    "SpecialSkillText": "",
+    "InnateSkills": [
+        ""
+    ],
+    "ProgenitorName": "Regulus, first and last of their bizarre name",
+    "ProgenitorLore": "“‘Friends, we’re gathered here today to admonish evil, not perpetuate it. Just like the great civilizations of distant lands, we’ll take destiny into our own hands!’ I already knew no applause would echo for the eccentric at the fore of us listeners. They always speak stranger than the best of us can comprehend. But these rough and tumble folk I’m proud to call my brothers trust our peasant-monarch forever, even if the naming sense is as high in the sky as Regulus is down-to-earth. Whether classic Greek, Western Euro-pe-an, or the Far East, these places have limitless fable and tavern yarn. Never heard of these countries outside of their poetics - we all think of ‘em as fables. But the peasant-monarch’s advice never errs, so we can’t help but trust them. They’re god’s strange-talkin gift to the little folk.”",
+    "MainStat": "Strength",
+    "Substat1": "Ego",
+    "Substat2": "Fortitude",
+    "LeftBranch": "Group Strikes",
+    "MiddleBranch": "Battalion Tactics",
+    "RightBranch": "Fortification",
+    "Definitions": [
+        {
+            "Name": "Battalion",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "The number of allied characters both player and non-player within a 40 foot radius of you. Effects like Battalion (12) require at least twelve allies, including yourself, to be within a 40 foot radius of you."
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "Talents": [
+        {
+            "Name": "Day’s Drudgery, Dusk’s Drinking",
+            "Keywords": [
+                "Strike",
+                "Tactical",
+                "AoE"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Launch an attack with your entire battalion against a group of enemies.",
+            "Text": [
+                "You bring down your weapon upon an enemy. Following you, Battalion members around you additionally strike an enemy of their choice within a 16 foot radius of the enemy you struck.",
+                "AoE: 16 foot radius from target",
+                "Each Battalion member may attack simultaneously against an enemy which has not yet been targeted during this attack, dealing damage equal to their respective Strike Power.",
+                "If all enemies within the radius have already been attacked during the usage of this ability, then remaining Battalion members may target freely.",
+                "Battalion (12): If any Battalion member’s Strike Power is less than your Ego, they instead deal damage equal to your Ego.",
+                "While it was equally an excuse for training pyrotechnics, Regulus stressed repeatedly the importance of knowing your allies’ capabilities, personally. While coming home is never a guarantee, deftly enabling your allies steels your odds. So does a ‘dive comp’, whatever that is."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Heroic Art of Provocation",
+            "Keywords": [
+                "Word",
+                "Single Target",
+                "Taunt"
+            ],
+            "Cost": "6 Energy",
+            "SimplifiedDescription": "Cause an enemy to aggro onto you, and gain bonuses against them.",
+            "Text": [
+                "Designate a target within 60 feet and call out to them in a yelling voice with gusto. This target must make a save.",
+                "Range: 60 feet (15 tiles)",
+                "Save: Target Mystique >= 2x User Ego",
+                "If the target fails the save, the target becomes Aggravated until the beginning of your next turn. While the target is Aggravated, you may choose to convert any Physical damage dealt to you by this target to Mental damage.",
+                "Aggravated: When choosing to make an attack, the primary target of the attack must be the one who applied the status, so long as they are within the attack’s range.",
+                "At the beginning of your next turn, you may make a Weapon Attack for free against the Aggravated target, as long as you are otherwise capable of attacking them.",
+                "No good hero dies from their first scrape. Room to grow makes a perspective character interesting!"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Choke Point",
+            "Keywords": [
+                "Defense",
+                "Tactical"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Create a Choke Point, and gain bonuses against enemies who must cross it to reach you.",
+            "Text": [
+                "Define a Choke Point, a line between two walls which can be no greater than 16 feet (4 tiles). This distance may be distributed over multiple openings. The maximum height of the Choke Point is 16 feet. ",
+                "You may only define one Choke Point at a time.",
+                "When an enemy attempts to cross the Choke Point, they must make a save (Target Strength >= User Ego). On failure, the target must immediately stop their movement.",
+                "If an enemy target has no way to reach you in one of their turns other than crossing the Choke Point, Battalion members including you receive bonuses against that enemy:",
+                "When this target crosses the Choke Point, you may choose a member of your Battalion (or yourself) to make a Weapon Attack against them. The Energy cost for this attack is halved.",
+                "When this target attempts to attack one of your Battalion members from across the Choke Point, or during the same turn as they have crossed the Choke Point, the Battalion member receives half of the normal damage.",
+                "If either of the walls sustaining the Choke Point is destroyed, the Choke Point may be extended in either direction, so long as its new length is no greater than 16 feet (4 tiles). Otherwise, the Choke Point is removed.",
+                "Battalion (12): The maximum total length of the Choke Point increases to 32 feet.",
+                "\tThe Battle of Thermopylae is one of the most retold battles in pop culture, revealing simple tactical lessons for facing an adversary greater in number. With the proper use of a choke point, you can make an impact, even against what would otherwise be a certain loss."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Roaring Cheer",
+            "Keywords": [
+                "Word",
+                "Enhance",
+                "Energy"
+            ],
+            "Cost": "1 Turn, 12 Energy",
+            "SimplifiedDescription": "Restore energy to your battalion.",
+            "Text": [
+                "This ability must be the only action you take in a turn.",
+                "You cheer loudly, bolstering the morale of you and everyone else. ",
+                "All Battalion members (aside from you) immediately recover 4 Energy. Each creature may only benefit from the effect of this ability once per turn, regardless of who used it.",
+                "The cynic says groupthink, and the commander says morale. Either way, don’t overlook the simple good choices."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "All-Out Attack!",
+            "Keywords": [
+                "Strike",
+                "AoE",
+                "Battalion"
+            ],
+            "Cost": "12 Energy (and 4 Energy for each Battalion member)",
+            "SimplifiedDescription": "Launch an AoE attack against many targets close together with your battalion.",
+            "Text": [
+                "Launch a team attack with your entire Battalion against multiple targets.",
+                "Range / AoE: 8 foot radius from a point chosen within 12 feet of you.",
+                "Any member of your Battalion may join in on this attack for a cost of 4 Energy.",
+                "Each ally joining in on this attack, including yourself, launches an AoE Weapon Strike against the targets, dealing damage equal to 1x their Strike Power. ",
+                "Battalion members do not need to be able to reach the target in order to participate, and do not move to participate in the attack.",
+                "Damage: 1x Strike Power (for each ally).",
+                "Aspect / Form: Inherited from Weapon Strike.",
+                "Battalion (12): The energy cost paid by each Battalion member decreases to 2.",
+                "\t“I’ve been waiting for this! It’ll be your last surprise!” Staring up at the unorganized militiamen the commanders assured were just rabble, the royal soldier saw middle aged farmhands making eccentric and childish poses. With a single moment of clarity, he could only think “Ah, so this is how it ends.”"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Flanking Tactics",
+            "Keywords": [
+                "Passive",
+                "Tactical"
+            ],
+            "SimplifiedDescription": "Get bonuses when battalion members surround enemies.",
+            "Text": [
+                "When a Battalion member is currently on the opposite side of an enemy to you, they are considered to be Flanked.",
+                "If an enemy target is located between two Battalion members (including you), they are considered to be surrounded, and may not take the Avoid action. (Flanked enemies are inherently considered as surrounded).",
+                "Attacks made against Flanked targets by your Battalion members (including you) are guaranteed to hit, regardless of the target’s Dodge or any Reactions they make. The only way by which a Flanked target may dodge attacks is by teleportation.",
+                "Additionally, when Flanked targets attack your Battalion members, they may take the Avoid reaction once for free. Each Battalion member may only use this once per turn, even against multiple Flanked enemies.",
+                "Battalion (12): All targets within the Battalion range are considered as Flanked.",
+                "Unlike many esoteric concepts divulged by Regulus, flank tactics were familiar to the soldiers. It came as a great question, then, why a ‘Bronze’ one was considered deplorable despite bronze being a rather valuable commodity."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Phalanx",
+            "Keywords": [
+                "Tactical",
+                "Formation"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Group up into a formation and move together, protecting the units in the center.",
+            "Text": [
+                "You and your Battalion members immediately get into a formation surrounding you. ",
+                "Move along with your participating Battalion members such that they stay adjacent. While in this formation, all allies in the formation move with you at a speed of 24 feet per turn, regardless of their movement speed.",
+                "Enemies may not target allies in formation if another ally in formation blocks their line of sight, or is otherwise between them. If a Battalion member is completely surrounded by allies, they cannot be targeted by AoE attacks, or attacks from the air. ",
+                "When an enemy moves within the Melee Reach of any of the Battalion members in the formation, the ally may immediately make a weapon attack (paying half the normal cost) against the enemy.",
+                "When students copy each other’s homework, it’s because they don’t know what they’re doing. When civilizations copy each other’s homework, it’s because it’s just that good."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Pair Up",
+            "Keywords": [
+                "Enhance",
+                "Special",
+                "Defense"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Pair two allies, one who will attack, and one who will defend the other.",
+            "Text": [
+                "Select two Battalion members who are currently adjacent to each other. Designate one as the Attacker, and the other as the Defender. The Defender moves to share a space with the Attacker, and they may move at the same time.",
+                "The moment that they no longer share the same space, the effect ends.",
+                "The Defender may not take actions during their turn (beginning of turn effects such as upkeep or prepared attacks still occur). The Defender may still take any and all Reactions or Follow-ups, even if they would have effects which attack enemies. ",
+                "Enemies cannot make attacks against the Attacker, and any damage that would be dealt to the attacker is instead taken by the Defender. AoE effects will only deal damage to the Defender. ",
+                "Paired Strike: When the Attacker makes a weapon attack against an enemy, the Defender may make a simultaneous weapon attack against the same enemy. This is considered as a Reaction.",
+                "Pair-up is an essential defensive mechanic to any ‘small-scale wartime strategy simulation.’"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Walls of Jericho",
+            "Keywords": [
+                "Tactic",
+                "Battalion",
+                "Word",
+                "AoE"
+            ],
+            "Cost": "6 Energy",
+            "SimplifiedDescription": "Yell loudly at the enemies and deal sonic damage.",
+            "Text": [
+                "Battalion members may join in this ability at no cost.",
+                "You make a mental attack using your Word Power, dealing sonic damage. This attack extends to a 40 foot range in a straight line in front of you.",
+                "AoE: 40 foot line, from you to a chosen target location.",
+                "Damage: (Mental) 1x Word Power",
+                "Aspect: Sonic",
+                "Battalion (3): This ability expands to a 8 foot radius but keeps its current pathing. Enemies can no longer attempt to avoid this attack.",
+                "Battalion (12): This ability can pierce through physical walls, destroying a round hole 4 feet in radius through them (provided they don’t crumble as a result).",
+                "\t“You can’t not love it. Unless you’re getting hit by it.” -Regulus the Erudite"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Death Star Run",
+            "Keywords": [
+                "Enhance",
+                "Movement",
+                "Battalion",
+                "Strike"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Have many allies cover a Hero which you designate, who then does damage based on how many allies participated.",
+            "Text": [
+                "Choose an enemy target which is no less than 20 feet away from you.",
+                "Designate one of your Battalion members to become the Hero. All participating Battalion members, including you, immediately run forward by 40 feet simultaneously. Battalion members may decide whether or not to participate.",
+                "Any ally participating in this movement cannot use their movement during this turn. Additionally, allies which have already used their movement will not be able to participate in the group movement.",
+                "Any Battalion member leaving the formation will no longer be counted towards this ability.",
+                "When the Hero reaches the target, they make a Melee Strike against them. The damage dealt by this strike is equal to 1x their Strike Power multiplied by the number of Battalion members who participated. This attack is guaranteed to hit.",
+                "Damage: 1x the Hero’s Strike Power times the number of participating Battalion members. (if 9 members participate, it would be 9x Hero’s Strike Power).",
+                "Battalion (4): The Hero cannot be attacked while this effect is active, even by AoE effects.",
+                "Upkeep (2 Energy): At the beginning of your turn, you may again move with your Battalion. You may also choose a different target for the effects of this action, as well as designate a different Hero.",
+                "\tWhen the mission absolutely must be completed, sometimes sentimentality gives way to sacrifice."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Trench Warfare",
+            "Keywords": [
+                "Defense",
+                "Tactical"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Designate a trench, which gives allies various bonuses.",
+            "Text": [
+                "You may use this ability when you are under cover beneath ground level, in a trench or similar nook you can crawl into, or taking cover behind a wall which is enclosed on all sides that you could look out over the top of (these circumstances can be artificially created).",
+                "Convert the area under cover which you are currently in into a Trench Fortification. The area converted must be no wider than 12 feet. If the area is only enclosed on two sides, then the area must have a length which is at least 12 feet, and will only be considered as Trench Fortification for up to 40 feet of that length. If it is enclosed on four sides, it can be as little as 4 feet long.",
+                "When a creature is within a Trench Fortification: ",
+                "Allies cannot be targeted by AoE attacks unless the cover is destroyed first.",
+                "Melee attacks may only be made to targets standing on top of the cover you are using.",
+                "If they spend more than 4 consecutive turns within any Trench Fortification, they will begin to take (Physical) 1x Hazard Damage at the beginning of each turn.",
+                "When Battalion members (including you) are within the same Trench Fortification which you are in:",
+                "Allies recover an additional 4 Energy at the beginning of their turn.",
+                "Allies may use an additional 4 Energy when taking multiple actions during their turn.",
+                "Modern approaches to warfare may be more effective, but their costs rear their ugly heads nonetheless."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Art of the Callback",
+            "Keywords": [
+                "Word",
+                "Shield",
+                "Enhance"
+            ],
+            "Cost": "12 Energy, All Resolve",
+            "SimplifiedDescription": "Summon phantoms of the friends you made along the way to join in your battalion.",
+            "Text": [
+                "You conjure up phantoms of the various soldiers and allies who have fought alongside you. Whether they have died, or simply are not here at the moment, so long as they would fight alongside you, they may join you as specters. The maximum number of specters you can summon in this manner is equal to your Will.",
+                "These specters count towards the size of your Battalion, but may not attack or receive attacks. They appear to others as ethereal and slightly translucent ghosts of those whom they represent. Each specter has an amount of energy equal to the Resolve expended to perform this action.",
+                "The specters protect the members of your Battalion. Damage which would be dealt to an ally is instead dealt to the first specter summoned. When one specter runs out of energy, that specter disappears, and the remaining damage passes to the next. When there are no more specters, all remaining damage is taken by its original target.",
+                "Whether war or war movie, a climactic moment is only enabled by the sacrifice of many unseen heroes who enabled the soldiers to get there."
+            ],
+            "Lore": ""
+        }
+    ],
+    "DevNotes": [],
+    "Version": "1.1"
+}

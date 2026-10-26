@@ -1,0 +1,273 @@
+{
+    "BrandName": "Siphoner",
+    "BrandType": "Combat",
+    "Complexity": "3",
+    "ComplexityText": "Siphoners have to keep track of their essence points and expend them in variable amounts to deal damage and accomplish most of their effects. Since they are expended when taking damage, players have to be conscious of when and how they are used.",
+    "Description": "The Siphoner can absorb life force and use it as a shield or a weapon. They can steal Vitality, Mana, and Resolve to use as a resource for their spellcasting, and are capable of healing or hurting things using the essence they absorb.",
+    "CharacterDescription": "People who have the Siphoner’s Brand are often morbid in some fashion. They’ve all interacted with Death in a variety of ways, many times significantly closer than others.",
+    "CharacterTraits": [
+        "The road I've led to get here was paved with my fallen comrades. I am the lone survivor.",
+        "I became fascinated with the plague, which claimed the lives of so many in my town"
+    ],
+    "SpecialSkill": "Signs of Life",
+    "SpecialSkillText": "Siphoners are innately capable of sensing the forces of life, between plants, animals, even constructs. If something is animate and has a life force (either Vitality, Mana, Resolve, or other similar sets), they can sense it.",
+    "InnateSkills": [
+        "Life magic (healing and diagnosis)",
+        "Entropic magic (death and decay)",
+        "Autopsy/Biopsy (analyses of living or dead things)"
+    ],
+    "ProgenitorName": "Deathbringer Sasha",
+    "ProgenitorLore": "Sasha was a Necron cursed with a deadly disease that would spread upon proximity with others. She awoke in a forest to a crowd of corpses. As a former spiritualist, she was beloved by plants and animals alike. With the plague emanating from her body, plants and animals alike would wither and die in her presence, but that did not stop their longing for her embrace. Even if it cost them their lives. She spent her life in pursuit of finding a way to negate her curse, or even to reduce its effects. After hundreds of years, she claimed dominion of the Plague which tortured her. Through this mastery of her own curse, she ascended to divinity.",
+    "MainStat": "Intuition",
+    "Substat1": "Will",
+    "Substat2": "Fortitude",
+    "LeftBranch": "Vampirism",
+    "MiddleBranch": "Life Magic",
+    "RightBranch": "Sacrifice",
+    "Definitions": [],
+    "Talents": [
+        {
+            "Name": "Prologue: Death’s Embrace",
+            "Keywords": [
+                "Melee",
+                "Spell"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Deal damage to a creature, and steal Essence.",
+            "Text": [
+                "You touch the target, and let the brand’s curse flow through your veins. The creature you touch immediately begins to wither. Flowers wilt, creatures shrivel up, and inanimate objects begin to crumble.",
+                "If you touch a creature, they take equivalent damage. For so long as you manage to continue touching the creature, they will additionally take equivalent damage at the beginning of their turn.",
+                "When a target takes damage from this spell, gain Essence Points equal to the amount of damage dealt.",
+                "Damage: (Magical). 1x Spell Power",
+                "Aspect: (Decay, Poison, Despair, Fear)",
+                "\tLife force is a fragile essence. Without a proper medium, it dissipates almost immediately. Flesh makes one of the only proper conductors of this energy."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Venomous Vigor",
+            "Keywords": [
+                "Melee",
+                "Spell",
+                "Restore",
+                "Special "
+            ],
+            "Cost": "4 Energy, X Essence",
+            "SimplifiedDescription": "Implant Essence into a creature, healing them, but dealing more damage over time.",
+            "Text": [
+                "You touch the target, and push raw essence directly into them. The target immediately recovers an amount of (Vitality, Mana, or Resolve) equal to the amount of essence points expended.",
+                "The target receives Essence Poisoning: At the beginning of the target’s next 3 turn(s), they immediately take (Vitality, Mana, or Resolve) damage equal to the amount of essence points. This damage may not be reduced by defense.",
+                "The dynamic that is restored and the dynamic that is damaged may be different.",
+                "This ability may also be used on yourself, and you are considered to be immune to damage from Essence Poisoning.",
+                "Restore: X (equal to essence points expended)",
+                "Damage: X (equal to essence points expended)",
+                "Aspect: (Decay, Poison, Despair, Fear)"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "First Rite: Feast of Suffering",
+            "Keywords": [
+                "Field"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "When creatures around you take damage, you gain Essence.",
+            "Text": [
+                "Form: Choose one from (Vitality, Mana, Resolve).",
+                "Aspect: (Decay, Poison, Fear, Despair)",
+                "You create a field with a radius of 20 feet (5 tiles), centered on the caster, and moving along with the caster for its duration. The radius of this field may not be increased. ",
+                "When creatures within the field take damage of the selected form, gain Essence Points equal to the half of the damage dealt, rounded down.",
+                "If the target is resistant (or higher) to the field’s Aspect, you do not gain Essence Points.",
+                "If the target is weak (or lower) to the field’s Aspect, instead gain Essence Points equal to the damage.",
+                "Only one Field may exist for each caster. If two Fields overlap, only the most recently-cast field is activated.",
+                "Upkeep (2 Energy): The field remains active over multiple turns by expending the upkeep cost at the beginning of your turn.",
+                "The thorns of the rose draw blood from those who approach too closely. In a way, they sap the vitality of those around them. But animals know not of this. Fear not. Your pain, even your agony… it shall all become nourishment for the flowers."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Bloodletting",
+            "Keywords": [
+                "Siphon",
+                "Sacrifice"
+            ],
+            "Cost": "2 Energy",
+            "SimplifiedDescription": "Sacrifice your own Vitality, Mana, Resolve, or Energy to gain Essence.",
+            "Text": [
+                "You may choose to expend any amount of Vitality, Mana, Resolve, or Energy. You may choose differing amounts of each resource in a single action.",
+                "You immediately gain Essence Points equal to the total expended Vitality, Mana, Resolve, and Energy.",
+                "With this, you’ll be able to live on, even if it costs me my life."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Lethargy",
+            "Keywords": [
+                "Melee",
+                "Spell",
+                "Siphon",
+                "Drain"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Steal a target’s Energy as Essence.",
+            "Text": [
+                "You touch the target, and let an augmented form of the brand’s curse flow through your veins. The creature you touch immediately begins to wither. Flowers lose their color, and people immediately become spiritually exhausted.",
+                "If you touch a creature, they take damage to their Energy that cannot be resisted. For so long as you manage to continue touching the creature, they will additionally take equivalent damage at the beginning of their turn.",
+                "When a target takes damage from this spell, gain Essence Points equal to the amount of damage dealt.",
+                "Damage: (Drain [Energy]). 1x Spell Power",
+                "Aspect: Decay"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Bloody Tears",
+            "Keywords": [
+                "Spell",
+                "Create",
+                "Restore"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Coalesce essences into a potion which can restore. If they are ignited, they instead hurt other creatures.",
+            "Text": [
+                "You cry tears of blood in order to create a potion which can restore life.",
+                "Consume an amount of Essence Points. For every three Essence points expended, you create one restorative drop of your choice:",
+                "Pure Tear: Recovers one Essence Point.",
+                "Bloody Tear: Recovers one Vitality.",
+                "Ichor Tear: Recovers one Mana.",
+                "Sanguine Tear: Recovers one Resolve.",
+                "All drops created by a single action must be of the same type. If any drops of differing types are allowed to mix, they lose their effect entirely, and instead become Pure Tears.",
+                "These tears will dissipate completely after one day, unless preserved by magical means.",
+                "If these tears are ignited, they instead explode, and deal damage of their respective form, equal to their original recovery power to a target, which cannot be resisted by any defense."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Second Rite: Song of Ruin",
+            "Keywords": [
+                "Word",
+                "AoE",
+                "Siphon"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Increase the amount of damage taken by creatures around you.",
+            "Text": [
+                "You sing a song wrought with the brand’s curse, enhancing the suffering of nearby creatures, including yourself.",
+                "Create a Field, lasting until the beginning of your next turn:",
+                "When targets within the field take damage of one of the types of the Siphon Field, the damage taken is increased by half the original value, rounded down. ",
+                "The Siphon Field no longer collects essences when units within take damage.",
+                "This effect also applies to Allies.",
+                "Only one Field may exist for each caster. If two Fields overlap, only the most recently-cast field is activated.",
+                "AoE: 40 foot radius, centered on yourself.",
+                "Upkeep (2 Energy): The field remains active over multiple turns by expending the upkeep cost at the beginning of your turn."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Worthy Sacrifice",
+            "Keywords": [
+                "Melee",
+                "Spell",
+                "Siphon"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Extract the total life force of weaker creatures.",
+            "Text": [
+                "You touch a creature and attempt to extract their essence directly.",
+                "Save: Target (Fortitude, Intuition, Mystique*) >= User Intuition. The target stat to be used is based upon which dynamic stat you attempt to extract.",
+                "The Save is automatically failed if the spell target consents.",
+                "On a successful Save, you may extract up to a maximum amount equal to your Intuition.",
+                "On a failed Save, you may extract any amount of the chosen dynamic from the target. This cannot reduce them below zero.",
+                "You may not extract more than you have the capacity for."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Stolen Time",
+            "Keywords": [
+                "Melee",
+                "Spell",
+                "Special",
+                "Siphon"
+            ],
+            "Cost": "16 Energy",
+            "SimplifiedDescription": "Steal a target’s turn.",
+            "Text": [
+                "You touch a creature and attempt to siphon a concept, rather than essences, allowing you to siphon the very concept of agency from your target.",
+                "This spell may not be used on targets whose turns have already been skipped, or targets who do not have the ability to take a turn.",
+                "Save: 2x Target Will >= User Intuition",
+                "The Save is automatically failed if the spell target consents.",
+                "On a failed save, the target’s next Turn is skipped, and you gain a Turn Essence, which you may only hold one of at a time.",
+                "A Turn Essence may be used to grant yourself or a target that you touch an Extra Turn.",
+                "This Turn Essence may be instilled into a Frozen Tear using the Bloody Tears ability. The Frozen Tear expires immediately if not magically sealed."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Third Rite: Spiritfall",
+            "Keywords": [
+                "Spell",
+                "Enhance",
+                "Siphon"
+            ],
+            "Cost": "8 Energy, X Essence Points",
+            "SimplifiedDescription": "Deal direct damage based on the amount of essence consumed.",
+            "Text": [
+                "You unleash the essence gathered as a massive blast of pure energy.",
+                "Within an AoE of 20 foot radius, enemies immediately take Magical damage equal to your Intuition, plus the amount of Essence Points expended.",
+                "Range: 40 foot radius",
+                "AoE: 20 foot radius, centered on the target.",
+                "Damage: (Magical) User Intuition + X (expended essence points)",
+                "Aspect: (Force, Fire, Lightning, Ice, Wind, Earth, Water, Decay, Poison, Fear, Despair, Rage, Psychic)"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Gift of Life / Gift of Death",
+            "Keywords": [
+                "Spell",
+                "Melee",
+                "Siphon",
+                "Restore"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Sacrifice your own life force to restore or deal damage in equal amounts.",
+            "Text": [
+                "You touch a target creature, and attempt to siphon life directly from your own life force.",
+                "Expend any amount of (Vitality, Mana, Resolve, or Energy). The power of this spell is equal to the amount expended.",
+                "You may choose to either Recover an equivalent amount to the target, or deal equivalent damage to the target which cannot be reduced.",
+                "Recovery / Damage: X (equal to amount sacrificed)",
+                "Aspect: (Decay, Poison, Fear, Despair)"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Last Rite: Stygian Flow",
+            "Keywords": [
+                "Spell",
+                "Siphon",
+                "Instakill",
+                "Resurrect",
+                "Special"
+            ],
+            "Cost": "32 Energy",
+            "SimplifiedDescription": "Sacrifice a living creature to revive or heal another.",
+            "Text": [
+                "You attempt to siphon the raw life force of beings from one to another.",
+                "Select one or more targets to be the sacrifice.",
+                "Save: Any of the target’s current Vitality, Mana, Resolve, or Energy >= User Intuition",
+                "The Save is automatically failed if the target consents.",
+                "You may Instant Kill any target which fails the Save.",
+                "When you kill a creature in this fashion, you may gain a special type of essence, depending on the type of creature sacrificed. If the creature is sentient, conscious, or possesses a soul (as determined by the DM), you will gain a Soul Essence. Otherwise, you gain a Life Essence.",
+                "A Life Essence may be used to fully restore your Essence Points or a dynamic of your choice, or to revive a small creature.",
+                "A Soul Essence may be used to fully restore your Essence Points or all of your dynamics, or to revive any creature with one in every dynamic.",
+                "If you have the Bloody Tears ability:",
+                "You may also choose to create a Tear of Life / Tear of Souls.",
+                "Tear of Life: Fully restores one of the user’s dynamics, at the will of the user, including Energy. May also be used to instantly revive a small creature, if it is willing. Will immediately expire if not contained via magic.",
+                "Tear of Souls: Fully restores all of the user’s dynamics, including Energy. May also be used to revive a creature, if they are willing. Will immediately expire if not contained via magic."
+            ],
+            "Lore": ""
+        }
+    ],
+    "DevNotes": [],
+    "Version": "1.1"
+}

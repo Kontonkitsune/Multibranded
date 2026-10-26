@@ -1,0 +1,228 @@
+{
+    "BrandName": "Stormbringer",
+    "BrandType": "Combat",
+    "Complexity": "3",
+    "ComplexityText": "Most of the Stormbringer's abilities rely on knowing the battlefield. There is a lot of situational knowledge required to play the class well, as it has access to a lot of individual effects.",
+    "Description": "The Stormbringer creates and utilizes ||Weather|| in order to gain a tactical advantage for themselves and their allies.",
+    "CharacterDescription": "WIP",
+    "CharacterTraits": [
+        "WIP"
+    ],
+    "SpecialSkill": "WIP",
+    "SpecialSkillText": "",
+    "InnateSkills": [
+        ""
+    ],
+    "ProgenitorName": "WIP",
+    "ProgenitorLore": "WIP",
+    "MainStat": "Will",
+    "Substat1": "Fortitude",
+    "Substat2": "Tempo",
+    "LeftBranch": "Unique Weather",
+    "MiddleBranch": "Weather Enhancement",
+    "RightBranch": "Tactical Advantage",
+    "Definitions": [
+        {
+            "Name": "Weather",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "Any weather or conditions of an area which are similar to one of the Stormbringer abilities may be considered to be that type of weather for abilities which would augment them. ",
+                "For example, though an area with a high temperature wouldn’t deal Fire-type damage like Warm Front, you could still augment it with Cold Front to create Harsh Winds. Likewise, any area with strong wind force could be augmented like Harsh Winds."
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "Talents": [
+        {
+            "Name": "Weather Zone",
+            "Keywords": [
+                "Spell",
+                "Weather",
+                "AoE"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Create a Warm Front or Cold Front. When interacting, they create weather effects.",
+            "Text": [
+                "You magically create a major weather effect ",
+                "Damage: 1x Spell Power (Form: Magical)",
+                "Aspects: Fire, Ice, Water, Wind",
+                "Depending on the aspect chosen, different effects occur:",
+                "(Fire) Warm Front: The air around you immediately becomes Hot Air. When coming into contact with Cold Air, a Rain Cloud forms in the area overlapping them.",
+                "(Ice) Cold Front: The air around you immediately becomes Cold Air. When coming into contact with Hot Air, Harsh Winds form in the area overlapping them.",
+                "(Water) Rain Cloud: Immediately form a Rain Cloud. When a Rain Cloud forms, it starts raining heavily, drenching the surrounding area. A thick fog forms beneath it, causing all creatures within the area of effect to gain an additional level of Cover.",
+                "(Wind) Harsh Winds: Immediately create Harsh Winds. When Harsh Winds form, any Clouds in the area are immediately dispelled. Within the range of Harsh Winds, creatures take increased damage from Warm and Cold Front. The damage of those spells become 2x Spell Power."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Warped Winds",
+            "Keywords": [
+                "Spell",
+                "Weather"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Upgrade to Harsh Winds which can weaken an opponent's mind.",
+            "Text": [
+                "Upgrade to Harsh Winds",
+                "Form: Magical",
+                "Aspects: Cosmic (Psychic, Radiant, or Void)",
+                "Replaces the wind typing and has an additional effect related to "
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Storm Infusion",
+            "Keywords": [
+                "Spell",
+                "DoT",
+                "AoE"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Energize a Rain Cloud to make dangerous weather.",
+            "Text": [
+                "Upgrade to Rain Cloud",
+                "Range: 60 ft. ",
+                "Damage: 1x Spell Power (Form: Magical) ",
+                "Aspects: Energetic (Lightning, Fire, Ice)",
+                "When cast on a Rain Cloud, it becomes a Storm Cloud, with a subtype depending on the chosen aspect. Storm Clouds are considered as Rain Clouds, and can be targeted by Storm Infusion to change the subtype, or modified by other spells, replacing the Storm Cloud.",
+                "Regardless of aspect, all creatures who begin their turn under a Storm Cloud take Magical damage of the chosen aspect, equal to 1x your Spell Power. This does not affect you, but it may affect allies.",
+                "Subtypes:",
+                "(Fire) Boiling Rain: The damage at the beginning of the turn increases to 2x your Spell power. Boiling Rain additionally counts as Hot Air.",
+                "(Ice) Blizzard: Creatures beginning their turn in a Blizzard only receive half their normal movement. Blizzard additionally counts as Cold Air.",
+                "(Lightning) Thunderstorm: At the beginning of your turn, the creature within the radius who is the most conductive (such as by wearing metal armor) will be struck with Lightning, dealing Lightning damage equal to 2x your Spell Power. Only one creature may be struck by lightning per turn. "
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Storm Soul",
+            "Keywords": [
+                "Special"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Weather immunity",
+            "Text": [
+                "You are completely unimpeded by Rain Clouds, Storm Clouds, and other forms of your weather."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Pandemic",
+            "Keywords": [
+                "Spell",
+                "Weather"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Create a cloud of toxic gas which poisons those who walk within it.",
+            "Text": [
+                "Aspects: Entropic (Acid, Poison, Decay)"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Harm Seeding",
+            "Keywords": [
+                "Spell",
+                "Enhance"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Imbue a Rain Cloud with ",
+            "Text": [
+                "Upgrade to Rain Cloud",
+                "Damage: 1x Spell Power (Form: Magical) ",
+                "Range: Touch. Duration: 1 day",
+                "Aspects: Entropic (Acid, Poison, Decay)",
+                "Use on a piece of food, water, or other item. Any person who consumes this item becomes ill and takes equivalent damage. This may also be used on ammunition.",
+                "If used on a Rain Cloud, it becomes a Toxic Cloud, which lasts for 3 turns.",
+                "(Acid) Acidify: Creatures beginning their turn inside the cloud take Equivalent damage."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Eruption",
+            "Keywords": [
+                "Spell",
+                "Weather"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Create a Terrestrial weather effect which disrupts the terrain.",
+            "Text": [
+                "Aspects: Terrestrial (Wind, Water, Earth)",
+                "(Wind) Smog: ",
+                "(Water) Tsunami: ",
+                "(Earth) Volcano: "
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Tornado",
+            "Keywords": [
+                "Spell",
+                "Enhance "
+            ],
+            "SimplifiedDescription": "Upgrade to Harsh Winds",
+            "Text": [],
+            "Lore": ""
+        },
+        {
+            "Name": "Storm of Stone",
+            "Keywords": [
+                "Spell",
+                "AoE"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Create a storm of stones.",
+            "Text": [
+                "Hail",
+                "Meteor Shower"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Widow’s Thorns",
+            "Keywords": [
+                "Spell",
+                "Weather"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Roots and thorns grow from the ground, with various effects depending on the current weather",
+            "Text": [
+                "Type: Choice from Decay, Acid, or Poison damage",
+                "Has additional effects based on the ",
+                "Bloom: When under a Rain Cloud, ",
+                "Wither: When under an Acid Rain Cloud, "
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Storm-Primed",
+            "Keywords": [
+                "Passive"
+            ],
+            "SimplifiedDescription": "Any weather created by you can be infused through any normal elemental infusion.",
+            "Text": [],
+            "Lore": ""
+        },
+        {
+            "Name": "Maelstrom",
+            "Keywords": [
+                "Spell",
+                "Weather"
+            ],
+            "Cost": "32 Energy",
+            "SimplifiedDescription": "A massive storm which deals null-aspect damage",
+            "Text": [
+                "Mutually exclusive to any other type of Weather.",
+                "Maelstrom: "
+            ],
+            "Lore": ""
+        }
+    ],
+    "DevNotes": [],
+    "Version": "0.9"
+}

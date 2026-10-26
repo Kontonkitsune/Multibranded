@@ -266,6 +266,26 @@
             "Lore": [
                 "The epitome of destruction magic, and the simplest of any magic spell: Build and release. You collapse an innumerable amount of raw, unfiltered, elemental mana into your body, and then you detonate it. Elemental mana has a variety of properties, and so depending on the aspect used, it will do different things. Suffice to say, though, that it should NOT be used like this. Exercise extreme caution, because more often than not, this very tactic will hurt the user far more than it will hurt others."
             ]
+        },
+        {
+            "Name": "Extended Aspect",
+            "Keywords": [
+                "Special"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Pay extra dynamics to use a ||Dynamic Aspect|| ability with any aspect of your choice.",
+            "Text": [
+                "When using an ability with Dynamic Aspect (Spell, Strike, or Word), you may additionally pay half the action's Energy cost as another Dynamic to gain access to an aspect of your choice. Depending on the Aspect, different Dynamics are required:",
+                "Energy: ||Kinetic||",
+                "Vitality: ||Sharp||, ||Blunt||",
+                "Mana: ||Energetic||, ||Terrestrial||, ||Entropic||",
+                "Resolve: ||Cosmic||,||Emotional||"
+            ],
+            "Lore": [
+                ""
+            ]
         }
-    ]
+    ],
+    "DevNotes": [],
+    "Version": "?"
 }

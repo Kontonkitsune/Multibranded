@@ -1,0 +1,201 @@
+{
+    "BrandName": "Spectralist",
+    "BrandType": "Combat",
+    "Complexity": "0",
+    "ComplexityText": "WIP",
+    "Description": "WIP",
+    "CharacterDescription": "WIP",
+    "CharacterTraits": [
+        "WIP"
+    ],
+    "SpecialSkill": "WIP",
+    "SpecialSkillText": "",
+    "InnateSkills": [
+        ""
+    ],
+    "ProgenitorName": "WIP",
+    "ProgenitorLore": "WIP",
+    "MainStat": "Control",
+    "Substat1": "Will",
+    "Substat2": "Mystique",
+    "LeftBranch": "Illusion",
+    "MiddleBranch": "Planebending",
+    "RightBranch": "Miscellany",
+    "Definitions": [],
+    "Talents": [
+        {
+            "Name": "Spectral Barrier",
+            "Keywords": [
+                "Spell",
+                "Special"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "",
+            "Text": [
+                "Power: 1x Intuition",
+                "The barrier is always exactly 1 inch thick. ",
+                "The barrier blocks physical matter, sound and other psychic effects, and magic. ",
+                "The barrier may not be placed through any creature, and it may not push against any non-ally creature.",
+                "Shell:",
+                "Target: Unit or point within 20 feet Range.",
+                "Create a shell which encapsulates the point in a perfect sphere. ",
+                "The shell’s maximum diameter is 10 feet in any direction.",
+                "Plane:",
+                "Target: Unit or point within 20 feet Range.",
+                "Create a wall (or plane) barrier extending from the chosen point.",
+                "This plane can be of any two-dimensional shape, but must be flat.",
+                "The plane’s maximum diameter is 10 feet in any direction. "
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Freeflowing Arts",
+            "Keywords": [
+                ""
+            ],
+            "SimplifiedDescription": "",
+            "Text": [
+                "Your barrier can now deal damage when moving.",
+                "Aspect: Sharp (Piercing, Slashing, Chopping) or Blunt (Pummeling, Smashing, Impact)",
+                "Augment the barrier to be able to cut through things or deal damage when moving. The barrier can be made to be thinner or thicker."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Split Concentration",
+            "Keywords": [
+                ""
+            ],
+            "SimplifiedDescription": "",
+            "Text": [
+                "You can make multiple barriers at the same time."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Permeable Barrier",
+            "Keywords": [
+                ""
+            ],
+            "SimplifiedDescription": "",
+            "Text": [
+                "Augment the barrier to be permeable to either Physical, Magical, or Mental types."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Phantasmal Weapon",
+            "Keywords": [
+                ""
+            ],
+            "SimplifiedDescription": "",
+            "Text": [
+                "Turn your barrier directly into a weapon."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Gravity",
+            "Keywords": [
+                "Special",
+                "Crowd Control"
+            ],
+            "Cost": "32 Energy",
+            "SimplifiedDescription": "",
+            "Text": [
+                "The direction and force of gravity bends to your will and changes to what you would prefer until the beginning of your next turn.",
+                "AoE: Entire room, or 160 feet (40 tiles). Centered upon you.",
+                "Extend (12 Energy): At the beginning of your turn, when the effect would end, you may instead pay the cost to extend the duration until the beginning of your next turn."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "DevNotes": [],
+    "Version": "Incomplete"
+}

@@ -172,7 +172,7 @@ function TalentImportSave() {
         currentBrand.Talents[TalentNumber].Keywords = talent2[1].split(" - ")[0].split(" / ") 
         currentBrand.Talents[TalentNumber].Cost = talent2[1].split(" - ")[1]
         currentBrand.Talents[TalentNumber].SimplifiedDescription = talent2[2]
-        currentBrand.Talents[TalentNumber].Text = talent2.slice(3)
+        currentBrand.Talents[TalentNumber].Text = talent2.slice(3).filter(line => line.trim().length > 0)
         currentBrand.Talents[TalentNumber].Lore = ""
         
         TalentNumber += 1
@@ -180,6 +180,28 @@ function TalentImportSave() {
 
     DisplayJSON(currentBrand)
     document.getElementById("Dialog").innerHTML = ""
+}
+function ImportSingleTalent(talentNumber) {
+    var genhtml = ""
+    genhtml += `<dialog open>`
+    genhtml += `Import:<br><textarea style="width: 500px; height: 500px;" id="DialogTextArea" ></textarea><br>`
+    genhtml += `<input type="button" value="Cancel" onClick="document.getElementById('Dialog').innerHTML = '' ">`
+    genhtml += `<input type="button" value="Save" onClick="SingleTalentImportSave(${talentNumber})">`
+    genhtml += `</dialog>`
+    document.getElementById("Dialog").innerHTML = genhtml
+}
+function SingleTalentImportSave(talentNumber) {
+    const talent2 = document.getElementById("DialogTextArea").value.split("\n")
+    currentBrand.Talents[talentNumber].Name = talent2[0]
+    currentBrand.Talents[talentNumber].Keywords = talent2[1].split(" - ")[0].split(" / ") 
+    currentBrand.Talents[talentNumber].Cost = talent2[1].split(" - ")[1]
+    currentBrand.Talents[talentNumber].SimplifiedDescription = talent2[2]
+    currentBrand.Talents[talentNumber].Text = talent2.slice(3).filter(line => line.trim().length > 0)
+    currentBrand.Talents[talentNumber].Lore = ""
+
+    DisplayJSON(currentBrand)
+    document.getElementById("Dialog").innerHTML = ""
+
 }
 
 function DefinitionEdit(DefinitionNumber) {
@@ -532,6 +554,7 @@ function DisplayJSON(brand) {
         curtalenthtml += `<summary><h3 class="talent">${talent.Name}</h3><div> (${BrandLayout[brand.BrandType][itervar]})`
         if (editmode) curtalenthtml += ` <input type="button" value="Edit Talent" onClick="TalentEdit(${itervar})">`
         if (editmode && itervar != 0) curtalenthtml += ` <input type="button" value="Swap Above" onClick="SwapTalentUp(${itervar})">`
+        if (editmode) curtalenthtml += ` <input type="button" value="Import Talent" onClick="ImportSingleTalent(${itervar})">`
         curtalenthtml += `</div><br>`
         itervar += 1
         var flag = false

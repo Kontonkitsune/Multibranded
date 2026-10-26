@@ -1,0 +1,307 @@
+{
+    "BrandName": "Animator",
+    "BrandType": "Combat",
+    "Complexity": "5",
+    "ComplexityText": "The Animator maintains control over many separate objects via their Animation abilities. They can manipulate objects telekinetically through a variety of means, and can use this to great effect. Not recommended for new players to Multibranded.",
+    "Description": "The Animator is a brand which focuses on animating objects via telekinesis. They can imbue objects with temporary wills, and entangle objects to reflect changes between them.",
+    "CharacterDescription": "People who have the animator’s brand seek control over situations outside one’s ability to manage. They’re often, though not necessarily, internally motivated by loneliness. They may also find great joy in demonstrating concepts, especially through physical means, like models.",
+    "CharacterTraits": [
+        "Ascribing human characteristics to non-human objects is my primary means of coping with loneliness.",
+        "Death need not be the end of a legacy; the things we leave behind tell our tale and carry on our will.",
+        "There’s a sacred and inherent beauty in the world and its workings that I wish to show others.",
+        "The world is too harsh to exist in as it is: I need to create my own."
+    ],
+    "SpecialSkill": "Telekinesis",
+    "SpecialSkillText": "You can move around objects at will. So long as they are an object which you could reasonably carry, you can do so with your magic nearly effortlessly.",
+    "InnateSkills": [
+        "Spell Sense (Detection of enchantments, witchery, or otherwise)",
+        "Object Animism (Knowing the history or feelings imbued within an object, seeing its 'soul')",
+        "Simple Machine Operation (You can make machines work better than they should)"
+    ],
+    "ProgenitorName": "Neon the Lonely Prince",
+    "ProgenitorLore": "Fragments of writing record dancing swords performing simple household tasks. As the nation’s elite knight task force approached, a surreal experience was seared into the guards’ worldview: A city of inanimates, given characteristics and jarringly, life - beyond all reason. When all were reduced to nothing by famine, one child remained. Any mention of the blight produced his ire, but otherwise ‘Neon’ was amicable to all. With animated weaponry occupying every domicile, the amicability felt like a heavensend to heralded ‘fearless’ men who couldn’t help soiling themselves when every weapon--er, PERSON--moved in response to the boy’s irritation.",
+    "MainStat": "Ego",
+    "Substat1": "Will",
+    "Substat2": "Control",
+    "LeftBranch": "Automated Actions",
+    "MiddleBranch": "Sympathy Magic",
+    "RightBranch": "Grandeur",
+    "Definitions": [
+        {
+            "Name": "Animated",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "Objects which have been given a temporary will",
+                "They will follow your commands exactly and to the letter, but are capable of moving on their own.",
+                "Any animated weapon is capable of performing an Automated Attack against enemies within its reach."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Automated Attack",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "A strike performed by an animated item, wherein only the Power of the equipment itself is considered when dealing damage. The damage is equal to Weapon Power times its size multiplier.",
+                "The Energy cost for an automated attack is halved."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Sympathy Strike",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "A strike performed simultaneously by two or more Empathized items. This may also be a Spell or a Word, however, all weapons during a Sympathy strike must share the same Form.",
+                "Performing a Sympathy Strike costs Energy equal to the sum normal attack energy cost of all linked weapons, minus one for each weapon in the linked attack. This may not reduce the cost below 1 Energy per weapon.",
+                "During a Sympathy Strike, you make an attack with each weapon against their respective target(s). These attacks use the same stats as the respective weapons’ basic attacks.",
+                ""
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "Talents": [
+        {
+            "Name": "Animate Object",
+            "Keywords": [
+                "Spell",
+                "Animate"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Enchant an object to follow your will, and control it with telekinesis.",
+            "Text": [
+                "The target item becomes Animated, and you may directly control it via telekinesis within a range of 40 feet.",
+                "While multiple items may be animated at once, you may only use your telekinesis to move one animated item per turn. ",
+                "Using telekinesis to move items and objects requires your concentration. Keeping an object suspended or frozen in place does not require your concentration, however (and is the natural state of an animated item).",
+                "Upkeep (1 Energy or 1 Resolve): This cost must be paid at the beginning of your turn for each item which is currently Animated. This upkeep is also paid out of combat, instead reducing your energy regeneration by 1 per object."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Vigil",
+            "Keywords": [
+                "Spell",
+                "Animate"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Create a procedure for an animated object to follow automatically.",
+            "Text": [
+                "Create a simple program which an Animated object will follow.",
+                "The object will continue to run its procedure until it is stopped, the procedure is cancelled, or the object stops being Animated. If the object reaches more than 80 feet from you, it will immediately stop being Animated. ",
+                "This procedure will run in a loop until it is stopped.",
+                "Triggers that can be observed by this object include:",
+                "Wait until you say a trigger word. (This is probably the most generally useful).",
+                "Waiting a specific amount of time (in turns, or a unit of time).",
+                "Performing minor interactions with the environment. (If the object gets stuck, the procedure will be cancelled).",
+                "Wait until a certain condition happens (such as certain sounds, or until the object is impeded)",
+                "Wait until an enemy is in range, or until an enemy attacks you.",
+                "Actions that can be automatically performed by this object include:",
+                "Moving, either with an absolute position, or a position relative to you. The object moves via telekinesis.",
+                "Anything the object is innately capable of something (such as a piano being able to play notes), then this may be included as well.",
+                "Make an attack against an enemy. This will be considered as an Automated Attack, and once any single attack is finished, the procedure will immediately finish, and the object returns to simply being Animated.",
+                "When the procedure is stopped, you will immediately know.",
+                "Conflicts within Neon's domain were known to begin long before the aggressor drew arms. And they were often over just as quickly."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Empathy",
+            "Keywords": [
+                "Spell",
+                "Animate"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Entangle two similar animated items so that changes that happen to one happen to both.",
+            "Text": [
+                "You create a bond between two or more Animated objects, generally weapons. Any changes to one object will mirror the other. For example, picking up one of them will cause the other to float in the air. ",
+                "The two items must be of the same general class of item, or otherwise be able to be justified to be the same sort of item. For example, a greatsword and a dagger.",
+                "The weight of both items are combined when it comes to wielding the item.",
+                "If one of the items is impeded, the other is impeded in the same manner.",
+                "When making an attack with an Empathized weapon, it instead becomes a Sympathy Strike. (See brand definitions)",
+                "This effect will last until the Empathy effect is cancelled, or either of the objects stops being Animated.",
+                "Social Graces are a powerful motivator… even between like blades."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Monstrous Growths",
+            "Keywords": [
+                "Spell",
+                "Animate"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Animate the plants around you to slow down your foes.",
+            "Text": [
+                "Animate a section of medium-sized plant life, living or not, within 40 feet of you (such as vines, a fly trap, swamp grasses, or poisonous undergrowth). This section can be no wider than a 12 foot radius. This can also be used on plant-like terrain (such as wires simulating vines, or a mass of cloth simulating a plant cover).",
+                "This plant rapidly grows in size and becomes aggressive flora, trapping and impeding all but you and your allies, through any manner they reasonably could (such as vines constricting, a fly trap snapping, swamp grasses rooting a leg, or undergrowth bending to poison an adversary).",
+                "When an enemy walks through an area with this growth, the plants attempt to constrict their movement.",
+                "Save: Target Strength >= user Will",
+                "If an enemy fails this Save, they will be constricted, and their movement is stopped for the remainder of their turn. On their subsequent turn, their movement is reduced by half.",
+                "It's mortifying to be humbled by the wilderness itself. Nothing debilitates an army faster than the dampening realization they're unequipped to face the wilds, let alone the adversary."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Puppeteering",
+            "Keywords": [
+                "Spell",
+                "Animate",
+                "Special"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Animate yourself to perform some actions automatically when certain triggers occur. Create your own reactions.",
+            "Text": [
+                "You animate you or an ally’s body to continue running, even when they are not consciously willing it to. ",
+                "Similarly to Vigil, you can create a procedure to continuously run, allowing you to automate your own actions.",
+                "In addition to the simple procedures outlined in Vigil, your commands may be slightly more complex. This is not an exhaustive list:",
+                "Sleep: Postpone the procedure and restore control to the creature in question, without removing the procedure. The procedure may then reactivate when a given scenario occurs.",
+                "Reflexive Action: When a given scenario occurs, force the target to immediately perform any single simple action, such as the Block, Dodge, or a Weapon Attack. The cost for this action is paid upfront when creating this Reaction, and is executed for free upon reflex. When this occurs, the procedure ends, unless you additionally pay the Upkeep cost in addition to the action’s cost.",
+                "Senses: Procedures can utilize the creature’s own senses in order to make decisions, such as a Reflex.",
+                "The creature will continue to run its procedure until the creature cancels it, upkeep cost is not paid. If the creature reaches more than 80 feet from you, the procedure will immediately be cancelled.",
+                "This procedure will run in a loop until it is stopped.",
+                "If the creature is not consciously willing when the spell is cast, they must make a Save (Target Will >= User Will). On a success, the spell’s effect is nullified. Otherwise, if at any point the creature would succeed the save while consciously objecting to it, the spell is broken.",
+                "When the procedure is stopped, you will notice immediately.",
+                "Upkeep (2 Energy): This energy cost is paid even out of combat, instead reducing the energy you gain by 2."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Relativity Lock",
+            "Keywords": [
+                "Animate",
+                "Special"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Entangle two items such that they are always at the same relative position to each other. Effectively, magical glue.",
+            "Text": [
+                "Choose two or more Animated items. These items become Locked until either the lock is released, or either item stops being Animated.",
+                "These items are effectively combined into one single item. Their relative distance, rotation, and positions are locked in place.",
+                "For example, if you were to place one sword on top of another, and then lock them, they would act as though they were a single contiguous piece of metal. This occurs even when there is empty space between the items.",
+                "Among two items which are already in contact, this would appear to an average person as though the two items are perfectly glued together. The same principle applies to objects which aren’t physically touching. They would appear as though an invisible piece of material connected them.",
+                "When attempting to lift any locked items, the weight of all locked items are combined.",
+                "Locked items share their Animate Upkeep cost.",
+                "When attacking with Locked weapons, their stats are combined. Power and Weight for all items are summed up. Attacks made this way always cost 8 Energy, and deal damage equal to 1x Strike Power."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Sympathy",
+            "Keywords": [
+                "Spell",
+                "Strike",
+                "Animate"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Force a non-animated item to entangle with one of yours. Can make enemies’ equipment malfunction.",
+            "Text": [
+                "Empathize a target weapon within a 40 foot range, which may include equipment held by an enemy. The target weapon does not need to be Animated.",
+                "If the weapon is held by an enemy target, you may immediately perform a Sympathy Strike against that enemy.",
+                "Empathy is a feeling shared, but Sympathy is more extreme. A version of Empathy which doesn’t require that aspect of shared experience. To experience, simply because another has experienced. The process may be reversed. To force another to experience what you have."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Carry the Torch",
+            "Keywords": [
+                "Enhance"
+            ],
+            "Cost": "3 Energy",
+            "SimplifiedDescription": "Transmit aspects across entangled items. If one is on fire, the other ignites.",
+            "Text": [
+                "This ability can be used when you have three or more weapons actively linked via empathy.",
+                "Choose a damage type generated by another spell or ability you know. As an additional cost, pay that ability's energy cost. ",
+                "Apply the chosen type to apply to all weapons simultaneously - the type will persist until the beginning of your next turn.",
+                "All damage dealt by the weapons will be converted to the selected type.",
+                "With a brazen enough Ego, others are conformed as easily as a whim."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Arise",
+            "Keywords": [
+                "Spell",
+                "Animate"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Reanimate a corpse or similar to perform automated actions. They can perform slightly more complex actions.",
+            "Text": [
+                "Animate a corpse, effigy, or inoperable construct. ",
+                "The reanimated creature attempts to follow a simplified version of its original directive. If it has recently died, it will attempt to resume what it was doing prior.",
+                "The reanimated creature is not intelligent, nor is it considered undead. It is still a corpse, effigy, or inoperable construct. It is merely “pretending” to be alive.",
+                "The reanimated creature may have natural or programmed reactions, such as starting or stopping its movement, performing a dance, or turning towards a target. The programmed or natural reactions cannot respond to complex situations.",
+                "From far away, this may appear to be alive, but it is fairly obvious upon any real inspection. ",
+                "This approximation of life is fragile, yet a testament to yet untapped potential within the Animation art."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Delusion",
+            "Keywords": [
+                "Spell",
+                "Create",
+                "Animate",
+                "Sympathy"
+            ],
+            "Cost": "8 Energy, 10 Resolve",
+            "SimplifiedDescription": "Create the specter of an item from thin air which follows your command.",
+            "Text": [
+                "With the same specifics of sympathy, create a figment of an item that joins an existing sympathetic bond.",
+                "This item need not exist. It is a hallucinated copy of another sympathized item. This item has an additional upkeep cost of 2 EN.",
+                "The paragon of virtue is the practitioner of moderation. The extreme of empathy is sympathy, and the extreme of sympathy is delusion."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Autophobia",
+            "Keywords": [
+                "Spell",
+                "Word",
+                "Animate",
+                "AoE"
+            ],
+            "Cost": "16 Energy",
+            "SimplifiedDescription": "Wildly animate everything in a large radius to a few key effects for a tactical advantage.",
+            "Text": [
+                "Tapping deeply into the essence of the brand, you let your mind run rampant, burrowing deep into primal emotions. ",
+                "Aspect: Choose from (Despair, Fear, Rage)",
+                "All objects currently animated by you forget their orders entirely, and every object not currently wielded, including those that are animated by you or another party, instantly go Haywire.",
+                "Haywire: Depending on the Aspect chosen for this attack, there are differing effects.",
+                "(Despair): All Haywire objects begin to cluster around you. When an enemy approaches you within 16 feet, or attempts to attack you, all Haywire weapons launch simultaneous Automated Attacks on the target in succession.",
+                "(Rage): When a creature other than you enters within 8 feet (or their Reach, whichever is higher) of a Haywire weapon, the weapon immediately launches an Automated Attack against them. Each Haywire weapon may only do this once per turn, and if multiple targets are present, they will attack one at random.",
+                "(Fear): ",
+                "Return to the roots of the brand, the fear of isolation and the craving for control that feed each other in an ouroboros."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "I Still Need You",
+            "Keywords": [
+                "Ritual"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "Enchant the soul of a dead sentient creature into a weapon they were close to.",
+            "Text": [
+                "When a consenting player character or ally has died and their corpse is accessible this ability may be used.",
+                "Requires one object (preferably weapon) of spiritual significance to the character.",
+                "Select one applicable object. This object hosts their residual will and may act autonomously. If a weapon, additional rules apply.",
+                "This weapon needs to be reanimated at the beginning of every combat, but retains consciousness across combat encounters.",
+                "This weapon has no upkeep cost.",
+                "This weapon can orbit your character within a radius of 15 feet freely and can make an unassisted weapon strike each turn.",
+                "We said we'd see a new dawn for this city together. I'll reject any dawn which doesn't include you."
+            ],
+            "Lore": ""
+        }
+    ],
+    "DevNotes": [],
+    "Version": "1.2"
+}

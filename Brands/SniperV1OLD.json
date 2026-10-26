@@ -1,0 +1,234 @@
+{
+    "BrandName": "Sniper",
+    "BrandType": "Combat",
+    "Complexity": "3",
+    "ComplexityText": "The Sniper requires reasonable ammo management as well as knowing how to position yourself so that enemies won’t take advantage. It can be difficult to find places to utilize the brand effectively in close-quarters combat.",
+    "Description": "The Sniper specializes in long-ranged attacks, capable of performing otherwise impossible shots from a far range. They enchant their ammunition before and during combat in order to allow their shots to pierce through enemies and make sudden turns. They also gain bonuses for doing things at a long range.",
+    "CharacterDescription": "Those who take on the sniper’s brand are diligent, but often cautious. If violence must be meted out, they wish it to be non-disruptive. They may emphasize stewardship of the world and its resources and often desire to minimize evidence of human activity, particularly warfare. ",
+    "CharacterTraits": [
+        "Once, in my past, someone’s unpreparedness caused a tragedy which befell me. I have never been the same since.",
+        "My dealings with the natural world taught me the patience important to a successful predator.",
+        "War ravaged my world. If I must participate in its barbarism, I’ll leave no trace of the deed.",
+        "I firmly believe that a single killing today can prevent the bloodshed of tomorrow."
+    ],
+    "SpecialSkill": "WIP",
+    "SpecialSkillText": "",
+    "InnateSkills": [
+        ""
+    ],
+    "ProgenitorName": "Kera, the Harmonic Soul",
+    "ProgenitorLore": "As Kera climbed deftly into the bough of the towering tree, the grass that would testify to her path had already settled back into the whimsy of the wind. Shifting her view to the breadth of the plain, her accelerated breath steadied into a normal, casual cadence that belied the gravity of today’s task. Hazel eyes surveyed the grasses that concealed many more like her; firearms of this century and traps of the millenia before lay invisible in the sea of green and yellow. Life takes from life, and sentients were considered the disruptor of this cycle. Yet, the fact that every part of the infected otherworldly creature would find use in their own lives and the wilderness around them proved that what was disruptive could be made harmonious. The innovation of this century and their gift to all descendents would be a world free from the incomprehensible blight they had released.\n",
+    "MainStat": "Control",
+    "Substat1": "Tempo",
+    "Substat2": "Will",
+    "LeftBranch": "Stealth",
+    "MiddleBranch": "Sniping",
+    "RightBranch": "Magic Shots",
+    "Definitions": [
+        {
+            "Name": "Clarity",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "The maximum amount of Clarity you have is equal to your Control.",
+                "All Clarity is recovered at the beginning of your turn.",
+                "Whenever an ability would modify a Ranged basic attack, you may pay the Energy cost for the ability using Clarity instead of Energy."
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "Talents": [
+        {
+            "Name": "Aiming Stance",
+            "Keywords": [
+                "Stance"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "A Stance which increases Accuracy and Range for Ranged attacks.",
+            "Text": [
+                "While in this stance, gain the following effects:",
+                "Accuracy increases by 1x Tempo for all Ranged attacks.",
+                "Your Range increases by 40 feet for Ranged attacks.",
+                "You cannot move while in a stance.",
+                "Upkeep (2 Energy): The duration of the stance is extended until the beginning of your next turn."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Farsighted",
+            "Keywords": [
+                "Passive"
+            ],
+            "SimplifiedDescription": "Increased accuracy at long range.",
+            "Text": [
+                "When you make a Ranged attack against targets more than 60 feet away from you, the Accuracy for this attack is increased by 1x Control."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Overloading",
+            "Keywords": [
+                "Special"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Fire multiple projectiles at once.",
+            "Text": [
+                "When Loading or Nocking a Ranged weapon, you may choose to add up to two additional projectiles. ",
+                "Your range and accuracy for this shot is reduced by a fourth of their original value.",
+                "When firing in this manner, you can choose an amount of targets equal to the amount of ammo in the current shot. The distance between any two targets of this shot cannot exceed 16 feet.",
+                "Empower (2 Energy): You may add an additional two projectiles to the same shot. The accuracy for each shot is instead reduced by half of their original value."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Abnormal Trajectory",
+            "Keywords": [
+                "Modify Shot"
+            ],
+            "Cost": "2 Energy",
+            "SimplifiedDescription": "Cause your shots to suddenly turn during its trajectory.",
+            "Text": [
+                "You cast a minor enchantment upon a single piece of your ammunition.",
+                "When this projectile is fired, the user can will it, at any point in its path, to abruptly change the direction of its velocity, while maintaining its speed. ",
+                "Before loosing a ranged projectile, the player may decide on one predetermined abrupt turn up to a 90 degree angle within its flight path.",
+                "This can be cast up to 3 times on the same piece of ammunition, and lasts for a maximum of one minute.",
+                "Ritual (1 Time Slot): You can instead cast this enchantment on up to 10 pieces of ammunition for the spell’s maximum effect (3 trajectory changes). The enchantment becomes permanent."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Reflexive Trigger",
+            "Keywords": [
+                "Reaction",
+                "Counter"
+            ],
+            "Cost": "2 Energy",
+            "SimplifiedDescription": "Fire when enemies approach you.",
+            "Text": [
+                "Trigger: When an enemy target approaches you, entering the area within your line of sight and within half of your current Range (or 20 feet).",
+                "Make an attack against the target with a currently-equipped ranged weapon.",
+                "Form / Aspect: Inherit from weapon.",
+                "Damage: 1x (Strike/Spell/Word) Power"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Vital Shot",
+            "Keywords": [
+                "Modify Shot"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Deal critical damage if your shot is far more accurate.",
+            "Text": [
+                "If your Accuracy for this shot is equal to or greater than 2x the target’s Dodge, your Strike Power for the attack is doubled.",
+                "If your Accuracy for this shot is equal to or greater than 4x the target’s Dodge, your Strike Power for this attack is tripled instead."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Piercing Shot",
+            "Keywords": [
+                "Modify Shot"
+            ],
+            "SimplifiedDescription": "Fire a shot which pierces through enemies.",
+            "Text": [
+                "This shot gains Pierce (1), and will pierce through the first target in its trajectory without losing significant speed. Damage is halved for all targets after the first. When there is no more Pierce left, and the shot hits a target, it will disintegrate.",
+                "Empower (4 Energy) x2: The Pierce effect increases by 1."
+            ],
+            "Lore": "",
+            "Cost": "4 Energy"
+        },
+        {
+            "Name": "Spell Loading",
+            "Keywords": [
+                "Special",
+                "Modify Shot"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Load spells into your ammo to activate at impact.",
+            "Text": [
+                "Imbue a single piece of ammunition with any Spell or Word you can use, paying upfront the cost for the ability you imbue.",
+                "The ability will activate when the projectile hits anything, regardless of whether it was the intended target. ",
+                "The primary target of the spell will be what the projectile first hits, whether this is a creature or terrain.",
+                "Only one imbuement may be active on a given piece of ammunition. The imbuement lasts for a maximum of one minute.",
+                "Ritual (1 Time Slot): You can instead cast this enchantment on up to 5 pieces of ammunition. The maximum total cost for the imbued spell must be less than 12. The enchantment becomes permanent."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Eagle-Eyed",
+            "Keywords": [
+                "Passive"
+            ],
+            "Text": [
+                "When making a weapon attack with a Ranged weapon, the Range for this attack increases by half its original value, up to 40 feet.",
+                "If Aiming Stance is active, the Range for this attack is instead doubled, up to a 60 foot increase."
+            ],
+            "Lore": "",
+            "SimplifiedDescription": "Increase Range for weapons."
+        },
+        {
+            "Name": "Tactical Maneuver",
+            "Keywords": [
+                "Special"
+            ],
+            "SimplifiedDescription": "Move while retaining a stance.",
+            "Text": [
+                "While any Stance is active, you may move at the end of your turn for half your normal movement without breaking your Stance."
+            ],
+            "Lore": "",
+            "Cost": "2 Energy"
+        },
+        {
+            "Name": "Mystic Projectile",
+            "Keywords": [
+                "Create Ammunition"
+            ],
+            "Text": [
+                "You create a projectile out of pure Mana, which may be any type of normal ammunition (can be an arrow, bullet, dart. Cannot be a grenade. etc.)",
+                "When creating this projectile, you may select from (Physical, Magical, Mental).",
+                "When this ammunition is fired, the attack instead deals damage of the chosen form.",
+                "This projectile has Pierce (2), and will pierce through up to 2 targets in its trajectory without losing significant speed. Damage is halved for all targets after the first. Upon the third target hit, it will disintegrate."
+            ],
+            "Lore": "",
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Make a magic projectile which can hit with any form."
+        },
+        {
+            "Name": "Battlefield Spectre",
+            "Keywords": [
+                "Passive",
+                "Buff"
+            ],
+            "SimplifiedDescription": "Recover energy when a shot kills an enemy.",
+            "Text": [
+                "When a target is killed by you from a distance of more than 80 feet, recover Energy equal to the cost of the shot that killed them.",
+                "This ability may only trigger once per turn."
+            ],
+            "Lore": ""
+        }
+    ],
+    "DevNotes": [
+        "Reflexive Trigger",
+        "Reaction / Counter - 2 Energy",
+        "",
+        "Trigger: When an enemy target approaches you, entering the area within your line of sight and within half of your current Range (or 20 feet).",
+        "Make an attack against the target with a currently-equipped ranged weapon.",
+        "Form / Aspect: Inherit from weapon.",
+        "Damage: 1x (Strike/Spell/Word) Power",
+        "",
+        "Armor-Piercing Shot",
+        "Modify Shot - 4 Energy",
+        "",
+        "This shot gains Pierce (1), and will pierce through the first target in its trajectory without losing significant speed. Damage is halved for all targets after the first. When there is no more Pierce left, and the shot hits a target, it will disintegrate.",
+        "Empower (4 Energy) x2: The Pierce effect increases by 1.",
+        "",
+        "Shot Heard Around the World",
+        "When taking out enemies of importance (",
+        ""
+    ],
+    "Version": "WIP 2.0"
+}

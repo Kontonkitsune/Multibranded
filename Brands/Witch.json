@@ -1,0 +1,340 @@
+{
+    "BrandName": "Witch",
+    "BrandType": "Combat",
+    "Complexity": "3",
+    "ComplexityText": "Witches use folksy self-styled magic and Bewitch objects to activate later with a trigger. This makes them more complex than a traditional battlemage, but they’re ultimately approachable, as a brand centered on creative expression.",
+    "Description": "WIP",
+    "CharacterDescription": "People who have the Witch’s Brand are creative regardless of whether they even realize it, and that shapes the way they interact with the world. They may also have a love for tradition, alternative medicine, small animals, or folklore.",
+    "CharacterTraits": [
+        "A crone from my village taught me folksy magic, and I’ve been enchanted by the art of spellcasting ever since.",
+        "My love for tradition and medicine made me a wizened healer.",
+        "I want to make my imagination real."
+    ],
+    "SpecialSkill": "Permutation of Magic",
+    "SpecialSkillText": "Witches can retool spells to have varied appearances and effects. A firebolt in a battlemage’s hands can become a seeking phoenix, winding snake, or haunting spectre when used by a Witch. The bounds of this natural creative gift look different in and out of combat.",
+    "InnateSkills": [
+        "Illusion magic (casting and discerning)",
+        "Curses and other Bewitchment (casting, analysis, and dispelling)",
+        "Magecraft Analysis (Knowing, analyzing, and discovering the underlying mechanics of complex spells)"
+    ],
+    "ProgenitorName": "No progenitor. The Witch’s brand was born out of the collective awe of magic.",
+    "ProgenitorLore": "“Long before even the oldest brands, witches existed. They cured ails, ailed the cured, hexed the mighty and uplifted the weak. They were practitioners of whimsy more so than any Spellcraft.” The golden maned lion, the Royal Beast, leaned back its heads, laughing. “Spellcraft was something else two hundred years ago, and it will be something else two hundred years from now. You ask me what Spellcraft is?” It paused. “It is the author and the record of your ingenuity.”",
+    "MainStat": "Will",
+    "Substat1": "Intuition",
+    "Substat2": "Mystique",
+    "LeftBranch": "Catalyzing",
+    "MiddleBranch": "Self-Style Magic",
+    "RightBranch": "Bewitchment",
+    "Definitions": [
+        {
+            "Name": "Adversity",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "Unintended effects of casting non-standard magic quickly. Adversities often take forms based on effects added or mutated to a standard spell.",
+                "1 Fine debris from your cast blows back into your face, making you unable to dodge until your next turn.",
+                "2: Unbidden, more energy than necessary flows out from you. 2 Additional Energy was paid for this spell.",
+                "3: Mana pulses back toward you. You receive half your Spell Power in damage.",
+                "4: Though you occasionally work in tandem, the spirits frighten even you. Receive ½ Fear Hazard Damage.",
+                "5: So, so weary… Energy only regenerates by four next turn.",
+                "6: Your hands shake due to the force despite your mastery. Accuracy for this spell was lowered by 4."
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Self-Style Magic",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "Standardized magic that has been altered by a Witch’s innate magic talent and flair.",
+                "In role-play scenarios many simple alterations are simply stated, especially if they are primarily cosmetic. ",
+                "In combat scenarios, quickly casting non-standard spells with multiple modifications may be possible because of a character’s gifts, but contain added Adversities.",
+                ""
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Eldritch Strangeness",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "An alternative to Adversities.",
+                "",
+                "1: Run… RUN! You sprint straight forward your full movement distance.",
+                "2: What is my place? I have nowhere I belong. You move twenty feet in a random cardinal direction, falling from above.",
+                "3: The Catalysts in your satchel are dancing… A fire detonates, doing 1x Spell Power to everything in a 20ft radius centered on you.",
+                "4: Here, there, everywhere. You swap places with a DM-selected adversary.",
+                "5: I can’t, anymore. You don’t take mental damage from the next attack received.",
+                "6: What’s the use trying? An area-tier, hostile eldritch hivemind spawns 20ft in front of you."
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "Talents": [
+        {
+            "Name": "Apprentice Witchcraft",
+            "Keywords": [
+                "Mod:(Spell)",
+                "Self-Style"
+            ],
+            "Cost": "2 Energy",
+            "SimplifiedDescription": "A bolt of magic which can be modified.",
+            "Text": [
+                "Spell Template  - An unaspected attack magic that proceeds from Caster to Target at high speed.",
+                "Range, Damage: Inherited from weapon",
+                "This spell can be extended with a Catalyst or Adversity.",
+                "Ideas:",
+                "Blunt: Phantom Hail - Originating above the caster and falling toward the target on a decline, translucent hail particles strike the caster.",
+                "Earth: Dense Needling - The ground beneath the caster fires needles at the target in a snaking trail that approaches the target’s feet. ",
+                "Wind: Malicious Gale - Biting winds bear down from multiple angles, closing their maws on any available part of the target."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Hearth Manufactory",
+            "Keywords": [
+                "Production",
+                "Catalyst",
+                "Ritual"
+            ],
+            "Cost": "15 Minutes",
+            "SimplifiedDescription": "Create catalysts to use in place of Adversities.",
+            "Text": [
+                "The contemporary witch may have a home, but their work moves with them.",
+                "With your expertise, you can create simple solid Catalysts for your spells anywhere there is a fire.",
+                "You can produce Aspected Catalysts by describing simple trinkets that align with aspect groups. Examples:",
+                "Sharp: Pierced effigies, nails bent to mimic claws",
+                "Energetic: Ashes still warm to the touch, Charcoal that feels unnaturally cold, a container that when crushed crackles and sparks",
+                "Terrestrial: A shell that harbors the sound of seas, a cylinder containing a whirling tempest, small effigies of men made from stone",
+                "Catalysts can take any form associated with their aspect group as per the player’s role-play sensibilities. A cruel crone can make mocking effigies, and a fae might make elemental pearls.",
+                "Aspected Catalysts can be used with spells bearing any aspect of their group."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Nature’s Master",
+            "Keywords": [
+                "Mod:(Spell)",
+                "Self-Style"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Extend your reach and entangle targets.",
+            "Text": [
+                "Spell Template - An attack magic that extends the caster’s reach to grapple or entangle a group of targets, constricting them to deal damage.",
+                "Range: Inherited from weapon",
+                "Damage: 2x weapon damage",
+                "AOE: 12 feet radius or Weapon AoE, player choice on cast",
+                "This spell can be extended with a Catalyst, Adversity, or Strangeness.",
+                "Ideas:",
+                "Earth or Piercing: Living Briars - Briars burst out of the ground encircling and constricting the AoE radius, gradually tearing through enemies.",
+                "Wind: Howling Cyclone - Winds buffet enemies within the AoE back and forth into the cutting sides of the cyclonic enclosure.",
+                "Entropic: The ground softens and ferments into a bog beneath the AoE, pulling targets inside and deteriorating them."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Witch’s Patience",
+            "Keywords": [
+                "Spell",
+                "Delay",
+                "Ritual"
+            ],
+            "Cost": "Variable",
+            "SimplifiedDescription": "Enchant objects with strange effects to activate later.",
+            "Text": [
+                "You can enchant simple objects with delayed trigger effects.",
+                "To enchant an object or group of objects, pay a Catalyst of any type.",
+                "Describe the intended effect and trigger condition of the enchantment.",
+                "You might enchant a plate of cookies to make the victim drowsy when the cookies are consumed, for example. ",
+                "To add more than one effect, pay an additional Catalyst. This ability takes fifteen minutes to utilize per each effect, regardless if the enchantment is on one item or a group."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Witch Time",
+            "Keywords": [
+                "Reaction",
+                "Spell",
+                "Self-Style"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Disperse your form to dodge non-AoE attacks until your next turn.",
+            "Text": [
+                "As an additional cost to this spell, sacrifice a Catalyst.",
+                "You can describe a transformation that would disperse your physical form across an area, rendering you impervious to all but AoE attacks until the beginning of your next turn.",
+                "Ideas:",
+                "Water: Become a fine mist, barely perceptible, for the duration of the spell.",
+                "Wind: Disperse into a cloud of airborne animals, flying manically around an area.",
+                "Sonic: Become an invisible cackling phantom that appears to sound from multiple locations at once",
+                "You can’t react while under the effects of Witch Time.",
+                "This spell can be extended with a Catalyst or Adversity. "
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Crone’s Deceit",
+            "Keywords": [
+                "Spell"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Misdirect attacks with a customizable spell.",
+            "Text": [
+                "Spell Template: An obfuscation effect that diverts or boldly misdirects attacks.",
+                "Range: 60 feet",
+                "Save: Target Intuition >= User Mystique",
+                "Ideas:",
+                "Pummeling: The sensation of incoming blows make the target flinch repeatedly, rendering it unable to take the avoid action.",
+                "Water: Appearances become fluid to the target. They can’t picture a countenance. Their attacks target the closest available target.",
+                "Psychic: Allies appear enlargened, multiple times their size, with vile appearances to intimidate the target. On success, the target can’t attack for its next turn.",
+                "Fear or Rage: On success, the target swings wildly at phantom allies, hitting anything in melee range during its desperation.",
+                "This spell can be extended with Strangeness. "
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Conjured Familiar",
+            "Keywords": [
+                "Ritual"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "Conjure a non-combat familiar which can later be sacrificed.",
+            "Text": [
+                "This ability can be used when a full time slot is available. You can conjure or reconjure a summoned familiar.",
+                "A summoned familiar can be any Small or Tiny class creature. Familiars gain a limited sentience when summoned. They can respond to and understand simple commands, but are not capable of speech.",
+                "The presence of a conjured Familiar halves the requisite time for all Enchantments and Hexes, as they can complete mundane tasks with direction.",
+                "Your Familiar may be reluctant to leave your side, but you can use them to communicate verbally at range.",
+                "Your Familiar can be sacrificed to mitigate a single Adversity. Even when sacrificed, Familiars can be resummoned with this ability.",
+                "\tEsmerelda danced around the ritual circle. “Creature, fae creature! How exciting. Eternal friend or convenient sacrifice. Only time will tell.”"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "DevNotes": [
+        "Spells in this brand have Effects derived from a player’s weapon utilized while casting it.",
+        "",
+        "Weapon Modifier:",
+        "Basic Attack: Projectile",
+        "Spectralis: Melee",
+        "Tome, Relic: AoE",
+        "Staff: Dynamic Aspect",
+        "",
+        "Witches can augment their spells to add effects of their choice beyond what is described! They pay for these costs either in Catalysts or Adversities.",
+        "",
+        "",
+        "",
+        "Brand all about the whimsy of magic often exempt from Destroyer.",
+        "",
+        "Origin gives spells flavor. The fun occult type. Pop occult based on folklore of the fae",
+        "",
+        "",
+        "Witches are whimsical and mercurial, preferring the fantastical over the practical. Many are happy to work with the whims of the arcane, and work to bring joy while being theatrical. Others simply like to play with their food.",
+        "",
+        "Abilities:",
+        "",
+        "Create your own magic with the whimsical effects",
+        "Base talent: Magic of Whimsy",
+        "Even your magic from other brands begins to take on whimsical natures. Perhaps the rain you caused is in the shapes of little skulls which cackle at your foes. Perhaps the chroma bolts are dancing around your hand. Maybe your very magic itself dances to your rhythms.",
+        "Maybe the winds are gently caressing the remote which you’re using magic to grab",
+        "",
+        "",
+        "",
+        "Other talent: Snakes of Wood",
+        "Wooden snakes rush out and create a variety of things can be a wall or something.",
+        "Foes touching the snakes get supernaturally splintered as a result.",
+        "",
+        "Cackling Audience",
+        "",
+        "Double Image?",
+        "",
+        "Transmogrification",
+        "",
+        "Ultimate: Spell creation",
+        "Give your spell a name and you can use it at any time. The energy cost increases based on the number of effects, and decreases based on how ‘whimsical’ it is.",
+        "",
+        "",
+        "",
+        "Base Simple Spell",
+        "Lightning: Static Arc - Casually gesturing at the target of the spell, an arc forms from your outstretched fingers, connecting you to the target.",
+        ""
+    ],
+    "Version": "0.8"
+}

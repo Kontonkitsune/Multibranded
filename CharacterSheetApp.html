@@ -3076,25 +3076,32 @@
                     return genhtml
                 }
                 else if (scenario == "BrandAbilities") {
-                    var genhtml = `<details 
+                    
+                    var genhtml = ""
+                    genhtml += `<details 
                         class="statmenu"
                         ${this.display.brandactionsopen ? ' open' : ''}
-                        id="${this.id}_BrandActions_Toggle"
-                        ontoggle="Character.CurrentCharacter.display.brandactionsopen = document.getElementById('${this.id}_BrandActions_Toggle').open"
+                        id="${framename}_BrandActions_Toggle"
+                        ontoggle="Character.CurrentCharacter.display.brandactionsopen = document.getElementById('${framename}_BrandActions_Toggle').open"
                         >`
-                    genhtml += `<summary><h1>Brand Abilities</h1></summary>`
-                    genhtml += `<table class="outlined>`
-                    genhtml += `<tr><th>Killllll</th></tr>`
+                    genhtml += `<summary><h1>Brand Abilities</h></summary>`
 
+                    
                     for (const brand of this.Brands) {
-                        genhtml += `<tr><th>${brand.BrandName.base}</th></tr>`
+                        genhtml += `<tr><td>`
+                        genhtml += `<details>`
+                        genhtml += `<summary><h3 style="display:inline">${brand.BrandName.base}</h3></summary>`
+                        genhtml += `<table>`
                         var itervar = 0
                         while (itervar < 12) {
                             if (brand.Skills[itervar]) genhtml += `<tr><td>${brand.skillHTML(itervar,"BrandAbilities")}</td></tr>`
                             itervar += 1
                         }
+                        genhtml += `</table>`
+                        genhtml += `</details>`
+                        genhtml += `</tr></td>`
                     }
-                    genhtml += `</table></details>`
+                    genhtml += `</details>`
                     return genhtml
                 }
                 else if (scenario == "DamageCalculator") {

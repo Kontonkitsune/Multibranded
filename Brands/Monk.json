@@ -1,0 +1,279 @@
+{
+    "BrandName": "Monk",
+    "BrandType": "Combat",
+    "Complexity": "0",
+    "ComplexityText": "WIP",
+    "Description": "WIP",
+    "CharacterDescription": "People with the Monk’s Brand are self-actualizers. They’re fixated on rising to the occasion, and seek to solve problems by themselves. Fear of weakness or vulnerability may cause them to follow the discipline, but equally possible is the desire for personal growth and success in athletics or simple magic.",
+    "CharacterTraits": [
+        "Seeing overwhelming power, I knew I had to be on parity with the greats to feel good about myself, or whole.",
+        "I refuse to accept a bitter fate, and believe I can overturn it by my own strength.",
+        "I believe in the virtue of a fit and capable body, and that in my life it comes first over mystical spectacle.",
+        "Widespread reform is unattainable without personal power born from hard work."
+    ],
+    "SpecialSkill": "Astral Projection",
+    "SpecialSkillText": "Monks are capable of letting their consciousness stray from their physical body. When they’re concentrating, resting, or otherwise, they can let their shade leave their body while remaining intangible. Doing so allows them to see (and otherwise sense) areas outside of their normal reach, sometimes even very far away. To a very limited degree, they can influence objects and people while doing this.",
+    "InnateSkills": [
+        "Meditation and Concentration (Focusing on a particular thing)",
+        "Brand Disruption (interrupting the usage of other brands)",
+        "Introspection (including for the purposes of discovering manipulation)"
+    ],
+    "ProgenitorName": "Animus, the Unfulfilled",
+    "ProgenitorLore": "There was no sound as the small boulder was cleft in twain. Not the sound of grating as something is cut, nor the telltale groan of exertion. Only the dull thud of the split halves falling to the ground announced that reality had finally caught up with the man acting upon it. Anyone would stare, impressed; yet, they would stare impressed because of the feat’s qualifiers: non-magical, instantaneous, and Brandless. “Not enough,” Animus thought with finality. “Not enough to take this discipline higher.” Even with great feats of physicality, this wasn’t enough to rival the progenitors and the practitioners who tore across the surface and depths equally. Animus sought the magic key that would allow a devoted ascetic to not bow the knee to a mage, or the branded. He knew the futility. Getting on in years, he wouldn’t find it. Not because of a lack of discipline, but the swelling divinity that made him stronger, younger, fuller, involuntarily turned the discipline into the very power it sought to rival.",
+    "MainStat": "Elementalist",
+    "Substat1": "Multi-Attacks",
+    "Substat2": "Rebound",
+    "LeftBranch": "Will",
+    "MiddleBranch": "Strength",
+    "RightBranch": "Tempo",
+    "Definitions": [
+        {
+            "Name": "Shade",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "Your Shade is a manifestation of your internal self, externalized into reality. It can take on the same form as you, or it may take on a different form, possibly even that of another species entirely. It is ethereal or shadowy in its appearance, but otherwise appears normal.",
+                "Your Shade is an extension of yourself. During your turn, you may control either your body or your shade, though you may switch between the two freely. Movement taken by the player may not be taken by the shade and vice versa.",
+                "Your Shade has Ether equal to your Mana, which is reduced whenever the Shade takes damage. When the Shade’s Ether reaches zero, the Shade is Fractured, and you take fixed Magical damage equal to half your Mana, which may not be reduced. Your Shade is then immediately unsummoned.",
+                "Your Shade’s Reach is fixed at 8 feet, and may not equip Weapons or other Handheld equipment. ",
+                "When your Shade uses Unarmed Strike, Raw Casting, or Mockery, these attacks deal twice their normal damage (by using 2x Strength, Will, and Ego, respectively).",
+                "When your Shade would use Strength for any purpose, you may substitute it with your Will.",
+                ""
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Self",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "Your body, minus your shade. When you push your Shade to the physical realm, it leaves your body, leaving behind your Self."
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "Talents": [
+        {
+            "Name": "Ascetic’s Discipline",
+            "Keywords": [
+                "Shade"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Summon or resummon your shade (free at start of combat)",
+            "Text": [
+                "When entering combat, you may use this ability for free.",
+                "Summon and place your shade within a range of 48 feet (12 tiles). If your Shade has already been summoned, you may resummon it within the same range, or unsummon it instead.",
+                "\tAnimus and practitioners bitterly realized that the only solution to reliable defense against the ultra-powerful and often unknown is not to truly be there."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Black Tortoise’s Enduring Shell",
+            "Keywords": [
+                "Defense",
+                "Stance"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "You or your shade assume a defensive stance.",
+            "Text": [
+                "Depending on whether this ability is used by your Self or your Shade, different effects occur, lasting until the beginning of your next turn.",
+                "(Self): Your Self assumes a defensive stance, intercepting damage which would be taken by your Shade. Your Self cannot avoid or dodge until its next turn, while gaining Strike, Spell, and Word Defense equal to the Power of one of your equipped Physical, Magical, or Mental weapons (choose one).",
+                "(Shade): Your Shade assumes a defensive stance, intercepting damage which would be taken by your Self. Your Shade cannot avoid or dodge until its next turn, while gaining Strike, Spell, or Word Defense equal to your Strength, Will, or Ego (choose one).",
+                "(Combined): Your Self and Shade assume a defensive stance, bolstering each other in unison. You cannot avoid or dodge until your next turn. Your (Strike/Spell/Word) defenses are increased by their respective (Strike/Spell/Word) Power. ",
+                "\tEarly in his training, Animus posited that the best way to uncover the secret to superhuman strength was to imitate the animals that had it. Shell or carapace, it’s nature’s greatest armor."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Dogged Pursuit",
+            "Keywords": [
+                "Reaction",
+                "Strike"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Catch up to an enemy who dodges or runs and attack.",
+            "Text": [
+                "Trigger: When an enemy moves out of the Reach of you or your Shade on their turn; or when an enemy avoids one of your attacks by moving.",
+                "(Self): Move up to 8 feet (2 tiles) towards the enemy. If after this movement, you are within range, immediately make an attack with an equipped weapon, dealing damage equal to your (Strike/Spell/Word) power. The form and aspects of this attack are inherited from your weapon.",
+                "(Shade): Charge towards the enemy a distance up to your Speed. If you reach the target’s location, charge through them, and deal (Physical) Pummeling damage equal to 2x your Strength. ",
+                "(Combined): Move up to 8 feet (2 tiles) towards the enemy. If after this movement you are within range to attack them:",
+                "Make an unarmed Strike, dealing (Physical) Pummeling damage equal to 2x Strength.",
+                "Make a weapon attack.",
+                "Move up to two tiles freely in any direction.",
+                "\tChivalry is a luxury you can afford against equal or lesser combatants."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Kinesis",
+            "Keywords": [
+                "Reaction"
+            ],
+            "Cost": "2 Energy",
+            "SimplifiedDescription": "Redirect knockback to move in any direction, or use it to make a leap.",
+            "Text": [
+                "When taking standard knockback, you can redirect the knockback to send you in any grounded direction of your choice. ",
+                "Pay an additional 2 Energy: you can move up to 12 feet vertically alongside the directional movement, or move up to 36 feet vertically with no other movement.",
+                "Superhuman has its roots in human - take the dagger and duck the warhammer. Power is no excuse for inefficiency."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Feline Claw Art",
+            "Keywords": [
+                "Mod:(Strike)"
+            ],
+            "Cost": "6 Energy",
+            "SimplifiedDescription": "Throw a weapon or lunge at an enemy and deal sharp damage.",
+            "Text": [
+                "(Self): Any single-handed physical weapon becomes a throwing weapon when used by this ability. With no penalty to accuracy, throw a qualifying weapon up to 16 feet (four tiles). You deftly retract the weapon as part of this ability.",
+                "(Shade): From a range of up to four tiles away and with no movement cost, lunge forward as part of a strike attack. Choose from Sharp (Slashing, Piercing, Chopping) in addition to the already available barehanded types. When four full tiles are traveled, strike again for no cost at ½ damage.",
+                "(Combined): Throw a single-handed physical weapon up to 32 feet (8 tiles). This may be an attack, but does not need to be, and is calculated using standard melee accuracy. You can move to the weapon’s landing location immediately.",
+                "The instinct of a natural predator runs through you now. No more need for crude spears and hours of patience."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Limber Bough",
+            "Keywords": [
+                "Passive",
+                "Reaction"
+            ],
+            "SimplifiedDescription": "Free dodge from enemy attacks at the end of their reach.",
+            "Text": [
+                "Trigger: When you are in the furthest tile of an enemy’s weapon reach, and an enemy attacks you, this ability may be used. ",
+                "When used, the attacking enemy must make a Save. If the enemy’s Control is less than the greater of your Tempo or your Will, they fail the save. You nimbly duck out of range of the attack, gracefully moving one tile in any direction.",
+                "(Shade): On success, kick a dart of pure Wind at the opponent with attack power equal to your Will.",
+                "\t“You’re doing too much Animus. For just a moment, still yourself. Look at that regal oak that has stood since before your surname. Even its boughs bend and sway with the wind so as not to be snapped off by the storm.”"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Taut Musculature",
+            "Keywords": [
+                "Mod:(Strike)",
+                "Multi-hit"
+            ],
+            "Cost": "6 Energy",
+            "SimplifiedDescription": "Punish attackers with a consecutive multi-hit counter.",
+            "Text": [
+                "When an enemy has damaged you between your last and current turn and is in your unarmed strike range, you can modify an unarmed strike.",
+                "After your initial strike, strike again with punches or kicks up to three additional times. Each consecutive strike increases the damage of the original strike by ½ of its original damage. If one misses, the chain is over.",
+                "\tReadiness, Awareness, Capability. The virtues that separate the diligent from the rabble manifest in a body like a coiled spring."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Regal Soaring Leap",
+            "Keywords": [
+                "Reaction"
+            ],
+            "Cost": "2 Energy",
+            "SimplifiedDescription": "Escape elegantly through the air when taking a large hit.",
+            "Text": [
+                "Trigger: When taking damage over ¼ of your remaining health; when taking Knockback more than 16 feet (4 tiles); or when you take the Avoid action. ",
+                "Gracefully floating through the air, you move to a destination up to 6 tiles away of your choosing, floating elegantly 40 feet above the ground from start to finish.",
+                "When studying the Loong dragons, Animus envied their intimidating entry and graceful exit, pathing through the air. This was the result."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Phoenix's Renewal",
+            "Keywords": [
+                "Special",
+                "Reaction"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Gamble on an incoming attack for a full restore of your Shade.",
+            "Text": [
+                "The Shade may use this ability. When attacked, you may voluntarily elect to take double damage and forfeit armor protection before combat is finalized.",
+                "If the incoming attack would Fracture your Shade, it is restored in full instead. A pulse of fire damage (2x Spell Power) emanates radially from your shade across a two tile range.",
+                "If the incoming attack would not Fracture your shade, your Shade receives damage as normal. No energy is returned.",
+                "\tPractitioners of the Monk’s Brand eternally lamented that there was no way to replicate the Phoenix’s strange property of rebirth in full. Artificially hastening the cycle was the only approximation they could perform."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Full Assault",
+            "Keywords": [
+                "Mod:(Strike)"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Large multi-aspect offensive using Shade, Player, or both.",
+            "Text": [
+                "(Self): If the cost of making attacks with all equipped weapons is greater than your remaining energy expenditure this turn, this rule may be ignored using this ability.",
+                "(Shade): Choose four times, nonrepeating, from the elemental aspects (Fire, Ice, Wind, Lightning, Earth, Air, and Water). Launch up to four consecutive attacks this turn - you may go over the energy expenditure limit to do so. If one attack misses, the rest of the chain is terminated.",
+                "(Combined): Expend an additional 8 Energy to attack with your equipped weapons four times (weapons may repeat). Any of these attacks may be substituted for an unarmed blow of the elemental types above. Missing one attack ends the chain.",
+                "\tSometimes, the solution is not knowable. You have to test everything, seeing what works only through experience."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Synchronicity",
+            "Keywords": [
+                "Reaction",
+                "Defense"
+            ],
+            "Cost": "2 Energy",
+            "SimplifiedDescription": "Use knockback taken to reposition Shade and Player",
+            "Text": [
+                "Trigger: When you or your Shade take damage, knockback, or ill effects.",
+                "You may distribute the damage and knockback you take amongst your body and your shade.",
+                "If you are receiving an ill effect, you may choose whether it occurs to your body or to your shade."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Hypervigilance / Double Time",
+            "Keywords": [
+                "Special"
+            ],
+            "Cost": "1 Turn, 12 Energy",
+            "SimplifiedDescription": "Concurrent usage of Shade and Player",
+            "Text": [
+                "After paying this ability’s energy cost, double your remaining energy. All remaining energy will disappear at the start of your Player’s next turn.",
+                "After finishing your current turn, take a separate turn with the Player or Shade you were not controlling.",
+                "At the end of these turns, your Shade dissipates. You do not face backlash, but it does need to be resummoned.",
+                "The final extension of the zealous ascetic’s diligence and training. If you are not enough, simply be more than you."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Leaping Arts ",
+            "Keywords": [
+                "Movement",
+                "Dodge"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "",
+            "Text": [
+                "Jump up to 16 feet in the air.",
+                "Alt Reaction: when knocked back, you may additionally leap into the air up to an equivalent amount of feet vertically, minimum of 8. You are still knocked back.",
+                "Alt Reaction: when attacked, you may leap up to 8ft. If this gets you out of the range of the attack at the peak of your jump, you dodge the attack."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Forceful Push ",
+            "Keywords": [
+                "Knockback"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "",
+            "Text": [
+                "Self: Knock a target back by up to 8 feet. If the target is your shade, knock it back by up to 16 feet instead.",
+                "Shade: Push off of something and knock yourself back by 8 feet in the opposite direction. If the target is your Self, knock yourself back by 16 feet instead.",
+                "Combined: knock back the target by 8 feet, and knock yourself back by 8 feet in the opposite direction."
+            ],
+            "Lore": ""
+        }
+    ],
+    "DevNotes": [],
+    "Version": "1.1"
+}
