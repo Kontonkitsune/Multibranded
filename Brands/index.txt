@@ -26,3 +26,4 @@ Survivalist
 Professor
 Acolyte
 Sleuth
+ExampleBrand

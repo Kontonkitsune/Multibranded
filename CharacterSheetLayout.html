@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Multibranded Character Sheet</title>
+    <link rel="stylesheet" href="./CharacterSheetStyle.css">
+</head>
+
+<body>
+    <div id="Dialog"></div>
+    <input type="file" id="characterFileInput" >
+    <input type="button" id="characterSaveButton" value="Save Character As" onclick="downloadCharacter()">
+    <a id="downloadAnchorElem" download=""></a>
+    <table class="background">
+        <tr class="background">
+            <td class="background">
+                <table class="background">
+                    <tr class="background">
+                        <td class="background">
+                            <div id="CharacterInfo"></div>
+                        </td>
+                    </tr>
+                    <tr class="background">
+                        <td class="background">
+                            <div id="StatsMenu"></div>
+                        </td>
+                    </tr>
+                    <tr class="background">
+                        <td class="background">
+                            <div id="CustomStatsMenu"></div>
+                        </td>
+                    </tr>
+                    <tr class="background">
+                        <td class="background">
+                            <div id="QuickActions"></div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="background">
+                <table class="background">
+                    <tr class="background">
+                        <td class="background">
+                            <div id="DamageCalculator"></div>
+                        </td>
+                    </tr>
+                    <tr class="background">
+                        <td class="background">
+                            <div id="AspectList"></div>
+                        </td>
+                    </tr>
+                    <tr class="background">
+                        <td class="background">
+                            <div id="BrandAbilities" style="max-width:600px"></div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+
+    <div id="WeaponsInventory"></div>
+    <div id="ArmorsInventory"></div>
+    <div id="AccessoriesInventory"></div>
+    <div id="CharacterSheetInventory"></div>
+    <div id="BrandsList"></div>
+    <script src="./CharacterSheetScript.js"></script>
+</body>
+
+</html>

@@ -19,6 +19,7 @@
                 "Physical Attack Stat",
                 "Strength represents your physical strength, particularly when it comes to short bursts.",
                 "Those high in strength are often capable of feats such as lifting large objects or slaying large beasts.",
+                "Characters with high Strength usually have a particular stubbornness to them, while those with low strength may second-guess themselves.",
                 "Effects:",
                 "Strike Power increase (Physical Attack).",
                 "Reduced Burden (Accuracy increase*) for Physical Weapons."
@@ -34,6 +35,7 @@
                 "Physical Defense Stat",
                 "Fortitude represents your endurance and your ability to weather through physical hardships.",
                 "Those with higher fortitude find themselves getting sick far less than usual.",
+                "Characters with high Fortitude might be more resistant to pain or sickness, while those with low Fortitude might even find themselves getting sick or nauseous after being moved around or teleported.",
                 "Effects:",
                 "Strike Defense increase (Physical Defense).",
                 "Carry weight increase."
@@ -49,6 +51,7 @@
                 "Magical Attack Stat",
                 "Will represents the strength of your focus, and your proficiency in wielding magic.",
                 "Those with high will have excellent and often subconscious control of the metaphysical, making it synonymous with someone’s luck.",
+                "Characters with high Will generally tend to be more focused, while those with low Will can have trouble controlling their attention.",
                 "Effects:",
                 "Spell Power increase (Magical Attack)",
                 "Reduced Burden (Accuracy increase*) for Magical Weapons."
@@ -64,6 +67,7 @@
                 "Magical Defense Stat",
                 "Intuition represents the ability to deduce truth, and a resistance to magical hardships.",
                 "Those with a high intuition are often knowledgeable about magical and mystical affairs.",
+                "Characters with high Intuition generally tend to be calm and collected, while those with low intuition may end up being particularly erratic.",
                 "Effects:",
                 "Spell Defense increase (Magical Defense)"
             ],
@@ -78,6 +82,7 @@
                 "Mental Attack Stat",
                 "Ego represents self-confidence and assertiveness.",
                 "It relates to your ability to hold a strong presence in a room and persuade others, as well as your ability to lie.",
+                "Characters with high Ego tend to talk highly of themselves and others, or they may boast and lie to their heart’s content, while those with low Ego might self-degrade or be unable to stand lies. ",
                 "Effects:",
                 "Word Power increase (Mental Attack)",
                 "Reduced Burden (Accuracy Increase*) for Mental Weapons"
@@ -93,6 +98,7 @@
                 "Mental Defense Stat",
                 "Mystique represents a level of knowledge which makes one resistant to mental manipulation.",
                 "Those with a high mystique have a certain uniqueness and aura about them, and they often have an advanced knowledge of politics and worldly affairs.",
+                "Characters with high Mystique often find that others are attracted to them naturally, and they might act more mysterious, while those with low Mystique usually have their emotions plain to see, and others may largely disregard them.",
                 "Effects:",
                 "Word Defense increase (Mental Defense)"
             ],
@@ -107,6 +113,7 @@
                 "Base Accuracy Stat",
                 "Control represents precision and accuracy in your actions, as well as your muscle memory.",
                 "Those with high control often have good handwriting, and are capable of describing things down to even the most granular detail.",
+                "Characters with high Control are often very particular about the way they do things, though they do them well, while those with low Control are often haphazard and sometimes even reckless.",
                 "Effects:",
                 "Base Accuracy increase"
             ],
@@ -121,6 +128,7 @@
                 "Base Dodge Stat",
                 "Tempo represents reflexes and the ability to react and adapt quickly.",
                 "Those with a high tempo can think and perceive the world at a faster speed. They are able to follow much faster situations, such as seeing in clear detail fast-moving objects.",
+                "Characters with high Tempo are very active physically, though they may struggle to stay still, while those with low Tempo tend to be more sedentary, and may dislike exercise.",
                 "Effects:",
                 "Dodge increase (easier to evade attacks)",
                 "Speed increase (Base Movement per turn)"

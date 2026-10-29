@@ -1,0 +1,321 @@
+
+* {
+    margin: 0;
+    overflow: hidden;
+}
+definition-tooltip {
+    font-weight: bold;
+    color:#003789;
+}
+html, body{
+    overflow: auto;
+    width:max-content;
+    height:max-content;
+    background-color: rgb(72, 75, 85);
+}
+table.inline {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    border-collapse: collapse;
+}
+table.statmenu {
+    text-align: left;
+    vertical-align: top;
+    border-collapse: collapse;
+    background-color: #c0c0c0;
+}
+table {
+    text-align: left;
+    vertical-align: top;
+    border-collapse: collapse;
+}
+
+*.centeraligned {
+    vertical-align: center;
+    text-align: center;
+
+}
+
+tr {
+    vertical-align: top;
+}
+
+caption {
+    text-align: left;
+    font-size:20px;
+    font-weight:bold;
+}
+
+*.outlined {
+    border: 1px solid black
+}
+
+h1 {
+    width: 240px;
+    height: 30px;
+    vertical-align:middle;
+    font-size:20px;
+    display:inline-block;
+}
+
+details.statmenu {
+    background-color: #c0c8ca;
+}
+details[open] {
+    border: 1px solid black
+}
+
+summary {
+    font-style: bold
+}
+
+input.unusable {
+    background-color: rgb(159, 133, 130);
+    outline-color:#8f8f8f;
+}
+
+div.aspectblunt {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    font-style: bold;
+    margin-right: 6px;
+    margin: 2px;
+    text-align: right;
+    width: 42px;
+    height: 18px;
+    color: black;
+    background-color: tan;
+}
+
+details.equipped {
+    background-color: #dbeddf;
+}
+
+details.unequipped {
+    background-color: #efcaaa;
+}
+
+details.skillactive {
+    background-color: #dbeddf;
+    max-width:200px;
+}
+details.skillinactive {
+    background-color: #efcaaa;
+    max-width:200px;
+}
+details.skillactive[open] {
+    background-color: #dbeddf;
+    max-width:600px;
+}
+details.skillinactive[open] {
+    background-color: #efcaaa;
+    max-width:600px;
+}
+div.talent {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+
+}
+
+details.usable {
+    background-color: #a8e0eb;
+}
+
+details.unusable {
+    background-color: #8f8f8f;
+}
+
+div.statdisplaylong {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-right: 6px;
+    margin: 2px;
+    text-align: left;
+    width: 240px;
+    height: 18px;
+    background-color: #e2f7de;
+    color: black;
+    border: 1px solid gray;
+}
+
+div.statdisplayadjustable {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-right: 6px;
+    margin: 2px;
+    text-align: left;
+    height: 18px;
+    background-color: #e2f7de;
+    color: black;
+    border: 1px solid gray;
+}
+
+input.stattextfieldlong {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-right: 6px;
+    margin: 2px;
+    text-align: left;
+    width: 240px;
+    height: 18px;
+    background-color: #ffffff;
+    color: #7f0000;
+    border: 1px solid gray;
+}
+
+div.statdisplay {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-right: 6px;
+    margin: 2px;
+    text-align: right;
+    width: 42px;
+    height: 18px;
+    color: black;
+    background-color: #e2f7de;
+    border: 1px solid gray;
+}
+
+div.statdisplaymod {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-right: 6px;
+    margin: 2px;
+    text-align: middle;
+    width: 70px;
+    height: 18px;
+    color: black;
+    background-color: #e2f7de;
+    border: 1px solid gray;
+}
+
+input.stattextfield {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-right: 6px;
+    margin: 2px;
+    text-align: right;
+    width: 42px;
+    height: 18px;
+    color: #7f0000;
+    background-color: #ffffff;
+    border: 1px solid gray;
+}
+
+div.statname {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    width: 80px;
+    height: 18px;
+    color: #000087
+}
+
+div.statnamelong {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    width: 240px;
+    height: 18px;
+    color: #000087
+}
+
+div.statnameadjustable {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    width: auto;
+    height: 18px;
+    color: #000087
+}
+
+div.actionnameadjustable {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    width: auto;
+    min-width: 200px;
+    height: 24px;
+    color: #0f482f
+}
+
+div.actionname {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    width: 200px;
+    height: 24px;
+    color: #0f482f
+}
+
+*.aspectgroupBlunt {
+    width: 70px;
+    vertical-align: middle;
+    color: #000000;
+    background-color: #ffc79f;
+}
+
+*.aspectgroupSharp {
+    width: 70px;
+    vertical-align: middle;
+    color: #000000;
+    background-color: #c0c0c0;
+}
+
+*.aspectgroupKinetic {
+    width: 70px;
+    vertical-align: middle;
+    color: #000000;
+    background-color: #82d9f7;
+}
+
+*.aspectgroupTerrestrial {
+    width: 70px;
+    vertical-align: middle;
+    color: #000000;
+    background-color: #d0ff88;
+}
+
+*.aspectgroupEnergetic {
+    width: 70px;
+    vertical-align: middle;
+    color: #000000;
+    background-color: #fffea9;
+}
+
+*.aspectgroupEntropic {
+    width: 70px;
+    vertical-align: middle;
+    color: #000000;
+    background-color: #ce956d;
+}
+
+*.aspectgroupCosmic {
+    width: 70px;
+    vertical-align: middle;
+    color: #000000;
+    background-color: #b899d7;
+}
+
+*.aspectgroupEmotional {
+    width: 70px;
+    vertical-align: middle;
+    color: #000000;
+    background-color: #ffa9fb;
+}
+
+*.statStrength{
+    width: 70px;
+    vertical-align: middle;
+    color: #000000;
+    background-color: #dc7575;
+}
