@@ -1,0 +1,218 @@
+{
+    "BrandName": "Spiritualist",
+    "BrandType": "Utility",
+    "Complexity": "2",
+    "ComplexityText": "The complexity of the Spiritualist mostly revolves around its various rituals and utilizing the elemental spirit types to deal with other things.",
+    "Description": "Commune with the spirits in the area, either those of the dead, or those of the elementals. (Earth, Wind, Water, Fire, Ice, Lightning, Nature, Death, Light, and Darkness)",
+    "CharacterDescription": "Spiritualists are often rather concerned with doing things the proper way, and have many non-magical rituals they perform regularly for the sake of order. They're usually very attached to the spirits they interact with. They often tend to make offerings to spirits, whether they're physical things, or even a method of life.",
+    "CharacterTraits": [
+        "I dedicate my life to my ancestors. They speak to me and tell me what to do.",
+        "I live to serve nature, and protect the environment in its natural states, whatever they may be.",
+        "I can feel the elements around me, and I find it calming when they are sated, or taxing when they are angry."
+    ],
+    "SpecialSkill": "Spirit Sense",
+    "SpecialSkillText": "You can sense spirits in the areas around you. They may be elemental sprites, or they may be the spirits of the dead coming back to haunt or help the living.",
+    "InnateSkills": [
+        "Medium (Channeling the spirits of the dead)",
+        "Nature Sense (Feeling the health or other aspects of nature)",
+        "Spirit Lore (Knowledge about the spirits)"
+    ],
+    "ProgenitorName": "WIP",
+    "ProgenitorLore": "WIP",
+    "MainStat": "Intuition",
+    "Substat1": "Will",
+    "Substat2": "Ego",
+    "LeftBranch": "Conjuration",
+    "MiddleBranch": "Blessing",
+    "RightBranch": "Transformation",
+    "Definitions": [
+        {
+            "Name": "Spirit",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "Spirits generally live on the Spiritual Plane (What Comes After), though sometimes they bleed through to the physical as a result of strong attachment to a locale.",
+                "They are the remnants of the souls of creatures who have long since moved on. Some resonate with certain aspects, becoming Elementals.",
+                "The Elementals tend to resonate with concepts that are not quite the same as the Aspects:",
+                "Earth, Air, Water, Fire, Snow, Lightning, Light, Darkness, and Death."
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "Talents": [
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Spirit Calling",
+            "Keywords": [
+                "Spirit",
+                "Ritual"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "A ritual to call forth a spirit to the physical realm",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Rite of Transmogrification",
+            "Keywords": [
+                "Ritual"
+            ],
+            "Cost": "1 Recollection",
+            "SimplifiedDescription": "A ritual to change your race and appearance permanently",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "DevNotes": [],
+    "Version": "0.4"
+}

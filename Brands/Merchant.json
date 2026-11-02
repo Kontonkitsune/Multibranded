@@ -1,0 +1,220 @@
+{
+    "BrandName": "Merchant",
+    "BrandType": "Utility",
+    "Complexity": "2",
+    "ComplexityText": "WIP",
+    "Description": "Merchants are shrewd social adepts who understand current events through the flow of money. They’re expert negotiators, and specialize in product acquisition and on-the-road bulk storage.",
+    "CharacterDescription": "WIP",
+    "CharacterTraits": [
+        "WIP"
+    ],
+    "SpecialSkill": "WIP",
+    "SpecialSkillText": "",
+    "InnateSkills": [
+        ""
+    ],
+    "ProgenitorName": "WIP",
+    "ProgenitorLore": "WIP",
+    "MainStat": "Ego",
+    "Substat1": "Mystique",
+    "Substat2": "Intuition",
+    "LeftBranch": "Product Acquisition",
+    "MiddleBranch": "Salesman's Repute",
+    "RightBranch": "Quality Assurance",
+    "Definitions": [
+        {
+            "Name": "Repute",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "A globally encompassing measure of your integrity and honesty in the mercantile professions. This affects your ability to vend items and the sale prices they fetch. Some merchants may also offer high repute characters bulk deals on purchased items, at their discretion."
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "Talents": [
+        {
+            "Name": "Locate Potential",
+            "Keywords": [
+                "Ritual"
+            ],
+            "Cost": "15 Minutes",
+            "SimplifiedDescription": "",
+            "Text": [
+                "When in the Labyrinths, your finally honed merchant’s acumen allows you to locate the nearest valuable or potentially valuable object with ease.",
+                "This ability will lead you to the nearest item in the wild worth 25 Gold or more if such an item exists within the portion of the Labyrinths you can access.",
+                "Failing this, it will lead you to the nearest bulk item that is eligible for processing with other utility brands.",
+                "You can select this to skip items that are valuable and look for processable goods instead.",
+                "You can harvest simple plants, small-sized dead creatures or lower, and retrieve unguarded inanimate objects without damaging them."
+            ],
+            "Lore": [
+                "A merchant’s finely tuned sensibilities must lead them to valuables. When valuables don’t exist, we’ll make our own."
+            ]
+        },
+        {
+            "Name": "Trader’s Opportunity",
+            "Keywords": [
+                "Special"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "",
+            "Text": [
+                "When you have a positive Repute, you can vend items without a formal building or place of commerce. You can establish a small roadside stall, spread items on a carpet, or some other mobile form of sale.",
+                "Whenever your stall sells items worth a total of 50 gold times your Character Rank, gain one Repute. You can gain multiple Repute in a single transaction or time slot.",
+                "You "
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Quality Inspection",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Squirrel Away",
+            "Keywords": [
+                "Special"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "",
+            "Text": [
+                "You have a theoretically unlimited storage space within a Squirrel Satchel for items which have a sale value of 25 gold or greater, or items which have processing chains with one or more playable utility brands. ",
+                "You can only have one expandable satchel active and on your possession at once.",
+                "For each Character Rank your character has achieved, you can store one large object that otherwise does not qualify within the satchel. ",
+                "The satchel can be stolen, but the content cannot be accessed by others. A new satchel can be created with any leather satchel, and will connect to the same space. If a merchant is to perish, the contents of their satchel become accessible by a skilled Weaver."
+            ],
+            "Lore": [
+                "“Where I come from, items are shuttled along in massive trucks, barreling down the road. This world has no such conveniences. You have to make do with what’s on your person. But what’s your person, little tanuki?”"
+            ]
+        },
+        {
+            "Name": "Retailer",
+            "Keywords": [
+                "Repute"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "",
+            "Text": [
+                "When you have positive Repute, you can purchase items from wholesalers to resell as a retailer, either on the road or at a different town where the product may be in higher demand.",
+                "When you have Repute greater than 10, vendors will be extremely likely to give discounts on products purchased this way."
+            ],
+            "Lore": [
+                "“Listen, little Yume Riko. If you’re not taking advantage of location and travel, you might as well give away half your profits. Not that with those little paws, you could see the world anyway.”"
+            ]
+        },
+        {
+            "Name": "It’s Just Business, Baby",
+            "Keywords": [
+                "Repute"
+            ],
+            "Cost": "Special",
+            "SimplifiedDescription": "",
+            "Text": [
+                "When you encounter an NPC in need, you can intervene by selling them an item from your character or [space name] at up to four times standard pricing. ",
+                "By accepting a 2 Repute loss, you can sell them an item they are in dire need of at up to eight times standard pricing instead.",
+                "With eloquent persuasion, such as by having an Ego more than two times target Mystique or the usage of a relevant ability, you can negate this repute loss."
+            ],
+            "Lore": [
+                "“They praised me. I whistleblew the conglomerate I worked for, only to be blacklisted by the industry. I’ll never make the same mistake again.”"
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "DevNotes": [],
+    "Version": "0.8"
+}

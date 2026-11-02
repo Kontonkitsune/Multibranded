@@ -1,0 +1,249 @@
+{
+    "BrandName": "Magician",
+    "BrandType": "Utility",
+    "Complexity": "0",
+    "ComplexityText": "WIP",
+    "Description": "WIP",
+    "CharacterDescription": "Magicians are sneaky characters who often get around in the shadows, though they also generally tend to be showboaty when they aren’t sculking around. They are often rather mysterious, and prefer to keep their ways hidden.",
+    "CharacterTraits": [
+        "WIP"
+    ],
+    "SpecialSkill": "Sleight of Hand",
+    "SpecialSkillText": "Magicians are supernaturally gifted at sleight of hand, and hand dexterity in general. Most tricks or techniques which would require two hands can be performed with one hand instead (things like opening a lock, lockpicking, doing a card trick).",
+    "InnateSkills": [
+        "Trick Lore (knowing how certain tricks are performed, meaning they’re more resistant to being tricked)",
+        "Sleight Spotting (good at spotting people who are doing sleight of hand)",
+        "Performance (good at putting on a show!)"
+    ],
+    "ProgenitorName": "Fran the Calling Card",
+    "ProgenitorLore": "A simple catgirl, everyone thought, until they would later check their wallets, purses, pockets, backpacks, and other devices of storage, only to find them... lighter, somehow. The little thief sat upon her veritable hoard of others' belongings, smiling brightly. Her country had grown tired of stolen item claims directed towards her, declaring her statement true: \"Everything that sits in this kingdom is mine... even if you don't know it yet!\"",
+    "MainStat": "Mystique",
+    "Substat1": "Ego",
+    "Substat2": "Control",
+    "LeftBranch": "Illusion",
+    "MiddleBranch": "Tricks",
+    "RightBranch": "Performance",
+    "Definitions": [],
+    "Talents": [
+        {
+            "Name": "Vocal Mimic",
+            "Keywords": [
+                "Word",
+                "Illusion"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Mimic others’ voices, and throw your voice.",
+            "Text": [
+                "You are capable of changing your voice to your whims.",
+                "You can mimic any voice you have heard, assuming that you are capable of doing so.",
+                "You’re innately capable of mimicking any voice from a creature of your species, regardless of gender or race. ",
+                "Some voices may be harder to mimic, such as the voice of celestials, which are infused with a divine aura.",
+                "You can freely control the volume of your voice, causing it to be much louder or much quieter than it might otherwise be.",
+                "The loudest you are innately capable of making is not capable of dealing sonic damage by the noise alone, however it may be used to drastically amplify other abilities.",
+                "By the use of a Spell, you can throw your voice, causing it to sound as though it were coming from any point of choice within 40 feet of you. If you are unable to cast or communicate, you may not use this part of the ability."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Card Trick",
+            "Keywords": [
+                "Distract",
+                "Spell"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Perform a variety of simple tricks.",
+            "Text": [
+                "You perform a variety of random tricks, using deft movements. These are often impressive and grand displays of talent that standard show magicians can’t easily perform. This draws the attention and awe of nearby spectators, allowing for an efficient ",
+                "A variety of effects may be created using this ability. Some examples of how this could be used are listed below:",
+                "Quickly assembling a house of cards, regardless of how complex the design is. This is done not by physically assembling them, but doing so magically. You could flick a deck of cards out toward a table and the house of cards would seemingly assemble itself.",
+                "Shuffle a deck of cards, while removing or replacing any cards of your choice. The cards in their finished state may be “shuffled” into any order of your choice.",
+                "Pulling an item currently on your person out from a place where it reasonably would not have been. (Such as a rabbit out of a hat, or a sword out of your sleeve!)",
+                "Juggle far too many objects at once, or juggle objects in a bizarre trajectory, as though the objects are possessed.",
+                "Light or put out many small fires, such as candles!",
+                "Freeze water to make small ice cubes!",
+                "People with brands such as Animator or Spectralist can perform more complex maneuvers.",
+                "\tSometimes a little bit of misdirection is all you need to get someone’s shinies! Hehe! "
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Performer’s Spotlight",
+            "Keywords": [
+                "Spell",
+                "Illusion"
+            ],
+            "Cost": "16 Energy",
+            "SimplifiedDescription": "Cast a spotlight, highlighting an area and creating shadows to sneak in.",
+            "Text": [
+                "A spotlight appears over an area that is between 4 feet and 24 feet wide, lasting for 10 minutes, or for as long as you continue to re-cast it.",
+                "Range: 40 feet",
+                "AoE: Lights in a 4 feet to 24 feet diameter, in a cone or cylinder pointing downwards from at most 40 feet above. This does not need to come from a surface, and it may be slanted in whatever direction you would prefer in order to create a proper illusion.",
+                "Within the spotlight, you can manifest a variety of miscellaneous illusory effects:",
+                "Confetti, sparkles, or minor weather effects (such as rain) appear.",
+                "Pyrotechnics show around the edge of the spotlight",
+                "Music or sound effects of your choice play from the center of the spotlight, emanating outwards.",
+                "Outside of the spotlight, in a radius of 40 feet outwards from the edge of the spotlight, the ambient light and noise drastically decreases. The entire area outside of the spotlight seems dull and in some ways lifeless, as though it’s completely out of focus.",
+                "Any area inside the spotlight is considered to have Cover one level lower.",
+                "Any area outside the spotlight in the spell’s range is considered to have Cover one level higher.",
+                "Upkeep (8 Energy): When the effect would run out of time and dissipate, you may pay this cost to immediately extend its duration by 10 minutes, provided that you are still within range to do so.",
+                "\tThe spotlight is on you, sir! Give them the greatest show! Hm? What about me? Don’t worry about it, silly!"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Body Double",
+            "Keywords": [
+                "Word",
+                "Illusion"
+            ],
+            "Cost": "10 Minutes",
+            "SimplifiedDescription": "Create a temporary clone illusion of yourself.",
+            "Text": [
+                "Leave behind an illusion of yourself. This illusion will appear to be an image of you or of someone else. The illusion will last for about an hour, or for as long as you can maintain concentration on it.",
+                "The maximum number of body doubles you can simultaneously have active is equal to your Rank (the number of total brands you possess).",
+                "The illusion can perform a few simple actions:",
+                "Walking from one spot to another",
+                "Drinking or eating food and drink (the food and drink of the illusion is fake)",
+                "Doing a funny dance (this may draw attention)",
+                "Picking a lock (since it is an illusion, the lock would not actually be picked)",
+                "The illusion does not hold up to scrutiny. If anyone checks or inspects it, they will know it’s an illusion. When the illusion is touched, it will disappear immediately.",
+                "\tOver here, over there, I’m everywhere! Which one of me is real? Hehehe!"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Trick Sense",
+            "Keywords": [
+                "Sense"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "See through traps and other tricks.",
+            "Text": [
+                "You have a particular knack for noticing details about something which is off. ",
+                "You can spot objects or pieces of terrain, walls, ceilings, etc that might be suspicious. Even on a cursory inspection, you can tell if something is made with the intent to trap. You can hear the ticking of various mechanisms, and feel the current of vibrations beneath your feet.",
+                "This will not work on complex traps, or traps which cannot be detected by your senses.",
+                "Things that will tip you off:",
+                "If there is a trap that is visible, even if only by vaguely suspicious terrain. This could be something like a suspicious cluttering of leaves on the ground, covering a pitfall, or a pressure plate.",
+                "If there is a trap that you could hear. You will know its rough location immediately. Whenever a trap begins to activate and can be heard.",
+                "If a trap has strange smells. (Flamethrowers using oil, poison, etc.)",
+                "Minor depressions of terrain which should be hard, or terrain having too much give. (such as a pressure plate). You have an instinctive response not to depress it too much, such as by backing up. This can’t occur if you fall into a trap."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Hat Trick",
+            "Keywords": [
+                "Spell",
+                "Causality"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Teleport something to your hand from nearby that can’t be seen.",
+            "Text": [
+                "Immediately teleport a small object no more than 12 feet away into your hand.",
+                "You may also teleport the object to any part of your body that you would generally use to carry it. The idea is that you have to be holding the item somehow after it teleports.",
+                "For example: You could have your hand in your pocket or inside a hat (hence “Hat Trick”) when using this ability to obscure the destination of the object. Of course, other methods for using this ability are included.",
+                "The item must technically be something that you would be able to grab or steal. This ability works by manipulating causality. It must be possible to steal or grab the item, no matter how improbable.",
+                "For example, you cannot teleport something from inside a locked safe, unless you somehow had the ability to get into the safe.",
+                "If you had the ability to get into the safe (such as if you had the key, or even if you had the ability to use Hat Trick to grab the key), then you could use Hat Trick on an item inside the safe. As a result, the item would be teleported outside the safe into your hand without the safe ever having been unlocked.",
+                "You must know the exact location of the item you wish to teleport, as well as know exactly what the item you are teleporting is.",
+                "If you have seen or touched the item in question, you are considered to know what the item is.",
+                "In order for this spell to work, neither the object that you are teleporting nor the place that you are teleporting it to may be currently seen or otherwise observed by anyone other than you (or your allies).",
+                "If the object is currently being held by another creature, they must be distracted in order for the spell to work."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Curtain Call",
+            "Keywords": [
+                "Illusion"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Immediately cover allies for a moment if you aren’t being seen actively",
+            "Text": [
+                "Immediately gain for a moment cover for you and any allies, so long as the people are not focusing on you."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Perfect Disguise ",
+            "Keywords": [
+                "Spell",
+                "Illusion"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Disguise yourself perfectly.",
+            "Text": [
+                "Completely change how you look for a temporary period of time. You can maintain your illusion until you would otherwise be significantly distracted and unable to keep your focus on it for an extended period of time. Otherwise, it will last up to 10 minutes without upkeep.",
+                "As a result, the disguise is removed shortly after going to sleep.",
+                "L"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Vanishing City",
+            "Keywords": [
+                "Spell",
+                "Illusion"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Cause a massive object to become imperceptible after obscuring it.",
+            "Text": [
+                "Make a structure or a group of people spontaneously disappear using illusion magic.",
+                "You first need to find a way to obscure the entirety from the view of any target you wish to use this illusion against. The group or structure can be of any size",
+                "So long as the people cannot see the group or structure you are making disappear, they will be unable to see the group or structure after you uncover it, and it will seem as though they have disappeared.",
+                "This illusion does not hold up to scrutiny, if the structure or group being hidden moves in a way that would be visible to the targets, the illusion is immediately undone."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Disable",
+            "Keywords": [
+                "Break",
+                "Spell"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Break a small device, such as a lock.",
+            "Text": [
+                "You touch a small device or mechanism, and channel some magic into it in an unintended manner, messing up the internal components and immediately disabling it.",
+                "This spell cannot be seen or sensed.",
+                "If the device in question is a lock or seal, it immediately becomes unlocked.",
+                "Some devices may be more resistant to being disabled in this manner. The maximum tier of device you may break in this manner is equal to whichever is higher between:",
+                "One less than the tier of your weapon.",
+                "1/6th of your Will, rounded down.",
+                "\tHandcuffs? What handcuffs? No cell could hold me, no lock may stop me! Hehehe!",
+                "R"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Card Storm",
+            "Keywords": [
+                "Spell",
+                "Distraction"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Cause a massive distraction, capable of creating cover for everyone in it.",
+            "Text": [
+                "A storm of cards which immediately distracts everyone in its radius and causes mass confusion or awe."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Shining Golden Coin",
+            "Keywords": [
+                "Spell",
+                "Distraction"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Throw a coin which draws attention and anyone who grabs it becomes the focus of that attention.",
+            "Text": [
+                "Throw a coin which draws everyone’s gaze",
+                "At any point you may immediately teleport to the coin’s location, as if to grab it out of thin air. ",
+                "The person who grabs the coin immediately incurs the ire of everyone who was drawn to the coin"
+            ],
+            "Lore": ""
+        }
+    ],
+    "DevNotes": [],
+    "Version": "2.0.1"
+}

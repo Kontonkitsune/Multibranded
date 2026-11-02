@@ -1,0 +1,237 @@
+{
+    "BrandName": "Weaver",
+    "BrandType": "Utility",
+    "Complexity": "2",
+    "ComplexityText": "The Weaver has access to a lot of enchantments they can apply, but they have to keep track of the library of enchantments that they have access to, as they can only produce certain enchantments, not all.",
+    "Description": "The weaver is capable of transferring enchantments between enchantment scrolls, making, copying, and producing more enchantment scrolls. They can provide interesting additional effects to the wearer. They are also good at working with cloth, and can very easily make clothing out of just about anything.",
+    "CharacterDescription": "Weavers tend to be scholarly, and are generally well-studied in one way or another. They often have made a particular study of magic, and many see it as a science as well as an art form. Other weavers may be more artistic in how they go about their enchantments.",
+    "CharacterTraits": [
+        "I have always had a desire to understand magic, and to apply it to the everyday.",
+        "The difference between a brushstroke, a weave, and a pen is only the method of application--they are all the same at their core.",
+        "I seek to study and improve that which I see and understand."
+    ],
+    "SpecialSkill": "Weaver's Touch",
+    "SpecialSkillText": "You can sense and understand the enchantments of Weavers and others, as though you are literally able to parse through their individual strands of magic. You can use this to modify existing enchantments, or just to see how they operate in detail.",
+    "InnateSkills": [
+        "Weaver Lore (Understanding the ways that enchantments function, even those not of Weavers)",
+        "Cloth Sense (Seeing and analyzing pieces of cloth or clothing for their durability and other traits)",
+        "Miniature Precision (Ability to move around, feel, and see very small things)"
+    ],
+    "ProgenitorName": "WIP",
+    "ProgenitorLore": "WIP",
+    "MainStat": "Will",
+    "Substat1": "Ego",
+    "Substat2": "Fortitude",
+    "LeftBranch": "Clothworking",
+    "MiddleBranch": "Enchanting",
+    "RightBranch": "Artifice",
+    "Definitions": [],
+    "Talents": [
+        {
+            "Name": "Weaving Expertise",
+            "Keywords": [
+                "Craft"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Mend, Salvage, and Refine items made of Cloth.",
+            "Text": [
+                "You can mend and salvage items and equipment made of Cloth, including spell scrolls.",
+                "You’re capable of refining materials made of Cloth at their full rate (Crafting > Material refining)",
+                "You can also create many things out of cloth, namely clothing."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Arcane Transfer",
+            "Keywords": [
+                "Enchant"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "Transfer an enchantment from one item (or scroll) to another.",
+            "Text": [
+                "By performing a ritual of weaving and reweaving spellwork, you’re capable of transferring spells and enchantments in ways that wouldn’t otherwise be possible. ",
+                "The maximum tier of enchantments you can transfer is 6.",
+                "You may transfer enchantments within scrolls or currently applied to items. ",
+                "When transferring an enchantment from a scroll to an item, if the scroll is of a pristine durability, then it is reduced to good durability.",
+                "Depending on the tier of the enchantment, you may perform multiple transfers between items at the same time. When using a tool or machine to aid in your work (such as a sewing machine or a loom), you may perform this twice as much in the same amount of time.",
+                "Tier 1: Up to 6 operations per time slot",
+                "Tier 2: Up to 4 operations per time slot",
+                "Tier 3: Up to 3 operations per time slot",
+                "Tier 4: Up to 2 operations per time slot",
+                "Tiers 5 & 6: Only one operation per time slot",
+                "You may also remove the enchantments from enchantment scrolls entirely. When this is done, the scroll is left blank and may be used again."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Intricate Tapestry",
+            "Keywords": [
+                "Craft",
+                "Enchant"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "Craft Enchantment Scrolls.",
+            "Text": [
+                "By tapping into the power of the arcane, you are capable of weaving elaborate and intricate patterns on a micro level in a short amount of time without the assistance of tools.",
+                "This enables you to craft Enchantment Scrolls. To make an Enchantment Scroll of a given tier, it will cost two cloth materials of the same tier or higher.",
+                "The higher the tier of the scroll, the harder they are to create, and the more time they take to create. You may make multiple scrolls within the same time slot. If you are using a tool or machine to aid in your work, you may make twice as much at the same time.",
+                "Tier 1: up to 6 scrolls per time slot",
+                "Tier 2: up to 4 scrolls per time slot",
+                "Tier 3: up to 3 scrolls per time slot",
+                "Tier 4: up to 2 scrolls per time slot",
+                "Tier 5 & 6: Only one scroll per time slot",
+                "See the scroll creation in Crafting\\Enchanting"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "",
+            "Keywords": [
+                ""
+            ],
+            "SimplifiedDescription": "",
+            "Text": [],
+            "Lore": ""
+        },
+        {
+            "Name": "Ritual of Attunement",
+            "Keywords": [
+                "Craft",
+                "Enchant"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Add Enchantment slots to an equipment while crafting it.",
+            "Text": [
+                "During a craft, you may add one Enchantment slot onto the equipment.",
+                "You may do this a number of times equal to the material’s tier, though each layer of attunement is its own action."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Arcane Forgery",
+            "Keywords": [
+                "Enchant"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Copy enchantment scrolls.",
+            "Text": [
+                "When using Arcane Transfer to copy an enchantment from one scroll to another, you may choose to instead copy the enchantment without deleting it from the other scroll. ",
+                "The maximum tier of enchantment you can do this with is 6.",
+                "Doing so requires 2 units of cloth equal to or greater than the enchantment’s tier."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Artifice",
+            "Keywords": [
+                "Craft"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "You can create more advanced enchantments from nothing.",
+            "Text": [
+                "You can create a variety of relatively simple enchantments without needing a reference.",
+                "The maximum Tier of enchantment you can create in this way is 3.",
+                "To create an enchantment in this way requires 4 units of cloth equal to or greater than the enchantment’s Tier.",
+                "(See Enchanting for more details)"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Inheritance",
+            "Keywords": [
+                "Enchant"
+            ],
+            "Cost": "1 Recollection",
+            "SimplifiedDescription": "Enchant a passive talent onto an item, which can impart a passive ability to its bearer for a limited time.",
+            "Text": [
+                "This counts as an enchantment. You write an enchantment by tethering its existence to a creature with a passive ability.",
+                "This enchantment must be first written to an enchantment scroll. The scroll itself cannot be used, and must be applied to an equipment first.",
+                "This costs 1 unit of Cloth for every enchantment slot used, of a tier greater than or equal to the equipment or item it is placed upon.",
+                "The enchantment may be activated or deactivated at will. ",
+                "For Utility passives, or those without an active combat effect: Every enchantment slot used will result in a maximum of 30 minutes of time usage.",
+                "For Combat passives, or those with an active combat effect: Every enchantment slot used will result in a maximum of two turns of usage. ",
+                "This enchantment may be fully recharged by the creature whose existence it is tethered to with the usage of 1 Time Slot.",
+                "If the creature whose existence is tethered dies, the enchantment immediately becomes useless.",
+                "This counts the same as a normal Enchantment, meaning it cannot normally be applied to an already-enchanted item and vice versa.",
+                "L"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Action Enchantment",
+            "Keywords": [
+                "Enchant"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "Enchant an action into an item, which can be used later at no cost and recharged.",
+            "Text": [
+                "You write an enchantment into existence using a scroll as the medium. This particular spell must be one that you or an ally (who must participate in this enchantment) can use, and you must pay any cost for it up front.",
+                "The scroll itself may also be used, though the scroll will be consumed after the ability is used.",
+                "You may use a variable amount of Enchantment Slots for this. Depending on the amount of slots used, you may have a different number of charges. For every 2 slots used, the enchantment will have one charge.",
+                "This costs 1 unit of Cloth for every enchantment slot used, of a tier greater than or equal to the equipment or item it is placed upon.",
+                "This enchantment may be recharged by either the one who enchanted it, or, if it is the spell of an ally, it may also be recharged by them. The item may be recharged any time, though the cost of the action must be paid again every time it is recharged.",
+                "You may declare any reasonable trigger for the spell to activate. When this trigger occurs, the spell is immediately cast. It will activate against a target that is decided by the trigger. The spell is considered to have been cast by the equipment itself, though it uses the stats of the one who enchanted it.",
+                "Examples for triggers: “When I am hit”, “When I am about to be hit by a fatal attack”, “When I trip on a rock”, etc.",
+                "Examples for actions: Chroma Bolt, Maelstrom, Blink",
+                "Examples for targets: “An enemy who attacked me”, “myself”, “this piece of equipment”, “all nearby allies”",
+                "The action must be a Spell, Strike, or Word, and no modifiers can be cast upon it when it activates.",
+                "You cannot write an Ultimate talent to an enchantment.",
+                "This counts the same as a normal Enchantment, meaning it cannot normally be applied to an already-enchanted item and vice versa."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Dual Enchantment",
+            "Keywords": [
+                "Enchant"
+            ],
+            "Cost": "1 Recollection",
+            "SimplifiedDescription": "Combine two enchantments together on the same item.",
+            "Text": [
+                "Apply an additional enchantment to an already enchanted item by using an Enchantment Scroll. You may also combine 2 enchantment scrolls.",
+                "Because of the complexity of trying to weave an effect on top of others, doing this requires significantly longer and a significantly larger focus to accomplish.",
+                "The sum cost of all enchantments on an item must be at most equal to the total enchantment slots of the item, or on a scroll, to its tier.",
+                "When you would transfer, copy, add an enchantment to, or otherwise modify a multiple-enchanted item or scroll, the time to do so is multiplied by the amount of enchantments applied. The enchantments may not be separated.",
+                "R"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Library of Alexandria",
+            "Keywords": [
+                "Enchant",
+                "Knowledge"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "If you have seen an enchantment before on an item or scroll, you can replicate its effects from memory alone, enchanting them into a blank scroll.",
+            "Text": [
+                "When using Arcane Transfer, you may also choose to clone from memory an enchantment you have previously seen on an item or scroll.",
+                "In addition, you also have a photographic memory, and can vividly remember almost anything you have ever seen before, so long as it is not magically obscured."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Greater Artifice",
+            "Keywords": [
+                "Enchant"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Work with higher-tiered enchantments.",
+            "Text": [
+                "Artifice can now support enchantments up to Tier 6.",
+                "Arcane Transfer and Arcane Forgery can now support enchantments up to Tier 9.",
+                "Intricate Tapestry and Arcane Transfer are now faster, and can be used for higher tiers:",
+                "Tier 1: up to 10 scrolls per time slot",
+                "Tier 2: up to 8 scrolls per time slot",
+                "Tier 3: up to 6 scrolls per time slot",
+                "Tier 4: up to 4 scrolls per time slot",
+                "Tier 5: up to 3 scrolls per time slot",
+                "Tier 6 & 7: up to 2 scrolls per time slot",
+                "Tier 8 & 9: Only one scroll per time slot."
+            ],
+            "Lore": ""
+        }
+    ],
+    "DevNotes": [],
+    "Version": "0.9"
+}

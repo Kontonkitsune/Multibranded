@@ -1,0 +1,211 @@
+{
+    "BrandName": "Valorous",
+    "BrandType": "Combat",
+    "Complexity": "2",
+    "ComplexityText": "Enhancing weapon attacks instead of offensive stats as your primary means of damage dealing introduces a little additional consideration. Nonetheless, this class is a novel approach to a fighter, a standard and accessible RPG class.",
+    "Description": "The Valorous’ Brand for the duelists, fighters, and brawlers. One-on-one combat experts, they augment their Weapon Strikes with additional damage and effects. Battleheart, a unique point system, can be expended for additional melee combat damage and survivability.",
+    "CharacterDescription": "WIP",
+    "CharacterTraits": [
+        "WIP"
+    ],
+    "SpecialSkill": "WIP",
+    "SpecialSkillText": "",
+    "InnateSkills": [
+        ""
+    ],
+    "ProgenitorName": "WIP",
+    "ProgenitorLore": "WIP",
+    "MainStat": "Fortitude",
+    "Substat1": "Tempo",
+    "Substat2": "Mystique",
+    "LeftBranch": "Weapons Mastery",
+    "MiddleBranch": "Duel's Cadence",
+    "RightBranch": "Oath to Battle",
+    "Definitions": [
+        {
+            "Name": "Battleheart",
+            "Aliases": [
+                ""
+            ],
+            "Text": [
+                "When dealing damage or taking damage from basic weapon strikes, add half of damage taken as Battleheart",
+                "When you would receive damage, first reduce Battleheart. One point of Battleheart reduces incoming damage by a point. ",
+                "Pay 4 Battleheart or 2 Energy for one of the following effects (select another by paying twice the ability's cost):",
+                "Make a free basic weapon attack on an enemy who attacked you within your melee reach",
+                "Extend your melee reach to double its normal value until the end of your next turn",
+                "Reposition up to 12 feet with a nimble leap (this can be in addition to your movement range, or outside your turn)"
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "Talents": [
+        {
+            "Name": "Twinstrike",
+            "Keywords": [
+                "Weapon Attack"
+            ],
+            "Cost": "2 Battleheart + variable",
+            "SimplifiedDescription": "Make a simultaneous weapon attack with all equipped weapons",
+            "Text": [
+                "Make a simultaneous weapon attack with all equipped weapons",
+                "Pay energy cost for all, but add together their damage and deal it as a total.",
+                "If the enemy dodges your attack, they only dodge the least damaging move and cannot dodge again"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Opportunistic",
+            "Keywords": [
+                "Reaction"
+            ],
+            "Cost": "1 Battleheart",
+            "SimplifiedDescription": "",
+            "Text": [
+                "Trigger: when enemy moves within your melee reach",
+                "Immediately launch a Weapon Attack against them"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Shifting Blow",
+            "Keywords": [
+                "Mod:(Strike)"
+            ],
+            "Cost": "4 Energy or 2 Battleheart ",
+            "SimplifiedDescription": "",
+            "Text": [
+                "A weapon attack gains Dynamic Strike. If the attack connects, you can change your equipped weapon at no cost "
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Violent Dance ",
+            "Keywords": [
+                "Enhance",
+                "Reaction"
+            ],
+            "Cost": "2 Battleheart ",
+            "SimplifiedDescription": "",
+            "Text": [
+                "When receiving knockback from a melee attack, you can halve damage received and you are redirected inward toward the attack's source "
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "DevNotes": [],
+    "Version": "0.1"
+}

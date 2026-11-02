@@ -1712,7 +1712,7 @@ class Brand extends IDRegistry(class{}) {
         var talent = currentBrand.Talents[skillnumber]
         var framename = `DOM-${FrameIDCounter++}_${this.id}`
         var genhtml = `<details
-            class="${scenario=="Brands" ? (this.Skills[skillnumber] ? 'skillactive' : 'skillactive') : (this.Skills[skillnumber] ? 'equipped' : 'unequipped')}"
+            class="${scenario=="Brands" ? (this.Skills[skillnumber] ? 'skillactive' : 'skillinactive') : (this.Skills[skillnumber] ? 'equipped' : 'unequipped')}"
             ${this.display.skills[skillnumber] ? ' open' : ''}
             id="${framename}_Toggle"
             ontoggle="Brand.ActiveObjects.get('${this.id}').display.skills[${skillnumber}] = document.getElementById('${framename}_Toggle').open"

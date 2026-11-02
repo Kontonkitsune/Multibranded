@@ -1,0 +1,253 @@
+{
+    "BrandName": "Imperator",
+    "BrandType": "Combat",
+    "Complexity": "3",
+    "ComplexityText": "Despite the versatility of how their abilities may be used, the Imperator is fairly simple for new players. It can be used in and out of combat to enhance your roleplaying experience.",
+    "Description": "The Imperator commands others to do their bidding. They can use their words and their aura as a weapon, and their domineering presence will cause enemies to suffer various mental effects.",
+    "CharacterDescription": "Those who take on the Imperator’s brand are often confident, egotistical, dominant and sometimes downright domineering. They have a belief that they are destined for greatness, and a knack for getting others to do their work for them. They are not necessarily cold or cynical, however, and can often be incredibly inspiring.",
+    "CharacterTraits": [
+        "I rose to the top in my hometown, one way or another.",
+        "I will do whatever it takes to best my betters.",
+        "My ultimate goal is world domination.",
+        "I will be the one to lead everyone to a brighter future."
+    ],
+    "SpecialSkill": "Vox Omnis",
+    "SpecialSkillText": "All creatures can understand the meaning of your words, regardless of whether you are speaking a language they understand, or speaking a language at all. They will understand what you say exactly as you intend it.",
+    "InnateSkills": [
+        "Persuasion (Convincing others of things that are true)",
+        "Intimidation (Forcing others to be afraid)",
+        "Leadership (Taking charge and having others listen to you without panicking)"
+    ],
+    "ProgenitorName": "Integora, the Fell Queen",
+    "ProgenitorLore": "Once a simple mercenary, she fought with her wits. She eventually desired greater, worming her way into the royalty by a string of favors. Eventually, once she had made her mark, she became the princess of the kingdom. When it came her time to rule, she held nothing back. The Fell Queen, Integora ruled in equal parts fear and love, worming her way directly into the hearts of her subjects and creating an eternal loyalty so strong not even family ties could shake it. It’s said her words were so alluring that she was considered by most to be a demon.",
+    "MainStat": "Ego",
+    "Substat1": "Mystique",
+    "Substat2": "Will",
+    "LeftBranch": "Resolution",
+    "MiddleBranch": "Control Targets",
+    "RightBranch": "Ruler's Presence",
+    "Definitions": [],
+    "Talents": [
+        {
+            "Name": "Absolute Command",
+            "Keywords": [
+                "Word",
+                "Command"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "You command a target to do your bidding, and they are forced to comply. They get an Energy discount for performing the actions you tell them to.",
+            "Text": [
+                "You command a target to perform an action. The target must make a Save, or they are forced to perform the action, executed exactly to your will.",
+                "If the command is for the target to perform an action, the cost of that action is reduced by 4 Energy, to a minimum of zero.",
+                "Save: Target Mystique >= User Ego. If the target consents to the action, the Save is automatically failed. If the target strongly dissents against the action, the Save is automatically succeeded.",
+                "If your Ego is at least three times as much as the target’s Mystique, the Save is automatically failed, even if the target strongly dissents.",
+                "Regardless of whether this is performed against a consenting ally or otherwise, the target will know that you have attempted to command them."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Measured Thought",
+            "Keywords": [
+                "Passive"
+            ],
+            "SimplifiedDescription": "You have a resistance to mental manipulation.",
+            "Text": [
+                "You are immune to effects which would otherwise attempt to insert thoughts into your mind. This includes all abilities of this Brand. When an effect attempts to insert thoughts into your mind, you will notice.",
+                "Whenever you are the target of a Mental ability which has a Save, additionally add your Mystique to the effect for the Save.",
+                "In addition, when another person talks, you will immediately recognize when their words are laced with Spells or mystical Words."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Suggestion",
+            "Keywords": [
+                "Word",
+                "Command"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "An attempt to command someone without them noticing. Can leave permanent impacts on others.",
+            "Text": [
+                "You attempt to force a thought into someone’s mind without them noticing. Lace your words with an incantation which bypasses most people’s recognition.",
+                "This cannot be used against targets which do not understand your language.",
+                "Save: Target Mystique >= User Ego.",
+                "On a failed save, the target is influenced by your words, either believing what you say (if it was a lie, they believe it to be the truth), or doing as you say (believing it to be their own thoughts). The methods by which they understand your words may vary depending on the target.",
+                "On a successful save, the suggestion fails, and the target knows that you attempted to implant an idea in their mind.",
+                "If the suggestion is something that the target absolutely would not think, they will automatically succeed the save."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Burning Words",
+            "Keywords": [
+                "Word",
+                "Spell"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Lace your words with magical intent, and deal mental elemental damage.",
+            "Text": [
+                "You speak a command laced with magical intent towards a target. The target immediately erupts with the aspect. This attack is guaranteed to hit, so long as the target can hear you, see you, or otherwise sense your presence.",
+                "Range: 60 feet",
+                "Damage: (Mental) 2x Ego",
+                "Aspect: Choose from (Fire, Radiant, Decay, Lightning)+, Dynamic Aspect (Spell)",
+                "The exact effect from this varies, though the exact word is related to the Aspect used. For example, Lightning would be [Smite]. Generally speaking, the subject of your words will spontaneously find themselves overexposed to the element. Lightning words would find them spontaneously struck with lightning. "
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Your Words Mean Nothing to Me",
+            "Keywords": [
+                "Reaction",
+                "Counter"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Show superiority by tanking an attack and freak out the enemy.",
+            "Text": [
+                "Trigger: When you are attacked.",
+                "You let the enemy get a hit on you in a display of superiority, and you show them that you are unfazed by their attack. The target’s attack is guaranteed to hit you.",
+                "If the attack would deal 8 or less damage to you, the damage dealt by this attack is completely nullified.",
+                "Save: Target Ego >= User Mystique. If the enemy’s attack deals no damage to you (after the 8 or less nullification effect), then the enemy is guaranteed to fail this save. ",
+                "If the target fails this save, they immediately take (Mental) damage equal to your Ego. Additionally, depending on the aspect chosen, additional effects occur.",
+                "Damage: (Mental) 1x Ego",
+                "Aspect: Choose from (Despair, Fear, Rage)+. Dynamic Aspect (Word)",
+                "Rage: The target becomes Enraged, and they must attempt to use all of their actions during their next turn to attack you.",
+                "Fear: The target becomes Terrified, and immediately attempts to run away from you.",
+                "Despair: The target becomes Spiraled, and cannot take actions during their next turn.",
+                "Other: The target is ailed by illusory manifestations of the aspects this ability was cast with."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Kingsguard",
+            "Keywords": [
+                "Reaction",
+                "Defense"
+            ],
+            "Cost": "2 Energy",
+            "SimplifiedDescription": "Command an ally to immediately take an attack for you.",
+            "Text": [
+                "Trigger: When an enemy attempts to attack you",
+                "You immediately command a nearby creature to step in front of you in order to take the attack. They must immediately make a save. ",
+                "This can only be used on targets who are capable of reaching your location within one turn of their base movement. The creature commanded may be an ally or an enemy.",
+                "Save: 2x Target Mystique >= User Ego. Auto-fail on a consenting target.",
+                "On a failed Save, the target moves to your location and pushes you out of the way. They become the attack’s primary target. You then move 4 feet in a direction of your choice (to an adjacent tile), with the target of this ability replacing your position."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Blank Out",
+            "Keywords": [
+                "Word",
+                "AoE"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Force enemies to lose their train of thought, and they become unable to react or act.",
+            "Text": [
+                "You whisper a subtle enchantment which permeates the room, silently soothing enemy targets within the AoE, while distracting them and causing them to completely lose their train of thought.",
+                "AoE: 40 foot radius, centered on you. Only enemy targets who can hear, see, or sense you are affected by this.",
+                "Aspect: (Psychic, Void)",
+                "Until the end of all allies’ turns, affected enemies cannot react. All affected enemies must also make a save. ",
+                "Save: 2x Target Mystique >= User Ego",
+                "On a failed Save, the target also cannot take action or move during their next turn. Enemy targets may not lose their actions on consecutive turns."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Dominate",
+            "Keywords": [
+                "Word",
+                "AoE"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Let loose your aura and intimidate enemies, dealing damage.",
+            "Text": [
+                "You let loose your dominating aura and presence in an attempt to intimidate and weaken the spirits of enemies around you.",
+                "AoE: 40 foot radius, centered on you. Only enemy targets who can hear, see, or sense you are affected by this.",
+                "Aspect: Choose from (Radiant, Psychic, Despair, Fear)+. Dynamic Aspect (Word)",
+                "All targets within the AoE immediately take damage equal to your Ego. This attack is guaranteed to hit, and all enemy targets additionally must make a save (Target Mystique >= User Ego or Will). Those who fail the save take damage equal to 2x your Ego instead."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Occupation of the Tyrant",
+            "Keywords": [
+                "Defense",
+                "Aggro"
+            ],
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Walk straight into enemy territory and nobody can bring themselves to attack you.",
+            "Text": [
+                "You let forth your instincts and walk straight into enemy territory, utilizing your sheer presence as a deterrent. Until the beginning of your next turn, whenever an enemy attempts to attack you, they must make a save (Target Mystique >= User Ego). On a failed save, they fail to go through with their attack, and it is considered as an automatic miss.",
+                "Aspect: Choose from (Fear, Despair, Psychic)",
+                "Save: Target Mystique >= User Ego",
+                "Upkeep (2 Energy): The effect is extended until the beginning of your next turn."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Coup D’etat",
+            "Keywords": [
+                "Command",
+                "Word",
+                "AoE"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Command everyone to perform the same action, enemies and allies alike.",
+            "Text": [
+                "AoE: 40 foot range.",
+                "Command every target in a 40 foot range perform the same action, including your allies. Each target must make a save, or else they are forced to comply with your orders, as stated. Because this is done to a group, and not an individual, the orders are up to interpretation, and may not be executed to your will.",
+                "If a target cannot perform the commanded action, they will not.",
+                "Save: Target Mystique >= User Ego. If the target consents to the action, the Save is automatically failed. If the target strongly dissents against the action, the Save is automatically succeeded.",
+                "If your Ego is at least three times as much as the target’s Mystique, the Save is automatically failed, even if the target strongly dissents."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Reverse Checkmate",
+            "Keywords": [
+                "Reaction"
+            ],
+            "Cost": "4 Energy",
+            "SimplifiedDescription": "Escape from a sticky situation and disrupt enemy formations.",
+            "Text": [
+                "Trigger: When you are cornered, surrounded, flanked, or otherwise in a completely desperate situation with no normal method of escape without running through an enemy.",
+                "Each enemy within a 20 foot radius must make a save of your choice:",
+                "Save: 2x Target Fortitude >= User Strength or Ego. Aspect: Fear. Any enemy who fails the save immediately becomes Terrified of you, and immediately takes a movement action to escape from you.",
+                "Save: 2x Target Intuition >= User Will or Ego. Aspect: Despair. Any enemy who fails the save immediately becomes Spiraled, and they may not take actions during their next turn.",
+                "Save: 2x Target Mystique >= User Ego. Aspect: Anger. Any enemy who fails the save immediately takes (Mental) Anger damage equal to 2x your Ego.",
+                "If any of the targets within the radius fail the save you choose for them, then the following effect occurs during your next turn:",
+                "Enemy targets within the radius may not impede your movement, and you may move through them as though they are not there.",
+                "Enemy targets cannot React to your movement during this period.",
+                "Your Movement for this turn increases by 20 feet.",
+                "\t“Cornered? Believe me, I’m exactly where I want to be.”"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "I Make the Rules",
+            "Keywords": [
+                "Command",
+                "Special"
+            ],
+            "Cost": "16 Energy",
+            "SimplifiedDescription": "Declare a Law which must be obeyed by all creatures nearby.",
+            "Text": [
+                "Declare a Law. Until the beginning of your next turn, all creatures, objects, and other things within a 60 foot radius of you must obey this Law, including you. You may cancel the Law at any time.",
+                "These laws must be general, and cannot directly mention any particular creature, or attempt to target any particular creature(s) by manner of epithet or condition. They must be a fair law to both allies and enemies as ruled by the DM.",
+                "If the Law is impossible for a creature to follow in a given turn, that creature instead takes (Mental) Psychic damage equal to 2x your Ego.",
+                "If the Law is impossible for you to follow, the effect is immediately cancelled.",
+                "Some examples of what a Law might be defined as:",
+                "No flying!",
+                "No avoiding attacks!",
+                "You may only use physical attacks!",
+                "No touching the floor!",
+                "Nobody move a muscle!",
+                "Everyone must be respectful to each other!",
+                "You must perform a twirl before eating your food!",
+                "Upkeep (4 Energy): This cost may be paid at the beginning of your turn to extend the duration until the beginning of your next turn."
+            ],
+            "Lore": ""
+        }
+    ],
+    "DevNotes": [],
+    "Version": "1.2"
+}

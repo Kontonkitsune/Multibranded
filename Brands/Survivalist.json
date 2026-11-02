@@ -1,0 +1,210 @@
+{
+    "BrandName": "Survivalist",
+    "BrandType": "Utility",
+    "Complexity": "2",
+    "ComplexityText": "WIP",
+    "Description": "WIP",
+    "CharacterDescription": "Life that has the Survivalist’s Brand is minimalist or conservative in the use of resources. They are free from or have greatly reduced cultural bias, and are often very empathetic.",
+    "CharacterTraits": [
+        "Going without caused me to have little tolerance for waste and negligence.",
+        "I had to work together with people different from me or accept tutelage to overcome a crisis.",
+        "I couldn’t stand idly by while disease or war ravaged noncombatants.",
+        "I grew up with a foot in two worlds and am understanding of multiple perspectives."
+    ],
+    "SpecialSkill": "WIP",
+    "SpecialSkillText": "",
+    "InnateSkills": [
+        ""
+    ],
+    "ProgenitorName": "Ali-Or the Enigma",
+    "ProgenitorLore": "When the warring cities faced a calamity, their petty squabbles surely would have led to their own self-destruction. It was only the presence of them that stopped nature’s fangs - a chimeric and enigmatic half-giant, wearing the discarded hide and scales of all manner of creatures. Where cultural barriers and selfishness halted the flow of ideas, their wise and bellowing voice intervened. Their accumulation of knowledge from cultures downtrodden or forgotten entirely built structures, scavenged resources, and held the population fast through the great flood. Though they left as quickly as they came, the cultural footprint of collaboration and eschewing waste formed a legacy in their place.",
+    "MainStat": "Tempo",
+    "Substat1": "Fortitude",
+    "Substat2": "Mystique",
+    "LeftBranch": "Campsite",
+    "MiddleBranch": "On the Road",
+    "RightBranch": "Navigation",
+    "Definitions": [],
+    "Talents": [
+        {
+            "Name": "Campfire Mastery",
+            "Keywords": [
+                "Creation",
+                "Ritual"
+            ],
+            "Cost": "10 minutes",
+            "SimplifiedDescription": "",
+            "Text": [
+                "When you create a campfire, you have learned the arts of controlling it.",
+                "The color and aspects of the fire and smoke is yours to control. ",
+                "Your campfires can be either hot or cold, depending on what’s needed. Hot campfires will keep the party warm, cold campfires will ensure that they don’t overheat.",
+                "You can make the campfire larger or smaller, depending on your needs",
+                "Where the Heart is: Survivalists can make and maintain smokeless fires and obscure the party from view in dense or forested campsites. ",
+                "Hey, Over here!: Use campfires to create long distance colored smoke signals."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Tomorrow’s Toolkit",
+            "Keywords": [
+                "Creation"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "",
+            "Text": [
+                "You can turn natural materials, or materials dropped from animals and monsters into a variety of simple objects without the need for tools or proper crafting equipment.",
+                "You can make crude weapons and tools, such as utility knives, sewing needles, fishing implements (rods, hooks, lines, spears, nets), cookware (such as pots and pans), earthen vessels (such as pots, jars, containers), or any other simple object or tool. Objects created this way are not effective enough for use in combat.",
+                "You may use the above implements to perform simple methods of food preservation (cooking, drying, salting, smoking, freezing), and create new food rations, provided that you have the raw ingredients required to do so."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Locate Object",
+            "Keywords": [
+                "Ritual"
+            ],
+            "Cost": "10 minutes",
+            "SimplifiedDescription": "",
+            "Text": [
+                "Locate Edible: Used to find the nearest edible items (plant and animal material) within a short range centered on the character. Can be used while foraging to great effect.",
+                "Locate Creature: Used to find the nearest creature of a given type.",
+                "Locate Lost Item: If an item has been dropped, you can use your senses to attempt to locate it.",
+                "Locate Resource: Can be used to tell if a given resource is nearby, and if it is nearby, in which general direction you can find it in."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Natural Shroud",
+            "Keywords": [
+                "Passive"
+            ],
+            "SimplifiedDescription": "",
+            "Text": [
+                "You become amazing at scouting out areas for possible campsites.",
+                "You can shore up any areas which are left defenseless. If you are camping within a small cave, you can disguise the entrance such that only creatures who know the area may see through it. You may also create a shallow wall which would dissuade certain creatures from being able to see your campsite, or enter it.",
+                "You can deafen common sounds (sleeping/snoring/working/idle talk) coming from your campsite. Other sounds can be muffled to normal speaking voice volume. Loud sounds, such as screams, are not affected."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "No Quarrels Under My Roof",
+            "Keywords": [
+                "Passive"
+            ],
+            "SimplifiedDescription": "",
+            "Text": [
+                "Player and non-player characters at your campsite are very unlikely to dispute.",
+                "You can soothe tensions with groups you encounter on the road by sharing your hospitality (meals, a place to stay, or other). Groups that are belligerent to you morally or unintelligent are unaffected."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Traces",
+            "Keywords": [
+                "Special"
+            ],
+            "SimplifiedDescription": "",
+            "Text": [
+                "You have gained mastery over leaving trails, and covering up the party’s tracks. You can now mask your tracks perfectly, given enough time, create false tracks, and hidden tracks, which only you and a select number of people may see.",
+                "Leave No Trace - At no time penalty or material cost, a survivalist can obscure traces left behind by the party for 180 minutes/party size.",
+                "Better than Bread Crumbs - Create a consistent trail marker system known to only people you designate. The markers are only guaranteed to be undisturbed for one day’s time.",
+                "A sufficient investigation will reveal the true nature of tracks, allowing them to determine if a given track is real or fake, and to see disguised tracks, though this is incredibly rare unless the creature already knows that you’re masking your tracks."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Internal Compass",
+            "Keywords": [
+                "Passive"
+            ],
+            "SimplifiedDescription": "",
+            "Text": [
+                "You always know which way is North, West, East, South, Up, and Down. In addition, you can accurately remember which places you’ve visited, and can retrace your steps towards any area you’ve visited within the last day (so long as you haven’t been interfered with by magic).",
+                "If you are teleported from one spot to another, you will know the general distance that you have traveled, as well as the approximate direction that you have gone. ",
+                "If you have traveled to another plane of existence, you will know this as well."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Temporary Settlement",
+            "Keywords": [
+                "Creation"
+            ],
+            "Cost": "4 Time Slots (one full day)",
+            "SimplifiedDescription": "",
+            "Text": [
+                "You can create even bigger campsites which have amenities of a similar level to a small town, even in a moderately harsh environment. With the assistance of a magic user, you may set up even greater amenities, and create the civilization in even harsher environments.",
+                "The settlement will remain, unmaintained, on its own for up to a year, without extenuating circumstances.",
+                "You can set traps and grow plants, given enough time, as well as procure a reliable source of clean water.",
+                "Some tasks can be partially automated, such as trapping and crop gathering, or dealing with keeping the fire stocked.",
+                "In conjunction with On-the-Road Amenities, you’re capable of creating workstations which do require precision, of a comparable quality to a small town.",
+                "L"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "On-the-Road Amenities",
+            "Keywords": [
+                "Passive"
+            ],
+            "SimplifiedDescription": "",
+            "Text": [
+                "Makeshift beds utilizing sleeping bags or other material are considered to be comfortable at worst.",
+                "You can make improvised workstations for a variety of professions, provided that the workstations do not require extreme precision (such as alchemy flasks).",
+                "You may create a cache in-place, and use some advanced techniques to perform tasks like fermenting without proper equipment. This can be used to preserve materials for a return trip, or to create things which can be picked up at a later time on the go.",
+                "Barrels of alcohol left to ferment: takes 30 days",
+                "Pickling: 30 days"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Advanced Material Harvesting",
+            "Keywords": [
+                "Creation"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "",
+            "Text": [
+                "You can harvest materials which would otherwise be difficult to do without the proper equipment, such as de-scaling a dragon. ",
+                "You can do this on-site. You may harvest materials from multiple creatures at once in the same Time Slot:",
+                "Giant or Gargantuan: 1",
+                "Large: 2",
+                "Medium: 4",
+                "Small: 6",
+                "Tiny: 12",
+                "Smaller: Up to 50",
+                "When foraging, you may harvest ingredients which require extreme care to harvest as though they are normal plants.",
+                "R"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Natural Explorer",
+            "Keywords": [
+                "Passive"
+            ],
+            "SimplifiedDescription": "",
+            "Text": [
+                "When plotting a route, you can deduce which routes are safe to pass through while being unimpeded by the terrain (flora, fauna, or other hazards) so long as one exists. ",
+                "Both in and out of combat, you can determine at a glance what type of terrain something is, as well as what effects it would have on you. You’re also capable of telling if it’s infused with magic in some manner.",
+                "You may also calm wildlife (either flora or fauna) or naturally avoid them, and assist your party in avoiding hazards such as stampedes or cave-ins. "
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Labyrinthean Cartography ",
+            "Keywords": [
+                "Creation"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "",
+            "Text": [
+                "Maps can be made and stored using readily available materials (clay, hide, reed paper, ink, blood, carving). Other entities are able to read said maps perfectly (the maps are nearly 100% accurate and well-labeled).",
+                "These maps are magically enchanted, and when the areas marked on the map are to change, the map changes with them to display the changes as though they were always a part of the map."
+            ],
+            "Lore": ""
+        }
+    ],
+    "DevNotes": [],
+    "Version": "0.8"
+}

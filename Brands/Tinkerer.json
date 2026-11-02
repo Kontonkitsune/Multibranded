@@ -1,0 +1,202 @@
+{
+    "BrandName": "Tinkerer",
+    "BrandType": "Utility",
+    "Complexity": "3",
+    "ComplexityText": "There are a lot of things you can craft, and materials you need to make them.",
+    "Description": "The Tinker crafts a variety of useful tools for combat and utility. They have abilities which help with making equipment. They can make special ammunition and work well with metal. More advanced Tinkers can even make sentient Constructs!",
+    "CharacterDescription": "Tinkers are curious and inventive. They tend to build things simply just because they are cool, rather than because they serve a useful purpose. They tend to find creative solutions to problems, and use the things they create in order to do that.",
+    "CharacterTraits": [
+        "I've always been a problem-first thinker. I tend to think of almost everything as a problem to solve.",
+        "There is absolutely nothing in this world which cannot be solved via the application of better tools.",
+        "I've always had a particular obsession with making things. Even when I was young, I was often found with some crazy new invention."
+    ],
+    "SpecialSkill": "Blueprint",
+    "SpecialSkillText": "When you see or touch a mechanism, magic or otherwise, you can figure out how it would work, and replicate it. Though you would know that a spell is on an item, and may be able to intuit how it must work for the item to function, you cannot replicate or exactly understand the effects of enchantments or brand effects.",
+    "InnateSkills": [
+        "Disassembly (Taking things apart without breaking them)",
+        "Construct Lore (Information pertaining to Constructs)",
+        "Mechanic (Repairing devices of various types)"
+    ],
+    "ProgenitorName": "Seth, the Pilot",
+    "ProgenitorLore": "Seth was a fairy who, for the majority of their life, struggled with their size in a settlement which didn't cater to them. They were seen as a calamity, but they were determined to make up for that with the devices they would craft, using their small size to create very precise mechanisms. Their crowning accomplishment was a version of themself, crafted from wood and amethyst, woven together in perfect unison, and a pilot's seat in its head. They got their wish of being big, and after their passing, that version of themself gained sentience, and became the first true Construct.",
+    "MainStat": "Strength",
+    "Substat1": "Fortitude",
+    "Substat2": "Tempo",
+    "LeftBranch": "Construction",
+    "MiddleBranch": "Tinkering",
+    "RightBranch": "Equipment Crafting",
+    "Definitions": [],
+    "Talents": [
+        {
+            "Name": "Metalworking",
+            "Keywords": [
+                "Craft"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Mend, salvage, and make things made out of metal.",
+            "Text": [
+                "You can mend and salvage items and equipment made of metal.",
+                "You can also create many small things out of metal, such as locks, keys, nails, and other small things in bulk."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Tinkering",
+            "Keywords": [
+                "Craft"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Craft small devices and ammunition that are useful in and out of combat.",
+            "Text": [
+                "You can craft small materials and ",
+                "You can make things such as rope, or a grappling hook out of materials. ",
+                "You can make many small throwing weapons, or ammunition."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Hephaestus’ Smite",
+            "Keywords": [
+                "Strike",
+                "Melee",
+                "Break",
+                "Craft"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "A strong strike which ignores armor and aspect resistances. Double damage when equipment crafting.",
+            "Text": [
+                "Damage: (Physical) 2x Strike Power",
+                "Aspect: Inherited from Weapon Strike",
+                "This attack ignores resistances of equipment and always hits for neutral effectiveness. This includes equipment which you are currently crafting.",
+                "If the Tier of your equipped weapon is greater than the tier of the item you are currently crafting, the damage dealt by this attack is double."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Wild Construction",
+            "Keywords": [
+                "Craft"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Make crafting stations on the go, using materials from nearby",
+            "Text": [],
+            "Lore": ""
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Assembly",
+            "Keywords": [
+                "Craft"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Create and assemble things with mechanisms to make automatic tools to assist you.",
+            "Text": [
+                "You can create a variety of things with mechanisms",
+                "Chainsaws, drills, other tools used for construction",
+                "Auto-wrenches.",
+                "Small constructs which can assist you in doing things."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Material Masking",
+            "Keywords": [
+                "Craft"
+            ],
+            "Cost": "12 Energy",
+            "SimplifiedDescription": "Modify an item to use the abilities of another material while retaining stats.",
+            "Text": [
+                "By layering your materials together, you can retain the stats of the equipment’s base material, while taking on the aspects and additional effects of another.",
+                "While you are crafting equipment, you may use this ability.",
+                "Immediately expend resources of another metal equal to half of the cost of the current equipment. In exchange, the current equipment takes on the aspects and additional effects of the expended metal.",
+                "You may choose to overwrite all of the original aspects and additional effects, or to keep all of the original aspects and effects in addition to the new ones.",
+                "This ability may only be used once per craft."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Construct Assembly",
+            "Keywords": [
+                "Craft"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Create sentient Constructs with highly complex materials which can become their own characters and gain Brands.",
+            "Text": [
+                "You can create sentient constructs by using the prerequisite materials.",
+                "The construct may be of any form, though Ancient styled constructs require more materials to make.",
+                "This construct becomes its own character."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "Auto-Machining",
+            "Keywords": [
+                "Craft"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Make simple Constructs which can help with crafting of all types.",
+            "Text": [
+                "Using the help of various constructs, you can get bonuses for all forms of crafting. Alchemy, weaving, jewelry, and equipment crafting."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Reforge",
+            "Keywords": [
+                "Craft"
+            ],
+            "Cost": "1 Recollection",
+            "SimplifiedDescription": "Reforge an equipment, keeping any modifications made to it while making it from a new material.",
+            "Text": [
+                "By using one weapon as a template and a mold, you are able to re-craft it out of a completely different material, retaining the original item’s additions, such as enchantments, insets, and any abilities used to increase its capabilities.",
+                "The material cost is equal to the cost of the new weapon, and the materials for the original weapon are destroyed.",
+                "When beginning the craft, the new item immediately gains Work equal to half of the original item’s Work (as calculated from its material and rarity).",
+                "For example, an Iron weapon with a quality of Uncommon requires twice the normal work. Iron’s target is 40, and with an Uncommon rarity, this is increased to 80. Then this is divided by two to get 40 again. So the reforge begins with 40 work."
+            ],
+            "Lore": ""
+        }
+    ],
+    "DevNotes": [],
+    "Version": "1.3"
+}

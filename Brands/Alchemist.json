@@ -1,0 +1,221 @@
+{
+    "BrandName": "Alchemist",
+    "BrandType": "Utility",
+    "Complexity": "4",
+    "ComplexityText": "Alchemy involves collecting a lot of ingredients with a variety of effects, which can quickly fill your inventory and get complex when you have to figure out what effects would emerge from combining and refining them...",
+    "Description": "The Alchemist creates a variety of consumables for the party during their\nadventures, differentiating them from other artisan classes. They use knowledge from inside and outside of the game to predict the effects of ingredients and reagents. They are capable of bulk production. ",
+    "CharacterDescription": "Characters with the Alchemist brand are often extremely reflective, introspective, and love acquiring and applying knowledge. They may pride themselves on worldliness, or breadth of ability. For Alchemists, every experience is a learning experience. ",
+    "CharacterTraits": [
+        "My knowledge and unique perspective give me a competitive edge in this world.",
+        "I want to see my trade to its limits, and exploring the world helps me do that.",
+        "Interacting with other artisans is what gets me up in the morning."
+    ],
+    "SpecialSkill": "Chef's Tongue",
+    "SpecialSkillText": "Your sense of taste is drastically improved. You can make out even the tiniest of flavors and understand what ingredients might have comprised it, in food or other substances. You can also immediately tell if something you might eat is poisoned fast enough to tell before you swallow it.",
+    "InnateSkills": [
+        "Alchemistry (Knowledge of alchemical ingredients and their effects)",
+        "Cooking (Making tasty food!)",
+        "Mass Production (Figuring out how to streamline production methods)"
+    ],
+    "ProgenitorName": "Bram, Father of the Craft",
+    "ProgenitorLore": "“Okay, Buddy.” A calloused fist impacted the uncaring wall. “If you’re going to die on me, I’ll do your part too.” Tradition and invention, Art and Science; the way it was always done clashed against hope that it could be better. “You left me enough of your otherworldly science. I won’t let our legacy die out.” Only the death of his best friend who had become a life partner could push Bram to see the other perspective. “The miracle draught that sustained the royal guard and the cheap mead that gets the laborers wasted may not be so different after all. I give in. It’s both an art and a science. I’m only saying this because I know you can’t rub it in my cryin’ face.”",
+    "MainStat": "Fortitude",
+    "Substat1": "Mystique",
+    "Substat2": "Control",
+    "LeftBranch": "Material Acquisition",
+    "MiddleBranch": "Alchemy",
+    "RightBranch": "Cooking",
+    "Definitions": [],
+    "Talents": [
+        {
+            "Name": "Reagent Dictionary",
+            "Keywords": [
+                "Alchemy"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "",
+            "Text": [
+                "Using the acumen of a practiced tradesperson, you can identify useful ingredients and reagents that you stumble upon in the wild. Working with a skilled survivalist can help you find prospective ingredients more easily.",
+                "Non-organic and simple organic (plant life, or organisms that are not animated) materials you encounter you can collect with trained precision, yielding as much of the material as could reasonably be obtained.",
+                "Collecting up to one cubic foot of material is considered a thirty minute ritual. Collecting material from bulk sources will either take a time slot or longer based on the DM’s discretion. Special rules may be applied for how this ability interacts with complex or animated materials."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Beginner’s Lab",
+            "Keywords": [
+                "Alchemy"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "Produce Potions or Tinctures. You can mass-produce with a proper workstation.",
+            "Text": [
+                "You can produce alchemical Potions and Tinctures with a simple bag of on the go tools and a flat workspace.",
+                "Tinctures require at least a makeshift fluid-tight container of metal or glass. ",
+                "They can be made with just two additional reagents, one as a Basis and the other as a Modifier. ",
+                "They can be consumed once. Trying to consume a Tincture multiple times or in parts results in no effect. ",
+                "They decohere over time and must be used before the next long rest.",
+                "On the go, they can be produced one at a time as a fifteen minute ritual.",
+                "Potions require a fluid-tight container of glass, as the container must be sanitary and inert. ",
+                "They require one base reagent and any number of following reagents as modifiers. ",
+                "The yield of the potion may be one use or multiple, and has more pronounced effects than a Tincture. ",
+                "They can keep indefinitely.",
+                "On the go, up to two can be produced in a Time Slot.",
+                "Either Tinctures or Potions can be bulk produced with access to a full laboratory and tools. Players are encouraged to write down their produced recipes and results."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Bonfire Bash",
+            "Keywords": [
+                "Cooking"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "Cook a simple meal with other players, and share it to gain temporary Energy and make friends.",
+            "Text": [
+                "With unparalleled adaptability, you can whip up a simple meal with any common meat ingredient, access to a fire, and rudimentary cooking tools. ",
+                "Any number of player characters may join in and help you. For each player character that can credibly describe how they help, this ritual restores 4 Resolve.",
+                "After preparing the meal, player and non-player allies can partake in the meal.",
+                "Player characters who join you start the next encounter with four temporary energy in addition to their current total.",
+                " Non-player characters who partake of your hospitality will be compelled by the atmosphere and generosity to be open and share information with you they otherwise may have withheld."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Ether Flask",
+            "Keywords": [
+                "Alchemy"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "Make an Ether Flask with celestial parts and Ether which can restore a single dynamic to full.",
+            "Text": [
+                "You can make an Ether Flask, a specific type of single-use Potion with sufficient remains of a celestial or a consenting live donor celestial of any type.",
+                "This Potion creation will not fail and only uses the Ether as a reagent.",
+                "The resulting Ether Flask can be used by anyone.",
+                "When an Ether Flask is used by a character:",
+                "Every Time Slot that passes without a combat encounter,",
+                "Choose one Dynamic and restore it to full.",
+                "\tEther has powerful restorative properties, and the first person to harness it in mortals of flesh and blood would advance the craft tenfold. Yet no one was brave enough to ask a god by birth to give up its divine body, even in microscopic amounts."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Butcher’s Eye:",
+            "Keywords": [
+                "Alchemy"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Identify parts of animals that would be useful to craft with and harvest them better.",
+            "Text": [
+                "You can identify parts of complex or animated organisms that may be useful to your craft.",
+                "You can harvest material from complex and animated organisms. Organisms that can feel pain will aggress you for doing this unprompted. Working with a Tamer or Beastkin can help mitigate this.",
+                "Butchering compliant creatures is done as a Ritual.",
+                "Small class creatures or smaller take 15 minutes.",
+                "Medium class creatures take 1 hour.",
+                "Large or Gargantuan class creatures take a Time Slot.",
+                "Creatures that are absurd in size may have special rules at the DM’s discretion.",
+                "Working in tandem with a Survivalist halves harvest time.",
+                "Harvesting material from an organism that is working against you or aggressive will take one Time Slot for any amount.",
+                "\tAndrew hummed setting about the morbid work of dismantling the swamp boar with an uncanny fascination. When he popped the creature’s eye out of its socket, I understood that the Butcher’s Eye wasn’t always a metaphor."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Nutrient Paste",
+            "Keywords": [
+                "Alchemy"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "Put a meal and its effects into a Tincture.",
+            "Text": [
+                "With waste, you can put a meal and its effects inside a Tincture.",
+                "You must have access to two servings of a meal, a viable bottle for the Tincture, and any ingredient with the Soften effect for every Tincture you wish to create.",
+                "The resultant product has no taste, but the effect remains intact alongside memories and sentiments of the moment.",
+                "Nutrient Paste Tinctures must be used within 2 weeks.",
+                "\tThey must work you hard at college. I don’t know, I’ve never been - but if it demands this, I never want to go."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Labyrinth Cuisine",
+            "Keywords": [
+                "Alchemy",
+                "Cooking"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Alchemically imbue your meals with effects of reagents that have long-lasting effects.",
+            "Text": [
+                "You can make fully customizable meals based on the Alchemy ingredient system.",
+                "Meals require access to more ingredients than Alchemical byproducts. You need one unit of each ingredient per serving created. Not everyone traveling with you must be served, but they may build resentment at being left out.",
+                "To make a meal, you must have one edible form and aspect basis, as well as one or more ingredients. Ingredients affect meals at half the potency they would contribute to a Potion.",
+                "Everyone partaking in a labyrinth cooked meal is energized, starting the next combat within 48 hours with 4 temporary overcap energy that is used first with no penalty to energy."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Ever-full Flask",
+            "Keywords": [
+                "Ritual",
+                "Alchemy",
+                "Craft"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "Craft an Ever-Full Flask, a special potion that can be used forever with a recharge time.",
+            "Text": [
+                "You must have the assistance of a Weaver and a Jeweler for this creation.",
+                "With a Infinitum Inset Gem and an enchantment on the container, ",
+                "L"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Incorporeal Harvesting",
+            "Keywords": [
+                "Alchemy"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Harvest incorporeal ingredients and store them in vessels. Things such as lightning in a bottle or bottled souls.",
+            "Text": [
+                "When harvesting ingredients, you can also take and bottle things which are intangible, provided you are using a bottle which is capable of containing those things (generally enchanted with Stasis).",
+                "You can harvest the emotions of living or recently-dead creatures, put lightning in a bottle, capture souls, etc."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Leach",
+            "Keywords": [
+                "Alchemy",
+                "AoE"
+            ],
+            "Cost": "10 Minutes",
+            "SimplifiedDescription": "Apply a potion’s effects as an AoE.",
+            "Text": [
+                "Take a potion and apply its effects to an area such that anyone within it for up to 4 hours will have its effects applied. When they leave the area, it will not continue to affect them.",
+                "\t“In a world without regulation, despicable brutes will often try to attack you. In a world without regulation, you can use chemical byproduct to attack them back.” -Andrew",
+                "R"
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Deluxe Meals",
+            "Keywords": [
+                "Cooking"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Meals you cook can have up to two potion effects applied",
+            "Text": [],
+            "Lore": ""
+        },
+        {
+            "Name": "Elementalist’s Cookbook",
+            "Keywords": [
+                "Cooking"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "Meals that raise Aspect resistances.",
+            "Text": [],
+            "Lore": ""
+        }
+    ],
+    "DevNotes": [],
+    "Version": "0.9"
+}
