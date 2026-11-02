@@ -1,0 +1,201 @@
+{
+    "BrandName": "Jeweler",
+    "BrandType": "Utility",
+    "Complexity": "3",
+    "ComplexityText": "While the process of creating Inset Gems is simple, identifying their best applications will take a diligently trained eye.",
+    "Description": "The Jeweler creates, infuses, and combines Inset Gems, which directly modify the statistics of equipment.\nThey are also skilled at working with Crystal and adjacent materials, producing aesthetic and vanity pieces, and locksmithing tasks.",
+    "CharacterDescription": "People who receive the Jeweler's Brand have a connection, love or hate, to wealth and opulence. This connection heavily influences their life whether they're even aware of it. They may also be known for a discerning eye in any field they find themselves.",
+    "CharacterTraits": [
+        "Presentation is important to me. The world should see me as accomplished.",
+        "Getting the fine details right is a virtue by itself.",
+        "My life being beautiful is just as important as it being functional."
+    ],
+    "SpecialSkill": "Detailer's Eye",
+    "SpecialSkillText": "Jewelers can quickly spot differences in like objects and fine details that feel off, even in applications outside of craftsmanship.",
+    "InnateSkills": [
+        "Mana manipulation using objects as conduits",
+        "Glassblowing",
+        "Woodcarving"
+    ],
+    "ProgenitorName": "Noa, Visionary",
+    "ProgenitorLore": "Shuffling through the remains of her beloved home, Noa stifled a cold, quiet rage at the wonton violence. Every sign painted a more damning picture than the last. This wasn't a powerful creature, but an organized raid. They'd foolishly thought showing their civility through craft would be enough. Instead, it only brought thieves to their door.\n\nPicking up a lavishly decorated banner, she swore. Never again would thieves come in the night for their valuables. If their craft wasn't enough to show their civility, she'd wear it. Any thief would have to stare at the rubies adorning her pauldrons and pry it from her cold, dead form - knowing they took from someone more intelligent, capable, and human than them.",
+    "MainStat": "WIP",
+    "Substat1": "WIP",
+    "Substat2": "WIP",
+    "LeftBranch": "WIP",
+    "MiddleBranch": "WIP",
+    "RightBranch": "WIP",
+    "Definitions": [],
+    "Talents": [
+        {
+            "Name": "",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        },
+        {
+            "Name": "WIP",
+            "Keywords": [
+                "WIP"
+            ],
+            "Cost": "WIP",
+            "SimplifiedDescription": "WIP",
+            "Text": [
+                "WIP"
+            ],
+            "Lore": [
+                ""
+            ]
+        }
+    ],
+    "DevNotes": [],
+    "Version": "0.9"
+}
