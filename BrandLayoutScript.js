@@ -357,7 +357,7 @@ function DisplayJSON(brand) {
     noneditablearea("BrandinLore",`<em>${brand.ProgenitorLore}</em>`)
     noneditablearea("BrandSpecialSkill",`${brand.SpecialSkill}`)
     noneditablearea("BrandSpecialSkillText",`${brand.SpecialSkillText}`)
-    noneditablearea("BrandBranches",`<table style="width:400px">
+    noneditablearea("BrandBranches",`<table style="width:500px">
         <tr><th style="text-align:center">Left</th><th style="text-align:center">Right</th><th style="text-align:center">Middle</th></tr>
         <tr><td style="text-align:center">||${brand.Substat1}||</td><td style="text-align:center">||${brand.MainStat}||</td><td style="text-align:center">||${brand.Substat2}||</td></tr>
         <tr><td style="text-align:center">${brand.LeftBranch}</td><td style="text-align:center">${brand.MiddleBranch}</td><td style="text-align:center">${brand.RightBranch}</td></tr>
@@ -418,7 +418,6 @@ function DisplayJSON(brand) {
     noneditablearea("BrandDefinitions",`${definitionhtml}`)
 
     var brandtreehtml = ``
-    brandtreehtml += `<svg width="400" height="700">`
     const drawtalentnode = ((x,y,text) => {
         //brandtreehtml += `<svg x="${x}" y="${y}" width="100%" height="100%" viewBox="0 0 100 100">`
         brandtreehtml += `<circle cx="${x}" cy="${y}" r="40" fill="#ffffff" stroke="#000000" stroke-width="4" />`
@@ -447,6 +446,7 @@ function DisplayJSON(brand) {
 
     })
     if (brand.BrandType == "Combat") {
+        brandtreehtml += `<svg width="400" height="700">`
         brandtreehtml += `<ellipse cx="200" cy="350" rx="195" ry="345" fill="#ffffff" stroke="#000000" stroke-width="4" />`
         
 
@@ -540,6 +540,93 @@ function DisplayJSON(brand) {
         drawtalentnode(300, 200, `${brand.Talents[10].Name}`)
         
         drawtalentnode(200,  50, `${brand.Talents[11].Name}`)
+    }
+    if (brand.BrandType == "Utility") {
+        brandtreehtml += `<svg width="500" height="550">`
+        brandtreehtml += `<path d="M 5 5 A 245 500 0 0 0 495 5 Z" fill="#ffffff" stroke="#000000" stroke-width="4" />`
+
+        linebetween(250,475,175,425)
+        linebetween(250,475,250,425)
+        linebetween(250,475,325,425)
+
+        linebetween(175,425,125,350)
+        linebetween(250,425,250,350)
+        linebetween(325,425,375,350)
+
+        linebetween(125,350, 80, 275)
+        linebetween(125,350,148, 275)
+        linebetween(125,350,216, 275)
+        linebetween(250,350,284, 275)
+        linebetween(250,350,216, 275)
+        linebetween(375,350,284, 275)
+        linebetween(375,350,352, 275)
+        linebetween(375,350,420, 275)
+
+        linebetween( 80, 275,70, 200)
+        linebetween(148, 275,70, 200)
+        linebetween(216, 275,190,200)
+        linebetween(148, 275,190,200)
+        linebetween(352, 275,310,200)
+        linebetween(284, 275,310,200)
+        linebetween(352, 275,430,200)
+        linebetween(420, 275,430,200)
+
+        linebetween( 55, 125,70, 200)
+        linebetween(120, 125,70, 200)
+        linebetween(120, 125,190,200)
+        linebetween(185, 125,190,200)
+        linebetween(250, 125,190,200)
+        linebetween(250, 125,310,200)
+        linebetween(315, 125,310,200)
+        linebetween(380, 125,310,200)
+        linebetween(380, 125,430,200)
+        linebetween(445, 125,430,200)
+
+        linebetween( 55, 125, 50,  50)
+        linebetween(120, 125, 50,  50)
+        linebetween(120, 125,150,  50)
+        linebetween(185, 125,150,  50)
+        linebetween(185, 125,250,  50)
+        linebetween(250, 125,250,  50)
+        linebetween(315, 125,250,  50)
+        linebetween(315, 125,350,  50)
+        linebetween(380, 125,350,  50)
+        linebetween(380, 125,450,  50)
+        linebetween(445, 125,450,  50)
+
+        drawstatnode(175, 425, `${brand.Substat1}`)
+        drawstatnode(250, 425, `${brand.MainStat}`)
+        drawstatnode(325, 425, `${brand.Substat2}`)
+        
+        drawstatnode( 80, 275, `${brand.MainStat}`)
+        drawstatnode(148, 275, `${brand.Substat1}`)
+        drawstatnode(216, 275, `${brand.MainStat}`)
+        drawstatnode(284, 275, `${brand.MainStat}`)
+        drawstatnode(352, 275, `${brand.Substat2}`)
+        drawstatnode(420, 275, `${brand.MainStat}`)
+
+        drawstatnode( 55, 125, `${brand.MainStat}`)
+        drawstatnode(120, 125, `${brand.Substat2}`)
+        drawstatnode(185, 125, `${brand.Substat1}`)
+        drawstatnode(250, 125, `${brand.MainStat}`)
+        drawstatnode(315, 125, `${brand.Substat2}`)
+        drawstatnode(380, 125, `${brand.Substat1}`)
+        drawstatnode(445, 125, `${brand.MainStat}`)
+
+        drawtalentnode(125, 350, `${brand.Talents[0].Name}`)
+        drawtalentnode(250, 350, `${brand.Talents[1].Name}`)
+        drawtalentnode(375, 350, `${brand.Talents[2].Name}`)
+
+        drawtalentnode( 70, 200, `${brand.Talents[3].Name}`)
+        drawtalentnode(190, 200, `${brand.Talents[4].Name}`)
+        drawtalentnode(310, 200, `${brand.Talents[5].Name}`)
+        drawtalentnode(430, 200, `${brand.Talents[6].Name}`)
+
+        drawtalentnode( 50,  50, `${brand.Talents[7].Name}`)
+        drawtalentnode(150,  50, `${brand.Talents[8].Name}`)
+        drawtalentnode(250,  50, `${brand.Talents[9].Name}`)
+        drawtalentnode(350,  50, `${brand.Talents[10].Name}`)
+        drawtalentnode(450,  50, `${brand.Talents[11].Name}`)
     }
     brandtreehtml += `</svg>`
     document.getElementById("BrandTree").innerHTML = `${brandtreehtml}`

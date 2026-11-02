@@ -17,8 +17,8 @@
         "Cloth Sense (Seeing and analyzing pieces of cloth or clothing for their durability and other traits)",
         "Miniature Precision (Ability to move around, feel, and see very small things)"
     ],
-    "ProgenitorName": "WIP",
-    "ProgenitorLore": "WIP",
+    "ProgenitorName": "Lana the Spellthreader",
+    "ProgenitorLore": "Lana was a wing-eared wood elf. They had a talent for magical analysis, a natural-born Destroyer. After a long and arduous career in academics, they settled down and took to a craft. Leaving behind their work as a scholar, they wove intricate tapestries and fine clothing, works of beauty, revered by others. But it didn't provide the spark of discovery they craved. One day, as they errantly channeled mana through a string, a circuit formed within the weave, causing it to light up brilliantly. An epiphany: The Spell Thread. It seemed their studies weren't quite over just yet.",
     "MainStat": "Will",
     "Substat1": "Ego",
     "Substat2": "Fortitude",
@@ -85,13 +85,25 @@
             "Lore": ""
         },
         {
-            "Name": "",
+            "Name": "Spellthread Binding",
             "Keywords": [
+                "Spell",
+                "Ranged",
+                "Bind"
+            ],
+            "SimplifiedDescription": "An attack which can bind opponents. When used during equipment crafting, it can disable the negative Crafting Trials.",
+            "Text": [
+                "Damage: 2x Spell Power",
+                "Range: 20 Feet",
+                "Aspect: ||Terrestrial||, ||Dynamic Aspect (Spell)||",
+                "When used against a creature, the creature must make a Save (Target Intuition >= User Will). On failure, they become Spellbound: they cannot move until the next time you use a Spell.",
+                "As an Action for 4 Energy, you may channel your mana through the Spell Thread in order to deal 1x Spell Power",
+                "When used while crafting Equipment, you may immediately nullify the effects of any active crafting Trial (namely, Ordeals, Suppression, and Nullification). The equipment is also considered to be Spellbound."
+            ],
+            "Lore": [
                 ""
             ],
-            "SimplifiedDescription": "",
-            "Text": [],
-            "Lore": ""
+            "Cost": "12 Energy"
         },
         {
             "Name": "Ritual of Attunement",

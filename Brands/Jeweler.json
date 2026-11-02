@@ -19,181 +19,189 @@
     ],
     "ProgenitorName": "Noa, Visionary",
     "ProgenitorLore": "Shuffling through the remains of her beloved home, Noa stifled a cold, quiet rage at the wonton violence. Every sign painted a more damning picture than the last. This wasn't a powerful creature, but an organized raid. They'd foolishly thought showing their civility through craft would be enough. Instead, it only brought thieves to their door.\n\nPicking up a lavishly decorated banner, she swore. Never again would thieves come in the night for their valuables. If their craft wasn't enough to show their civility, she'd wear it. Any thief would have to stare at the rubies adorning her pauldrons and pry it from her cold, dead form - knowing they took from someone more intelligent, capable, and human than them.",
-    "MainStat": "WIP",
-    "Substat1": "WIP",
-    "Substat2": "WIP",
-    "LeftBranch": "WIP",
-    "MiddleBranch": "WIP",
-    "RightBranch": "WIP",
+    "MainStat": "Control",
+    "Substat1": "Will",
+    "Substat2": "Ego",
+    "LeftBranch": "Crystalworking",
+    "MiddleBranch": "Insets",
+    "RightBranch": "Jewelry",
     "Definitions": [],
     "Talents": [
         {
+            "Name": "Crystalworking and Carving Expertise",
+            "Keywords": [
+                "Craft"
+            ],
+            "Cost": "Passive",
+            "SimplifiedDescription": "Mend, Salvage, and Refine items made of Crystal and Other-class materials.",
+            "Text": [
+                "You can mend and salvage items and equipment made of Crystal or Other-class (such as wood or bone).",
+                "You’re capable of refining materials made of Crystal or Other-class materials at their full rate (see Crafting > Refining Materials). ",
+                "You can also create many small things out of Crystal, or Other-class, such as ornaments, crystal balls, carvings of wood, latches, handles, or other similar objects in bulk.",
+                "You’re capable of polishing and cutting gemstones in order to "
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Essentia Infusion",
+            "Keywords": [
+                "Craft"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "Infuse empty inset gems by harnessing the power of allies.",
+            "Text": [
+                "You’re able to infuse empty Inset Gems with the powers of your party members or allies. Depending on the rank of the gem, you can hold more or less power.",
+                "Regardless of the capacity of the gem, the maximum infusion level can be no more than the tier of the gem. However, the infusion level can be less than the tier of the gem."
+            ],
+            "Lore": ""
+        },
+        {
+            "Name": "Lapidary Artisanry",
+            "Keywords": [
+                "Craft"
+            ],
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "Craft empty inset gems.",
+            "Text": [
+                "In order to craft an Inset Gem of a given tier, you must expend 2 Crystal materials of at least that tier. The materials used must be of the same type.",
+                "Depending on the tier of the Inset Gem, you may make multiple at once. When you are assisted by the proper tools (a gem cutting workstation or inscribing table), you work twice as fast, and may make twice the amount of gems in the same time.",
+                "Tier 1: up to 6 per time slot",
+                "Tier 2: up to 4 per time slot",
+                "Tier 3: up to 3 per time slot",
+                "Tier 4: up to 2 per time slot",
+                "Tier 5 & 6: Only one per time slot"
+            ],
+            "Lore": ""
+        },
+        {
             "Name": "",
             "Keywords": [
-                "WIP"
-            ],
-            "Cost": "WIP",
-            "SimplifiedDescription": "WIP",
-            "Text": [
-                "WIP"
-            ],
-            "Lore": [
                 ""
-            ]
+            ],
+            "SimplifiedDescription": "",
+            "Text": [],
+            "Lore": ""
         },
         {
-            "Name": "WIP",
+            "Name": "Dual Infusion",
             "Keywords": [
-                "WIP"
+                "Inset"
             ],
-            "Cost": "WIP",
-            "SimplifiedDescription": "WIP",
+            "Cost": "1 Recollection",
+            "SimplifiedDescription": "Infuse an already-infused inset gem.",
             "Text": [
-                "WIP"
+                "For an Inset Gem which is of greater quality than its infusion, you may infuse it with an additional effect, such that the total infusion level of both effects is less than the strength of the gem.",
+                "Because the act of infusing an already-infused gem is an incredibly complex balancing act, the action takes a very long time.",
+                "When taking actions to modify or move gems with multiple infusions, the amount of time it takes to do so is multiplied by the number of infusions.",
+                "The added infusion cannot be of the same type as any of the infusions already on the gem."
             ],
-            "Lore": [
-                ""
-            ]
+            "Lore": ""
         },
         {
-            "Name": "WIP",
+            "Name": "Faceting",
             "Keywords": [
-                "WIP"
+                "Craft"
             ],
-            "Cost": "WIP",
-            "SimplifiedDescription": "WIP",
+            "Cost": "8 Energy",
+            "SimplifiedDescription": "Use additional materials to increase the price of items.",
             "Text": [
-                "WIP"
+                "When working on an item, you can use additional materials to make the design more intricate, or to add adornments to it. Using one material of your choice, you can implement one of the following effects:",
+                "Intricate: Using any material of your choice, you add materials to the equipment. Increase the price of the equipment by 25% of its original value.",
+                "Opulent: Using a precious material, such as silver, gold, or gemstones, increase the price of the equipment by 50% of its original value.",
+                "This ability may only be used once per craft."
             ],
-            "Lore": [
-                ""
-            ]
+            "Lore": ""
         },
         {
-            "Name": "WIP",
+            "Name": "Vita Infusion",
             "Keywords": [
-                "WIP"
+                "Inset"
             ],
-            "Cost": "WIP",
-            "SimplifiedDescription": "WIP",
-            "Text": [
-                "WIP"
-            ],
-            "Lore": [
-                ""
-            ]
+            "Cost": "Passive",
+            "SimplifiedDescription": "You can infuse gems with Dynamics",
+            "Text": [],
+            "Lore": ""
         },
         {
-            "Name": "WIP",
+            "Name": "",
             "Keywords": [
-                "WIP"
-            ],
-            "Cost": "WIP",
-            "SimplifiedDescription": "WIP",
-            "Text": [
-                "WIP"
-            ],
-            "Lore": [
                 ""
-            ]
+            ],
+            "SimplifiedDescription": "",
+            "Text": [
+                "L"
+            ],
+            "Lore": ""
         },
         {
-            "Name": "WIP",
+            "Name": "Extra Settings",
             "Keywords": [
-                "WIP"
+                "Craft",
+                "Inset"
             ],
-            "Cost": "WIP",
-            "SimplifiedDescription": "WIP",
+            "Cost": "24 Energy",
+            "SimplifiedDescription": "Add additional insets to an item while crafting.",
             "Text": [
-                "WIP"
+                "While crafting equipment, you may add an inset slot to the item.",
+                "This may be done a certain amount of times to an equipment equal to half its tier, rounded up."
             ],
-            "Lore": [
-                ""
-            ]
+            "Lore": ""
         },
         {
-            "Name": "WIP",
+            "Name": "Greater Insets",
             "Keywords": [
-                "WIP"
+                "Inset"
             ],
-            "Cost": "WIP",
-            "SimplifiedDescription": "WIP",
+            "Cost": "Passive",
+            "SimplifiedDescription": "You can work with higher tiers of inset gems, and work faster.",
             "Text": [
-                "WIP"
+                "When using Lapidary Artisanry, you can now create empty gems up to tier 9.",
+                "When using Essentia Infusion, your infusions can now be of up to tier 9.",
+                "When using Lapidary Artisanry, you can now operate faster and on higher tiers:",
+                "Tier 1: Up to 10 per time slot",
+                "Tier 2: Up to 8 per time slot",
+                "Tier 3: Up to 6 per time slot",
+                "Tier 4: Up to 4 per time slot",
+                "Tier 5: Up to 3 per time slot",
+                "Tier 6-7: Up to 2 per time slot",
+                "Tier 8-9: Only one per time slot",
+                "R"
             ],
-            "Lore": [
-                ""
-            ]
+            "Lore": ""
         },
         {
-            "Name": "WIP",
+            "Name": "Quality Combination",
             "Keywords": [
-                "WIP"
+                "Craft",
+                "Inset"
             ],
-            "Cost": "WIP",
-            "SimplifiedDescription": "WIP",
+            "Cost": "1 Time Slot",
+            "SimplifiedDescription": "Combine 2 of the same inset gem to make a gem of 1 tier higher.",
             "Text": [
-                "WIP"
+                "By taking two Inset Gems of the same type and rank, as well as an empty inset gem of one rank higher, you can perform a ritual of infusion, destroying the two lesser-ranked gems, while filling the higher ranked gem with an infusion of one rank higher.",
+                "If the Inset Gems’ housings are of the same tier as the rank you’re trying to create (if you put less power into the gems than they can hold), they aren’t consumed."
             ],
-            "Lore": [
-                ""
-            ]
+            "Lore": ""
         },
         {
-            "Name": "WIP",
+            "Name": "Brilliance",
             "Keywords": [
-                "WIP"
+                "Craft",
+                "Inset"
             ],
-            "Cost": "WIP",
-            "SimplifiedDescription": "WIP",
+            "Cost": "Passive",
+            "SimplifiedDescription": "Expend more materials when crafting empty gems to increase their capacity.",
             "Text": [
-                "WIP"
+                "When crafting an empty Inset Gem, you may expend an additional material of the same type used to craft it.",
+                "By doing this, you’re able to add additional capacity to the gemstone. Depending on the amount of extra material used, you may further increase the capacity of the gemstone, irrespective of its tier.",
+                "Below is the total amount of materials which must be used in order to craft a gem with a given amount of extra slots.",
+                "1 Material: +0 capacity (normal)",
+                "2 Materials: +1 capacity",
+                "4 Materials: +2 capacity",
+                "7 Materials: +3 capacity",
+                "10 Materials: +4 capacity"
             ],
-            "Lore": [
-                ""
-            ]
-        },
-        {
-            "Name": "WIP",
-            "Keywords": [
-                "WIP"
-            ],
-            "Cost": "WIP",
-            "SimplifiedDescription": "WIP",
-            "Text": [
-                "WIP"
-            ],
-            "Lore": [
-                ""
-            ]
-        },
-        {
-            "Name": "WIP",
-            "Keywords": [
-                "WIP"
-            ],
-            "Cost": "WIP",
-            "SimplifiedDescription": "WIP",
-            "Text": [
-                "WIP"
-            ],
-            "Lore": [
-                ""
-            ]
-        },
-        {
-            "Name": "WIP",
-            "Keywords": [
-                "WIP"
-            ],
-            "Cost": "WIP",
-            "SimplifiedDescription": "WIP",
-            "Text": [
-                "WIP"
-            ],
-            "Lore": [
-                ""
-            ]
+            "Lore": ""
         }
     ],
     "DevNotes": [],

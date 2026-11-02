@@ -1,6 +1,6 @@
 {
     "BrandName": "ExampleBrand",
-    "BrandType": "Combat",
+    "BrandType": "Utility",
     "Complexity": "2",
     "ComplexityText": "Requires the player to be cognizant of enemy positioning, but is overall very simple to use.",
     "Description": "The Dragoon focuses on having very high mobility, and uses ||Momentum|| gained from their movement to launch powerful single target and multi-target attacks. Momentum can be used to offset energy costs for Dragoon abilities, as well as to instantly travel ||Banana&&Dynamic Aspect|| also ||Dynamic Aspect||.",
@@ -287,5 +287,7 @@
                 ""
             ]
         }
-    ]
+    ],
+    "DevNotes": [],
+    "Version": "?"
 }
