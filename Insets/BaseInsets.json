@@ -1,0 +1,59 @@
+{
+    "ModuleName": "Multibranded",
+    "Insets": [
+        {
+            "Name": "Veridium",
+            "InfusionRequirement": [{
+                "Type": "Stat",
+                "Stat": "Tempo",
+                "Amount": 8
+            }],
+            "Effects": {
+                "Weapon": [{
+                    "Type": "EquipmentStat",
+                    "Stat": "Weight",
+                    "Amount": -1
+                }],
+                "Armor": [{
+                    "Type": "EquipmentStat",
+                    "Stat": "Dodge",
+                    "Amount": 1
+                }],
+                "Accessory": [{
+                    "Type": "PlayerStat",
+                    "Stat": "Tempo",
+                    "Amount": 1
+                }]
+            }
+        },
+        {
+            "Name": "Vitum",
+            "InfusionRequirement": [{
+                "Type": "Stat",
+                "Stat": "Vitality",
+                "Amount": 16
+            }],
+            "Effects": {
+                "Weapon": [{
+                    "Type": "EnableForm",
+                    "Form": "Physical"
+                },
+                {
+                    "Type": "EquipmentStat",
+                    "Stat": "PhysicalDamage",
+                    "Amount": 1
+                }],
+                "Armor": [{
+                    "Type": "EquipmentStat",
+                    "Stat": "PhysicalDefense",
+                    "Amount": 1
+                }],
+                "Accessory": [{
+                    "Type": "PlayerStat",
+                    "Stat": "Vitality",
+                    "Amount": 4
+                }]
+            }
+        }
+    ]
+}

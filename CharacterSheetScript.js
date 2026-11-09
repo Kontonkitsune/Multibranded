@@ -162,6 +162,22 @@ Brands = [
     "Acolyte",
     "Sleuth"
 ]
+WeaponSpecialAttributes = [
+    "Dynamic Aspect (Strike)",
+    "Dynamic Aspect (Spell)",
+    "Dynamic Aspect (Word)",
+    "Armor Piercing",
+    "Hazard Damage",
+    "Loading",
+    "Power Boost",
+    "Automated Attack",
+    "No Attack",
+    "Ignore Stats",
+    "Enable Physical",
+    "Enable Magical",
+    "Enable Mental",
+    "Enable Drain",
+]
 MapofListsTemp = new Map() //ImNotThinkingOfaBetterNameYouCanCopyPasteItForAllICare
 MapofListsTemp.set("Dynamics",Dynamics)
 MapofListsTemp.set("Forms",Forms)
@@ -175,6 +191,303 @@ MapofListsTemp.set("ArmorTypes",ArmorTypes)
 MapofListsTemp.set("ArmorClasses",ArmorClasses)
 MapofListsTemp.set("YesNo",YesNo)
 MapofListsTemp.set("Brands",Brands)
+MapofListsTemp.set("WeaponSpecialAttributes",WeaponSpecialAttributes)
+
+// <==============Weapon Prefabs============>
+
+
+WeaponPrefabJSON = {
+    "Shields": {
+        "Common": {
+            "Weapon": "Shields",
+            "Type": "Melee",
+            "Form": "Physical",
+            "Block": "Full",
+            "SpecialAttributes": ["No Attack"]
+        },
+        "Buckler Shield": {
+            "Size": "Small",
+            "Aspects": ["Pummeling"]
+        },
+        "Heater Shield": {
+            "Size": "Medium",
+            "Aspects": ["Smashing"]
+        },
+        "Tower Shield": {
+            "Size": "Large",
+            "Aspects": ["Impact","Smashing"]
+        }
+    },
+    "Swords": {
+        "Common": {
+            "Weapon": "Swords",
+            "Type": "Melee",
+            "Form": "Physical",
+            "Block": "Half"
+        },
+        "Dagger": {
+            "Size": "Small",
+            "Aspects": ["Slashing","Piercing"]
+        },
+        "Broadsword": {
+            "Size": "Medium",
+            "Aspects": ["Slashing","Piercing"]
+        },
+        "Claymore": {
+            "Size": "Large",
+            "Aspects": ["Slashing","Smashing","Chopping"]
+        }
+    },
+    "Axes": {
+        "Common": {
+            "Weapon": "Axes",
+            "Type": "Melee",
+            "Form": "Physical",
+            "SpecialAttributes": ["Armor Piercing"],
+            "Aspects": ["Chopping"]
+        },
+        "Hand Axe": {
+            "Size": "Small"
+        },
+        "Broadaxe": {
+            "Size": "Medium"
+        },
+        "Waraxe": {
+            "Size": "Large"
+        }
+    },
+    "Polearms": {
+        "Common": {
+            "Weapon": "Polearms",
+            "Type": "Melee",
+            "Form": "Physical",
+            "Reach": 16
+        },
+        "Javelin": {
+            "Size": "Small",
+            "Aspects": ["Piercing"]
+        },
+        "Spear": {
+            "Size": "Medium",
+            "Aspects": ["Piercing"]
+        },
+        "Halberd": {
+            "Size": "Large",
+            "Aspects": ["Piercing","Chopping"]
+        },
+        "Naginata": {
+            "Size": "Large",
+            "Aspects": ["Piercing","Slashing"]
+        }
+    },
+    "Hammers": {
+        "Common": {
+            "Weapon": "Hammers",
+            "Type": "Melee",
+            "Form": "Physical",
+            "SpecialAttributes": ["Knockback"],
+            "Aspects": ["Smashing"]
+        },
+        "Hammer": {
+            "Size": "Small"
+        },
+        "Mace": {
+            "Size": "Medium"
+        },
+        "Warhammer": {
+            "Size": "Large"
+        }
+    },
+    "Gauntlets": {
+        "Common": {
+            "Weapon": "Gauntlets",
+            "Type": "Melee",
+            "Form": "Physical",
+            "SpecialAttributes": ["Zero Handed"]
+        },
+        "Brass Knuckle": {
+            "Size": "Small",
+            "Aspects": ["Pummeling","Rage"]
+        },
+        "Bladed Gauntlet": {
+            "Size": "Medium",
+            "Aspects": ["Piercing","Slashing","Rage"]
+        }
+    },
+    "Bows": {
+        "Common": {
+            "Weapon": "Bows",
+            "Type": "Ranged",
+            "Form": "Physical",
+            "SpecialAttributes": ["Two Handed"],
+            "Range": 80,
+            "Aspects": ["Piercing"]
+        },
+        "Shortbow": {
+            "Size": "Small"
+        },
+        "Compound Bow": {
+            "Size": "Medium"
+        },
+        "Longbow": {
+            "Size": "Large"
+        }
+    },
+    "Mageblades": {
+        "Common": {
+            "Weapon": "Mageblades",
+            "Type": "Melee",
+            "Form": "Magical",
+            "SpecialAttributes": ["Dynamic Aspect (Spell)"],
+            "Aspects": ["Earth","Wind","Water"]
+        },
+        "Arkris": {
+            "Size": "Small"
+        },
+        "Spectralis": {
+            "Size": "Medium"
+        },
+        "Phaseblade": {
+            "Size": "Large"
+        }
+    },
+    "Wands": {
+        "Common": {
+            "Weapon": "Wands",
+            "Type": "Ranged",
+            "Form": "Magical",
+            "SpecialAttributes": ["Dynamic Aspect (Spell)"],
+            "Aspects": ["Force"]
+        },
+        "Wand": {
+            "Size": "Small"
+        },
+        "Magegun": {
+            "Size": "Small"
+        },
+        "Quarterstaff": {
+            "Size": "Medium"
+        },
+        "Staff": {
+            "Size": "Large"
+        }
+    },
+    "Catalysts": {
+        "Common": {
+            "Weapon": "Catalysts",
+            "Type": "AoE",
+            "Form": "Magical",
+            "AoE": 20
+        },
+        "Tome": {
+            "Size": "Small",
+            "Aspects": ["Force","Decay","Radiant"]
+        },
+        "Relic": {
+            "Size": "Small",
+            "Aspects": ["Force","Decay","Radiant","Explosion"]
+        }
+    },
+    "Restrictors": {
+        "Common": {
+            "Weapon": "Restrictors",
+            "Type": "Melee",
+            "Form": "Mental",
+            "Reach": 16,
+            "Aspects": ["Psychic","Despair","Fear","Rage"]
+        },
+        "Lasso": {
+            "Size": "Small"
+        },
+        "Whip": {
+            "Size": "Medium"
+        },
+        "Chain Cuffs": {
+            "Size": "Large"
+        }
+    },
+    "Rings": {
+        "Common": {
+            "Weapon": "Rings",
+            "Type": "Ranged",
+            "Form": "Mental",
+            "Range": 40,
+            "Aspects": ["Slashing","Void"]
+        },
+        "Chakram": {
+            "Size": "Small"
+        },
+        "Hoopblade": {
+            "Size": "Large"
+        }
+    },
+    "Amplifiers": {
+        "Common": {
+            "Weapon": "Amplifiers",
+            "Type": "AoE",
+            "Form": "Mental",
+            "AoE": 20,
+            "Aspects": ["Sonic"],
+            "SpecialAttributes":["Dynamic Aspect (Word)"]
+        },
+        "Megaphone": {
+            "Size": "Small"
+        },
+        "Reverb Case": {
+            "Size": "Large"
+        }
+    },
+    "Instruments": {
+        "Common": {
+            "Weapon": "Instruments",
+            "Type": "AoE",
+            "Form": "Mental",
+            "AoE": 40,
+            "Aspects": ["Sonic"],
+            "SpecialAttributes":["Dynamic Aspect (Word)","Half Damage","Ignore Allies"]
+        },
+        "Instrument": {
+            "Size": "Medium"
+        }
+    },
+    "Guns": {
+        "Common": {
+            "Weapon": "Guns",
+            "Type": "Ranged",
+            "Form": "Physical",
+            "AoE": 60,
+            "Aspects": ["Piercing"],
+            "SpecialAttributes":["Loading","Automated Attack","Power Boost"]
+        },
+        "Pistol": {
+            "Size": "Small"
+        },
+        "Crossbow": {
+            "Size": "Small"
+        },
+        "Musket": {
+            "Size": "Large"
+        }
+    }
+}
+WeaponPrefabList = {}
+
+function FormatWeaponPrefabList() {
+    for (const key of Object.keys(WeaponPrefabJSON)) {
+        for (const key2 of Object.keys(WeaponPrefabJSON[key])) {
+            if (!(key2 == "Common")) {
+                var newobj = {}
+                if (WeaponPrefabJSON[key]["Common"]) {
+                    newobj = Object.assign(newobj,WeaponPrefabJSON[key]["Common"])
+                } 
+                newobj = Object.assign(newobj,WeaponPrefabJSON[key][key2])
+                WeaponPrefabList[key2] = newobj
+            }
+        }
+        
+    }
+}
+FormatWeaponPrefabList()
 
 // <============custom functions==============>
 
@@ -612,6 +925,17 @@ class CheckboxSelectionStat extends IDRegistry(class{}) {
         this.selectedOptions = new Set(selectedOptions)
         this.selectableOptions = selectableOptions
     }
+
+    static fromDropdown(dropdown,columns) {
+        dropdown.columns = columns
+        var cur = new CheckboxSelectionStat(dropdown)
+        //if (dropdown.dataType == "DropdownSelectionStat") {return cur}
+        console.log(cur)
+        if (dropdown.base) cur.selectedOptions.add(dropdown.base)
+        cur.displayclasses =  ["statnameadjustable","statdisplaylong","stattextfieldlong"]
+        delete cur.base
+        return cur
+    }
     getWorkingList() {
         if (typeof this.selectableOptions === "string") {
             return MapofListsTemp.get(this.selectableOptions)
@@ -622,8 +946,11 @@ class CheckboxSelectionStat extends IDRegistry(class{}) {
     }
     getSelectedString() {
         var returnstr = "" 
+        var flag = false
         for (const sel of this.selectedOptions) {
-            returnstr += `${sel}, `
+            if (flag) returnstr += `, `
+            returnstr += `${sel}`
+            flag = true
         }
         return returnstr
     }
@@ -763,7 +1090,6 @@ class Stat extends IDRegistry(class { }) {
             <input value="Add new modifier" type="button" onclick="Stat.ActiveObjects.get('${this.id}').mutatordialogfinish()">`
         genhtml += `</dialog>`
         document.getElementById("Dialog").innerHTML = genhtml
-
     }
     mutatordialogfinish() {
         //alert(`${document.getElementById("dialogOperation").value} ${document.getElementById("dialogValue").value}`)
@@ -919,13 +1245,16 @@ class Dynamic extends Stat {
 
     }
 }
+
+
+
 class Item extends IDRegistry(class { }) {
     dataType = "Item"
     display = { open: false }
     constructor({
         name = new EditableField({ name: "Name", base: "new_item" }),
-        count = new Stat({ name: "Count", base: 0 }),
-        carryweightperitem = new Stat({ name: "C.Weight", base: 0 }),
+        count = new Stat({ name: "Count", base: 1 }),
+        carryweightperitem = new Stat({ name: "C.Weight", base: 1 }),
         carryweight = null,
         notes = new EditableField({ name: "Notes", base: "", areadisplay:true }),
         ...args
@@ -952,8 +1281,6 @@ class Item extends IDRegistry(class { }) {
     }
     update() {
         this.carryweight.base = this.count.current * this.carryweightperitem.current
-        console.log("Banana has apple")
-        console.log(this.carryweight)
         this.IDUpdate()
     }
     //static destroy(id) {
@@ -977,9 +1304,33 @@ class Item extends IDRegistry(class { }) {
         return genhtml
     }
 }
+
+const ItemModifier = (BaseClass) => class extends BaseClass {
+    constructor({
+        modifiers = {},
+        ...args} = {}) {
+        super(args)
+        this.modifiers = modifiers
+    }
+
+    applyModifiers(item) {
+        
+    }
+}
+
+class Enchantment extends ItemModifier(Item) {
+    dataType = "Enchantment"
+
+}
+
+class InsetGem extends ItemModifier(Item) {
+    dataType = "InsetGem"
+    
+}
+
 class Equipment extends Item {
     dataType = "Equipment"
-    display = {open: false}
+    display = {open: false, advancedopen: false}
     constructor({
         materialname = new EditableField({name:"Material"}),
         rarity = new DropdownSelectionStat({ name: "Rarity", selectableOptions: "Rarities" }),
@@ -987,6 +1338,8 @@ class Equipment extends Item {
         power = new Stat({ name: "Power", base: 0 }),
         weight = new Stat({ name: "Weight", base: 0 }),
         equipped = new DropdownSelectionStat({ name: "Equipped", selectableOptions: "YesNo" }),
+        insets = [],
+        enchantments = [],
         ...args
     } = {}) {
         super(args)
@@ -1015,30 +1368,45 @@ class Weapon extends Equipment {
         type = new DropdownSelectionStat({ name: "Type", selectableOptions: "RangeTypes" }),
         size = new DropdownSelectionStat({ name: "Size", selectableOptions: "Sizes" }),
         block = new Stat({ name: "Block", base: 0 }),
-        reach = new Stat({ name: "Reach", base: 0 }),
-        range = new Stat({ name: "Range", base: 0 }),
-        aoe = new Stat({ name: "AoE", base: 0 }),
+        reach = new Stat({ name: "Reach", base: 8 }),
+        range = new Stat({ name: "Range", base: 40 }),
+        aoe = new Stat({ name: "AoE", base: 20 }),
         aspects = new CheckboxSelectionStat({ name: "Aspects", selectableOptions: "Aspects" }),
-        dynamicaspect = new DropdownSelectionStat({ name: "Dynamic Aspect", selectableOptions: "ActionTypes", }),
+        //dynamicaspect = new CheckboxSelectionStat({ name: "Dynamic Aspect", selectableOptions: "ActionTypes", }),
         effectivepower = null,
         energycost = null,
         basicattackpower = null,
         currentaspect = new DropdownSelectionStat({ name: "Aspect", selectableOptions: [], }),
         accuracy = null,
+        specialattributes = new CheckboxSelectionStat({ name: "Special Attributes", columns: 4, selectableOptions: "WeaponSpecialAttributes" }),
         ...args
     } = {}) {
         super(args)
         this.form = new DropdownSelectionStat(form)
         this.type = new DropdownSelectionStat(type)
+
         this.size = new DropdownSelectionStat(size)
         this.currentaspect = new DropdownSelectionStat(currentaspect)
+
         if (aspects.dataType != "CheckboxSelectionStat") aspects =  new CheckboxSelectionStat({ name: "Aspects", selectableOptions: "Aspects" })
-        this.aspects = new CheckboxSelectionStat(aspects)
-        this.dynamicaspect = new DropdownSelectionStat(dynamicaspect)
+
         this.block = new Stat(block)
         this.reach = new Stat(reach)
         this.range = new Stat(range)
         this.aoe = new Stat(aoe)
+
+        this.aspects = new CheckboxSelectionStat(aspects)
+        
+        //this.dynamicaspect = CheckboxSelectionStat.fromDropdown(dynamicaspect)
+        this.specialattributes = new CheckboxSelectionStat(Object.assign(specialattributes,{ name: "Special Attributes", columns: 4, selectableOptions: "WeaponSpecialAttributes" }))
+
+        if (args.dynamicaspect && args.dynamicaspect.base) {
+            if (args.dynamicaspect.base == "Strike") this.specialattributes.selectedOptions.add("Dynamic Aspect (Strike)")
+            if (args.dynamicaspect.base == "Spell") this.specialattributes.selectedOptions.add("Dynamic Aspect (Spell)")
+            if (args.dynamicaspect.base == "Word") this.specialattributes.selectedOptions.add("Dynamic Aspect (Word)")
+        }
+
+        
 
         if (effectivepower == null) {this.effectivepower = new Stat({
             name: "Eff.Power",
@@ -1079,12 +1447,12 @@ class Weapon extends Equipment {
 
     }
     update() {
+        super.update()
         for (const item of [
             this.form,
             this.type,
             this.size,
             this.aspects,
-            this.dynamicaspect,
             this.block,
             this.reach,
             this.range,
@@ -1092,10 +1460,11 @@ class Weapon extends Equipment {
             this.effectivepower,
             this.accuracy,
             this.energycost,
-            this.basicattackpower]) {
-                item.update?.()
-            }
-            
+            this.basicattackpower
+        ]) {
+            item.update?.()
+        }
+        
         var accuracystat = "Control"
         var powerstat = "Control"
         if (this.form.base == "Physical") {
@@ -1121,17 +1490,22 @@ class Weapon extends Equipment {
             accuracystat = "Control"
         }
 
-        this.effectivepower.base = this.power.current + Character.CurrentCharacter.Stats.get(powerstat).current
+        this.effectivepower.base = this.power.current
+        if (!(this.specialattributes.getValue("Automatic") || this.specialattributes.getValue("Ignore Stats"))) {
+            this.effectivepower.base += Character.CurrentCharacter.Stats.get(powerstat).current
+        }
         this.accuracy.base = Character.CurrentCharacter.Stats.get("Control").current - Math.max(0,this.weight.current - Character.CurrentCharacter.Stats.get(accuracystat).current)
 
         // Aspects current
 
         var baseaspects = new Set(this.aspects.selectedOptions)
-        if (this.dynamicaspect.base == "Strike") {
+        if (this.specialattributes.selectedOptions.has("Dynamic Aspect (Strike)")) {
             baseaspects = baseaspects.union(Character.CurrentCharacter.Aspects.get("DynStrike"))
-        } else if (this.dynamicaspect.base == "Spell") {
+        } 
+        if (this.specialattributes.selectedOptions.has("Dynamic Aspect (Spell)")) {
             baseaspects = baseaspects.union(Character.CurrentCharacter.Aspects.get("DynSpell"))
-        } else if (this.dynamicaspect.base == "Word") {
+        } 
+        if (this.specialattributes.selectedOptions.has("Dynamic Aspect (Word)")) {
             baseaspects = baseaspects.union(Character.CurrentCharacter.Aspects.get("DynWord"))
         }
         this.currentaspect.selectableOptions = baseaspects
@@ -1144,6 +1518,90 @@ class Weapon extends Equipment {
             this.basicattackpower]) {
                 item.update?.()
             }
+    }
+    static prefabDialog() {
+
+        var genhtml = ""
+        genhtml += `<dialog open>
+            <input type="button" value="Cancel" onclick="document.getElementById('Dialog').innerHTML = '';"><br>
+            Create weapon from Template<br>
+
+            Name:<input type="text" id="dialogName"> blank for generic name<br>
+            Template:<select id="dialogWeaponType">`
+        
+        for (const weapontype of Object.keys(WeaponPrefabList)) {
+            genhtml += `<option value="${weapontype}">${weapontype}</option>`
+        }
+            
+        genhtml += `</select><br>
+            Tier:<input type="text" id="dialogWeaponTier" value="1"><br>
+            Rarity:<select id="dialogWeaponRarity">`
+        for (const rarity of Rarities) {
+            genhtml += `<option value="${rarity}" ${rarity=="Common" ? "selected" : ""}>${rarity}</option>`
+        }
+        genhtml += `</select><br>
+            <input value="Create from Template" type="button" onclick="Weapon.prefabDialogFinish()">`
+        genhtml += `</dialog>`
+        document.getElementById("Dialog").innerHTML = genhtml
+    }
+    static prefabDialogFinish() {
+        //alert(`${document.getElementById("dialogOperation").value} ${document.getElementById("dialogValue").value}`)
+        var newWeapon = new Weapon()
+        var weapontype = document.getElementById("dialogWeaponType").value
+        var weaponname = document.getElementById("dialogName").value
+        var weaponRarity = document.getElementById("dialogWeaponRarity").value
+        var weaponTier = document.getElementById("dialogWeaponTier").value
+        var prefab = WeaponPrefabList[weapontype]
+        if (weaponname == "") {
+            weaponname = weapontype
+        }
+        newWeapon.name.base = weaponname
+        newWeapon.tier.base = weaponTier
+        newWeapon.rarity.base = weaponRarity
+Rarities = ["Shoddy","Common","Uncommon","Rare","Epic","Legendary","Mythical","Divine","Celestial","Cosmic","Aeonic"]
+        var weaponpower = 4
+        if (weaponRarity == "Shoddy") weaponpower = 3
+        else if (weaponRarity == "Common") weaponpower = 4
+        else if (weaponRarity == "Uncommon") weaponpower = 5
+        else if (weaponRarity == "Rare") weaponpower = 6
+        else if (weaponRarity == "Epic") weaponpower = 7
+        else if (weaponRarity == "Legendary") weaponpower = 8
+        else if (weaponRarity == "Mythical") weaponpower = 9
+        else if (weaponRarity == "Divine") weaponpower = 10
+        else if (weaponRarity == "Celestial") weaponpower = 11
+        else if (weaponRarity == "Cosmic") weaponpower = 12
+        else if (weaponRarity == "Aeonic") weaponpower = 16
+        newWeapon.power.base = weaponpower * weaponTier
+        newWeapon.weight.base = weaponTier * 4
+
+        if (prefab.Block) {
+            if (prefab.Block == "Full") {
+                newWeapon.block.base = newWeapon.power.base
+            } 
+            else if (prefab.Block == "Half") {
+                newWeapon.block.base = Math.floor(newWeapon.power.base / 2)
+            }
+        }
+
+
+        if (prefab.Size) newWeapon.size.base = prefab.Size 
+        if (prefab.Form) newWeapon.form.base = prefab.Form 
+        if (prefab.Type) newWeapon.type.base = prefab.Type
+
+        if (prefab.Aspects) newWeapon.aspects.selectedOptions = new Set(prefab.Aspects)
+        if (prefab.SpecialAttributes) newWeapon.specialattributes.selectedOptions = new Set(prefab.SpecialAttributes)
+        
+
+        if (prefab.Reach) newWeapon.reach.base = prefab.Reach 
+        if (prefab.Range) newWeapon.range.base = prefab.Range 
+        if (prefab.AoE) newWeapon.aoe.base = prefab.AoE 
+
+        
+        Character.CurrentCharacter.CharacterInventory.addItem(newWeapon)
+
+        document.getElementById("Dialog").innerHTML = ""
+        updateCharacterSheet()
+
     }
     toHTML(scenario = "Inventory") {
         this.update()
@@ -1163,37 +1621,38 @@ class Weapon extends Equipment {
                         <td>${this.name.toHTML()}</td>
                         <td>${this.equipped.toHTML()}</td>
                         <td>${this.effectivepower.toHTML()}</td>
-                        <td>${this.size.toHTML()}</td>
-                        <td>${this.type.toHTML()}</td>
+                        <td>${this.accuracy.toHTML()}</td>
                     </tr></table>
                 </summary>`
             genhtml += `<table class="outlined">
                 <tr>
                     <td>${this.form.toHTML()}</td>
-                    <td>${this.block.toHTML()}</td>
-                    <td colspan="2">${this.aspects.toHTML()}</td>
-                    <td>${this.dynamicaspect.toHTML()}</td>
-                </tr>
-                <tr>
-                    <td>${this.energycost.toHTML()}</td>`
-            if (this.type.base == "Melee" || this.type.base == "Compound") genhtml += `<td>${this.reach.toHTML()}</td>`
-            if (this.type.base == "Ranged" || this.type.base == "Compound") genhtml += `<td>${this.range.toHTML()}</td>`
-            if (this.type.base == "Area" || this.type.base == "Compound") genhtml += `<td>${this.aoe.toHTML()}</td>`
-            genhtml += `
-                    <td>${this.basicattackpower.toHTML()}</td>
-                    <td>${this.accuracy.toHTML()}</td>
-                </tr>
-                <tr>
-                    <td colspan="2">${this.materialname.toHTML()}</td>
+                    <td>${this.size.toHTML()}</td>
+                    <td>${this.type.toHTML()}</td>
                     <td>${this.rarity.toHTML()}</td>
+                </tr>
+                <tr>
                     <td>${this.tier.toHTML()}</td>
                     <td>${this.power.toHTML()}</td>
                     <td>${this.weight.toHTML()}</td>
+                    <td>${this.block.toHTML()}</td>
                 </tr>
                 <tr>
-                    <td>${this.count.toHTML()}</td>
-                    <td>${this.carryweightperitem.toHTML()}</td>
-                    <td>${this.carryweight.toHTML()}</td>
+                    <td>${this.energycost.toHTML()}</td>`
+            
+            if (this.type.base == "Melee") genhtml += `<td>${this.reach.toHTML()}</td>`
+            if (this.type.base == "Ranged") genhtml += `<td>${this.range.toHTML()}</td>`
+            if (this.type.base == "Area") genhtml += `<td>${this.aoe.toHTML()}</td>`
+            
+            genhtml += `
+                    <td>${this.basicattackpower.toHTML()}</td>
+                    <td colspan="2">${this.aspects.toHTML()}</td>
+                </tr>
+                <tr>
+                    <td colspan="4">${this.specialattributes.toHTML()}</td>
+                </tr>
+                <tr>
+                    <td colspan="2">${this.materialname.toHTML()}</td>
                 </tr>
                 <tr>
                     <td colspan="4">${this.notes.toHTML()}</td>
@@ -1201,36 +1660,38 @@ class Weapon extends Equipment {
                 <tr>
                     <td><input value="Delete" type="button" onclick="{Character.CurrentCharacter.CharacterInventory.destroyItem('${this.id}'); updateCharacterSheet()}"></td>
                     <td><input value="Copy Sharestring" type="button" onclick="Item.ActiveObjects.get('${this.id}').copySelftoClipboard()"></td>
-                </tr>
-            </table>`
+                </tr>`
+            
+            genhtml += `</table>`
             genhtml += `</details>`
         }
         else if (scenario == "QuickActions") {
-            var genhtml = `<details 
-                class="${this.energycost.current <= Character.CurrentCharacter.Stats.get("TurnEnergy").dynvalue ? 'usable' : 'unusable'}"
-                ${this.display.open ? ' open' : ''}
-                id="${framename}_Toggle"
-                ontoggle="Item.ActiveObjects.get('${this.id}').display.open = document.getElementById('${framename}_Toggle').open"
-                >`
-            
-            var attackString = ""
+            if (!this.specialattributes.getValue("No Attack")) {
+                var genhtml = `<details 
+                    class="${this.energycost.current <= Character.CurrentCharacter.Stats.get("TurnEnergy").dynvalue ? 'usable' : 'unusable'}"
+                    ${this.display.open ? ' open' : ''}
+                    id="${framename}_Toggle"
+                    ontoggle="Item.ActiveObjects.get('${this.id}').display.open = document.getElementById('${framename}_Toggle').open"
+                    >`
+                
+                var attackString = ""
 
-            genhtml += `<summary>
-                    <table class="inline"><tr>
-                        <td><div class="actionnameadjustable">Action: ATK/${this.name.base}</div></td>
-                        <td><div class="statnameadjustable">En. Cost:</div><div class="statdisplay">${this.energycost.current}</div></td>`
-            
-            if (this.type.base == "Melee" || this.type.base == "Compound") genhtml += `<td>${this.reach.toHTML()}</td>`
-            if (this.type.base == "Ranged" || this.type.base == "Compound") genhtml += `<td>${this.range.toHTML()}</td>`
-            if (this.type.base == "Area" || this.type.base == "Compound") genhtml += `<td>${this.aoe.toHTML()}</td>`
-            genhtml += `<td>${this.currentaspect.toHTML()}</td>
-                        <td><div class="statnameadjustable">ATK:</div><div class="statdisplayadjustable">(${this.accuracy.current} Accuracy) ${this.basicattackpower.current} (${this.form.base}) ${this.currentaspect.base} Damage</div></td>
-                        `
-            genhtml += `</tr></table>
-                </summary>`
-            genhtml += `* You make an attack with an equipped weapon.`
-            genhtml += `</details>`
-
+                genhtml += `<summary>
+                        <table class="inline"><tr>
+                            <td><div class="actionnameadjustable">Action: ATK/${this.name.base}</div></td>
+                            <td><div class="statnameadjustable">En. Cost:</div><div class="statdisplay">${this.energycost.current}</div></td>`
+                
+                if (this.type.base == "Melee" || this.type.base == "Compound") genhtml += `<td>${this.reach.toHTML()}</td>`
+                if (this.type.base == "Ranged" || this.type.base == "Compound") genhtml += `<td>${this.range.toHTML()}</td>`
+                if (this.type.base == "Area" || this.type.base == "Compound") genhtml += `<td>${this.aoe.toHTML()}</td>`
+                genhtml += `<td>${this.currentaspect.toHTML()}</td>
+                            <td><div class="statnameadjustable">ATK:</div><div class="statdisplayadjustable">(${this.accuracy.current} Accuracy) ${this.basicattackpower.current} (${this.form.base}) ${this.currentaspect.base} Damage</div></td>
+                            `
+                genhtml += `</tr></table>
+                    </summary>`
+                genhtml += `* You make an attack with an equipped weapon.`
+                genhtml += `</details>`
+            } else {return ""}
         }
 
         return genhtml
@@ -1548,6 +2009,7 @@ class Inventory {
             }
             genhtml += `</table>`
             genhtml += `<input value="New Weapon" type="button" onclick="Character.CurrentCharacter.CharacterInventory.newItem(Weapon);updateCharacterSheet()">`
+            genhtml += `<input value="New Weapon from Prefab" type="button" onclick="Weapon.prefabDialog()">`
             genhtml += `</details>`
             return genhtml
         }
@@ -2820,7 +3282,9 @@ class Character {
             // Player weapons
             for (const item of this.CharacterInventory.InventoryItems) {
                 if (item instanceof Weapon && item.equipped.base == "Yes") {
-                    genhtml += `<tr><td>${item.toHTML(scenario= "QuickActions")}</td></tr>`
+                    var temp = item.toHTML(scenario= "QuickActions")
+                    if (temp != "") {genhtml += `<tr><td>${temp}</td></tr>`}
+                    
                 }
             }
             
