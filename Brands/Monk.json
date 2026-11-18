@@ -20,12 +20,12 @@
     ],
     "ProgenitorName": "Animus, the Unfulfilled",
     "ProgenitorLore": "There was no sound as the small boulder was cleft in twain. Not the sound of grating as something is cut, nor the telltale groan of exertion. Only the dull thud of the split halves falling to the ground announced that reality had finally caught up with the man acting upon it. Anyone would stare, impressed; yet, they would stare impressed because of the feat’s qualifiers: non-magical, instantaneous, and Brandless. “Not enough,” Animus thought with finality. “Not enough to take this discipline higher.” Even with great feats of physicality, this wasn’t enough to rival the progenitors and the practitioners who tore across the surface and depths equally. Animus sought the magic key that would allow a devoted ascetic to not bow the knee to a mage, or the branded. He knew the futility. Getting on in years, he wouldn’t find it. Not because of a lack of discipline, but the swelling divinity that made him stronger, younger, fuller, involuntarily turned the discipline into the very power it sought to rival.",
-    "MainStat": "Elementalist",
-    "Substat1": "Multi-Attacks",
-    "Substat2": "Rebound",
-    "LeftBranch": "Will",
-    "MiddleBranch": "Strength",
-    "RightBranch": "Tempo",
+    "MainStat": "Strength",
+    "Substat1": "Will",
+    "Substat2": "Tempo",
+    "LeftBranch": "Elementalist",
+    "MiddleBranch": "Multi-Attacks",
+    "RightBranch": "Rebound",
     "Definitions": [
         {
             "Name": "Shade",
